@@ -1,2 +1,20 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+@theme {
+	--color-error: oklch(72.37% 0.1712 25.55);
+	--color-success: oklch(86.05% 0.1808 143.81);
+
+	--color-orchid-bloom: oklch(78.24% 0.0515 313.32);
+	--color-banana-cream: oklch(88.03% 0.1207 82.32);
+	--color-beach-glass: oklch(85.38% 0.0767 178.12);
+}
+
+body {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
