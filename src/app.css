@@ -2,7 +2,17 @@
 @plugin '@tailwindcss/typography';
 
 @theme {
-	--color-error: oklch(72.37% 0.1712 25.55);
+	--font-sono: 'Sono Variable', sans-serif;
+	--font-pacifico: 'Pacifico', cursive;
+
+	--color-muted: oklch(0.55 0 0);
+
+	--color-link: oklch(0.69 0.17 247.77);
+
+	--color-ui-background-light: oklch(0.98 0 0);
+	--color-ui-background-dark: oklch(0.26 0 0);
+
+	--color-error: oklch(72.37% 0.171 25.55);
 	--color-success: oklch(86.05% 0.1808 143.81);
 
 	--color-orchid-bloom: oklch(78.24% 0.0515 313.32);
@@ -10,7 +20,7 @@
 	--color-beach-glass: oklch(85.38% 0.0767 178.12);
 }
 
-body {
+.scrollbar-none {
 	-ms-overflow-style: none;
 	scrollbar-width: none;
 }

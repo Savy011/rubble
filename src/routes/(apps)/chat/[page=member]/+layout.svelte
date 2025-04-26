@@ -1,8 +1,14 @@
 <script lang="ts">
+	import { fly } from 'svelte/transition';
+
 	let { children } = $props();
 </script>
 
-<div class="app">
+<div
+	class="app"
+	in:fly={{ x: '100%', duration: 200, delay: 200 }}
+	out:fly={{ x: '100%', duration: 200 }}
+>
 	{@render children()}
 </div>
 
@@ -10,7 +16,6 @@
 	.app {
 		width: 100%;
 		height: calc(100% - 30px);
-		margin-top: 30px;
 		position: fixed;
 		display: grid;
 		grid-template-rows: 56px 1fr 48px;

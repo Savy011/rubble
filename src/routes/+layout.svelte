@@ -1,36 +1,18 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import BatteryFull from 'phosphor-svelte/lib/BatteryFull';
-	import CellSignalHigh from 'phosphor-svelte/lib/CellSignalHigh';
+	import { page } from '$app/state';
+
+	import TopBar from '$lib/components/top-bar.svelte';
+
+	import '@fontsource/sono';
+	import '@fontsource/pacifico';
 	import '../app.css';
+
 	let { children } = $props();
-
-	let time = $state(new Date());
-
-	let hours = $derived(time.getHours());
-	let minutes = $derived(time.getMinutes());
-
-	onMount(() => {
-		const interval = setInterval(() => {
-			time = new Date();
-		}, 1000);
-
-		return () => clearInterval(interval);
-	});
+	let route = $derived(page.route);
 </script>
 
 <div class="content">
-	<div class="flex justify-between p-1 px-2 font-mono">
-		<span>
-			{(hours % 12).toString().padStart(2, '0')}:{minutes.toString().padStart(2, '0')}
-			{(hours * 1.0) / 12 > 1 ? 'pm' : 'am'}
-		</span>
-
-		<span class="flex gap-2">
-			<CellSignalHigh class="size-6" weight="fill" />
-			<BatteryFull class="size-6" weight="fill" /></span
-		>
-	</div>
+	<TopBar {route} />
 	{@render children()}
 </div>
 

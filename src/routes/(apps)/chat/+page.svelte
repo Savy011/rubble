@@ -1,26 +1,33 @@
 <script lang="ts">
 	import { APPS } from '$lib/constants';
+	import CaretLeft from 'phosphor-svelte/lib/CaretLeft';
+	import { twemojify } from 'svelte-twemojify';
 </script>
 
-<main class="h-full">
-	<div>
-		<a href="/">{'<'}</a>
-	</div>
+<h2 class=" flex items-center gap-2 px-4 py-2 text-3xl font-bold">
+	<a href="/"><CaretLeft class="size-6" /></a>
+	Friends
+</h2>
 
-	<h2 class="bg-white px-4 py-2 text-2xl font-bold">Friends</h2>
-
-	<ul>
-		{#each APPS as app}
-			<div class="border-b border-black/30 bg-white p-2">
-				<li class="relative flex items-center gap-4 rounded-md px-4 py-1 hover:bg-gray-200">
-					<div class="size-10 overflow-hidden rounded-full bg-gray-300">
-						<img alt={app.label} src={app.pfp} />
-					</div>
-					<a href={app.href}><span class="absolute inset-0"></span>{app.nickname}</a>
-				</li>
+<ul class="space-y-1 px-2">
+	{#each APPS as app}
+		<li
+			class=" relative flex items-center gap-2 rounded-md bg-white/70 px-4 py-2 select-none first:rounded-t-2xl last:rounded-b-2xl hover:bg-gray-100"
+		>
+			<div class="aspect-square h-10 w-10 overflow-hidden rounded-full bg-gray-300">
+				<img class="aspect-square size-full" alt={app.label} src={app.pfp} />
 			</div>
-		{/each}
-	</ul>
 
-	<div class="sticky bottom-0">Hello</div>
-</main>
+			<a href={app.href}
+				><span class="absolute inset-0"><span class="sr-only">{app.nickname}</span></span></a
+			>
+
+			<div class="flex w-full items-center justify-between">
+				<div use:twemojify={{ className: 'size-5' }} class="flex items-center gap-1">
+					{app.nickname}
+				</div>
+				<div class="text-muted text-sm">{app.fullName}</div>
+			</div>
+		</li>
+	{/each}
+</ul>

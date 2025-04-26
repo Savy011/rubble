@@ -6,6 +6,7 @@
 	import { twemojify } from 'svelte-twemojify';
 	import Gear from 'phosphor-svelte/lib/GearSix';
 	import { PersistedState } from 'runed';
+	import { flip } from 'svelte/animate';
 
 	let date = $state(new Date());
 
@@ -26,8 +27,11 @@
 		</div>
 		<div class="text-center">Caleeender</div>
 	</div>
-	{#each enabledApps as { href, ...app }}
-		<div class="relative isolate flex flex-col items-center justify-center">
+	{#each enabledApps as { href, ...app } (href)}
+		<div
+			class="group relative isolate flex flex-col items-center justify-center"
+			animate:flip={{ duration: 100 }}
+		>
 			<div class="m-4 mb-2 flex size-18 items-center justify-center rounded-2xl bg-orange-700">
 				<div class="size-10">
 					{app.icon}

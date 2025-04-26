@@ -11,17 +11,14 @@
 </script>
 
 <SwitchPrimitive.Root
-	bind:ref
 	bind:checked
 	class={cn(
-		'focus-visible:ring-ring focus-visible:ring-offset-background data-[state=checked]:bg-primary data-[state=unchecked]:bg-input peer inline-flex h-5 w-9 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent shadow-sm transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50',
+		'data-[state=unchecked]:shadow-mini-inset peer data-[state=checked]:bg-orchid-bloom inline-flex h-[24px] min-h-[24px] w-[48px] shrink-0 cursor-pointer items-center rounded-xl px-[3px] transition-colors hover:brightness-90 hover:transition-[brightness] focus-visible:ring-[1px] focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-white focus-visible:outline-hidden disabled:cursor-not-allowed  disabled:opacity-50 data-[state=unchecked]:bg-gray-400',
 		className
 	)}
 	{...restProps}
 >
 	<SwitchPrimitive.Thumb
-		class={cn(
-			'bg-background pointer-events-none block size-4 rounded-full shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-4 data-[state=unchecked]:translate-x-0'
-		)}
+		class="data-[state=unchecked]:shadow-mini dark:shadow-popover dark:order-black/30 pointer-events-none block size-[18px] shrink-0 rounded-full bg-white transition-[tranform_colors] data-[state=checked]:translate-x-6 data-[state=unchecked]:translate-x-0 data-[state=unchecked]:bg-gray-200 dark:bg-white "
 	/>
 </SwitchPrimitive.Root>
