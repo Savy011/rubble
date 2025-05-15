@@ -13,6 +13,7 @@
 
 	let hours = $derived(time.getHours());
 	let minutes = $derived(time.getMinutes());
+	let meridiem = $derived((hours * 1.0) / 12 > 1 ? ('pm' as const) : ('am' as const));
 
 	onMount(() => {
 		const interval = setInterval(() => {
@@ -24,18 +25,22 @@
 </script>
 
 <div
-	class="font-sono flex justify-between p-1 px-2 transition-colors duration-200 ease-in-out {route.id ===
+	class="font-sono flex items-center justify-between px-2 py-0.5 transition-colors duration-200 ease-in-out {route.id ===
 	'/(home)'
 		? 'bg-none'
 		: 'bg-white'}"
 >
-	<span>
-		{(hours % 12).toString().padStart(2, '0')}:{minutes.toString().padStart(2, '0')}
-		{(hours * 1.0) / 12 > 1 ? 'pm' : 'am'}
+	<span class="text-sm">
+		{#if meridiem === 'am'}
+			{(hours % 12).toString().padStart(2, '0')}:{minutes.toString().padStart(2, '0')}
+		{:else}
+			{(hours % 12).toString().padStart(2, '0')}:{minutes.toString().padStart(2, '0')}
+		{/if}
+		{meridiem}
 	</span>
 
-	<span class="flex gap-2">
-		<CellSignalHigh class="size-6" weight="fill" />
-		<BatteryFull class="size-6" weight="fill" /></span
+	<span class="flex gap-1">
+		<CellSignalHigh class="size-5" weight="fill" />
+		<BatteryFull class="size-5" weight="fill" /></span
 	>
 </div>

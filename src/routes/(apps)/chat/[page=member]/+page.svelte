@@ -2,13 +2,16 @@
 	import CaretLeft from 'phosphor-svelte/lib/CaretLeft';
 	import Dots from 'phosphor-svelte/lib/DotsThreeOutlineVertical';
 	import MagnifyingGlass from 'phosphor-svelte/lib/MagnifyingGlass';
+	import HeartStraightBreak from 'phosphor-svelte/lib/HeartStraightBreak';
 	import Translate from 'phosphor-svelte/lib/Translate';
 	import Smiley from 'phosphor-svelte/lib/Smiley';
+
+	import moment from 'moment';
 	import { twemojify } from 'svelte-twemojify';
+	import { VList } from 'virtua/svelte';
 
 	import type { PageProps } from './$types';
 	import Streak from '$lib/components/streak.svelte';
-	import moment from 'moment';
 	import MessageContainer from '$lib/components/message-container.svelte';
 	import { page } from '$app/state';
 
@@ -18,44 +21,12 @@
 	let member = $derived(data.member);
 	let messages = $state(data.messages);
 
-	let upperIntersection: HTMLDivElement | null = $state(null);
-	let lowerIntersection: HTMLDivElement | null = $state(null);
-
 	let chatsPage = $derived(Number.parseInt(query.get('page') ?? '1'));
-
-	$effect(() => {
-		function handleIntersection() {
-			console.log('time to load more baby >:)');
-			loadNextMessages();
-		}
-		const observer = new IntersectionObserver(handleIntersection, {
-			root: null,
-			rootMargin: '0px',
-			threshold: 0.1
-		});
-		if (lowerIntersection) {
-			observer.observe(lowerIntersection);
-		}
-
-		return () => observer.disconnect();
-	});
-
-	$inspect(messages);
-
-	async function loadNextMessages() {
-		let newPage = chatsPage + 1;
-
-		const res = (
-			await (
-				await fetch(`/api/messages?page=${newPage}&member=${member.label.toLowerCase()}`)
-			).json()
-		).messages.map((m) => ({ ...m, time: moment(m.time).toDate() }));
-
-		messages = [...messages, ...res];
-	}
 </script>
 
-<div class="relative flex h-full w-full items-center justify-between bg-white px-3 text-2xl">
+<div
+	class="chat-ui relative flex h-full w-full items-center justify-between bg-white px-3 text-2xl"
+>
 	<a href="/chat">
 		<CaretLeft />
 	</a>
@@ -77,89 +48,71 @@
 	<Streak />
 </div>
 
-<div class="chat scrollbar-none relative overflow-y-scroll">
-	{#if messages}
-		<div id="upper-intersection" bind:this={upperIntersection}></div>
-
-		{#each messages as message, idx (message.id)}
+{#if messages.length === 0}
+	<div class="chat relative">
+		<div class="absolute top-1/2 left-1/2 w-max -translate-x-1/2 -translate-y-1/2 text-xl">
+			<div class="mx-auto w-fit rounded-t-lg bg-white px-4 py-2">
+				<HeartStraightBreak class="size-8" weight="fill" />
+			</div>
+			<p class=" rounded-lg bg-white px-4 py-2">Nothing to See Here Yet...</p>
+		</div>
+	</div>
+{:else}
+	<VList
+		data={messages}
+		style="background: url('/default_wallpaper.jpg'); background-position: center; background-size: 100% auto; padding-top: 32px; max-width: 100%;"
+		class="chat scrollbar-none relative overflow-y-scroll"
+	>
+		{#snippet children(message, idx)}
 			{@const prev = idx > 0 ? messages[idx - 1] : null}
 			{@const next = idx < messages.length ? messages[idx + 1] : null}
 
-			{#if prev}
-				{#if prev.time.getDay() !== message.time.getDay()}
-					<div class="flex items-center">
-						<span class="mx-4 h-px flex-1 bg-black/10"></span>
-						<span class="text-center text-sm">{moment(message.time).format('MMMM  DD, YYYY')}</span>
-						<span class="mx-4 h-px flex-1 bg-black/10"></span>
-					</div>
-				{/if}
-			{/if}
-
-			{#if prev}
-				{@const prevIsRecent = Math.abs(prev.time.getMinutes() - message.time.getMinutes()) < 2}
-				{#if prevIsRecent && prev.type === 'text'}
-					<div class="mx-4 my-1 flex gap-2">
-						<div class="relative ml-12 flex flex-col gap-2">
-							<MessageContainer {message} />
-
-							<div class="text-muted absolute right-0 bottom-0 translate-x-full pl-1 text-xs">
-								{moment(message.time).format('h:mma')}
-							</div>
-						</div>
-					</div>
-				{:else}
-					<div class="mx-4 my-2 flex gap-2">
-						<div class="aspect-square size-10 overflow-hidden rounded-full">
-							<img alt={member.label} src={member.pfp} />
-						</div>
-						<div class="relative flex flex-col gap-2">
-							<div class="flex items-center gap-2">
-								<div
-									class="rounded-full bg-linear-to-br from-pink-400 to-pink-200 px-3 py-1 text-xs font-bold text-white"
-								>
-									FRIEND
-								</div>
-								<div>{member.nickname}</div>
-							</div>
-
-							<MessageContainer {message} />
-
-							<div class="text-muted absolute right-0 bottom-0 translate-x-full pl-1 text-xs">
-								{moment(message.time).format('h:mma')}
-							</div>
-						</div>
-					</div>
-				{/if}
-			{:else}
-				<div class="relative mx-4 my-2 flex gap-2">
-					<div class="aspect-square size-10 overflow-hidden rounded-full">
-						<img alt={member.label} src={member.pfp} />
-					</div>
-					<div class="relative flex flex-col gap-2">
-						<div class="flex items-center gap-2">
-							<div
-								class="rounded-full bg-linear-to-br from-pink-400 to-pink-200 px-3 py-1 text-xs font-bold text-white"
-							>
-								FRIEND
-							</div>
-							<div>{member.nickname}</div>
-						</div>
-
-						<MessageContainer {message} />
-
-						<div class="text-muted absolute right-0 bottom-0 translate-x-full pl-1 text-xs">
-							{moment(message.time).format('hh:mma')}
-						</div>
-					</div>
+			{@const isNotSameDay = moment(prev?.timestamp).day() !== moment(message.timestamp).day()}
+			{#if isNotSameDay}
+				<div class="my-4 flex items-center">
+					<span class="mx-4 h-px flex-1 bg-black/10"></span>
+					<span class="text-center text-sm"
+						>{moment(message.timestamp).format('MMMM  DD, YYYY')}</span
+					>
+					<span class="mx-4 h-px flex-1 bg-black/10"></span>
 				</div>
 			{/if}
 
-			{#if idx === messages.length - 5}
-				<div id="lower-intersection" bind:this={lowerIntersection}></div>
-			{/if}
-		{/each}
-	{/if}
-</div>
+			{@const prevIsRecent =
+				Math.abs(moment(prev?.timestamp).diff(message.timestamp, 'minutes')) <= 2}
+			{@const nextIsRecent =
+				Math.abs(moment(message.timestamp).diff(next?.timestamp, 'minutes')) <= 2}
+			{@const nextIsSameTime =
+				Math.abs(moment(message.timestamp).diff(next?.timestamp, 'minutes')) === 0}
+
+			<div class="mx-4 flex gap-2 {nextIsRecent ? 'mb-0.5' : 'mb-2'}">
+				{#if !prevIsRecent}
+					<div class="aspect-square size-10 overflow-hidden rounded-full">
+						<img alt={member.label} src={member.pfp} />
+					</div>
+				{/if}
+				<div class="relative flex flex-col gap-2 {prevIsRecent && 'ml-12'}">
+					{#if !prevIsRecent}
+						<div class="flex items-center gap-2">
+							<div>{member.nickname}</div>
+						</div>
+					{/if}
+
+					<MessageContainer
+						{message}
+						style="rounded-xl rounded-tl-sm {nextIsRecent && 'rounded-bl-sm'}"
+					/>
+
+					{#if !nextIsSameTime}
+						<div class="text-muted absolute right-0 bottom-0.5 translate-x-full pl-1 text-xs">
+							{moment(message.timestamp).format('h:mma')}
+						</div>
+					{/if}
+				</div>
+			</div>
+		{/snippet}
+	</VList>
+{/if}
 
 <div class="flex gap-2 bg-white p-2">
 	<div class="flex h-full w-full cursor-not-allowed items-center rounded-2xl bg-gray-200/50 px-2">

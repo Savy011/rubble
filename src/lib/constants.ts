@@ -38,6 +38,31 @@ export const APPS = [
 	{ href: '/chat/zoa', label: 'Zoa', icon: '🦌', pfp: pfpZoa, fullName: "Cho Hyewon", nickname: "혜워니" }
 ];
 
+type ImpDate = { label: string, date: [number, number] }
+
+export const IMP_EVENTS = [
+	{ label: "Debut Anniversary", date: [5, 30] },
+	{ label: "Daileee Day", date: [7, 23] },
+	{ label: "We Are Release", date: [5, 30] },
+	{ label: "We Can Release", date: [9, 13] },
+	{ label: "We Play Release", date: [2, 17] },
+	{ label: "Play Game: Holiday Release", date: [8, 4] },
+	{ label: "Play Game: Awake Release", date: [2, 7] },
+	{ label: "Good Day (Special Daileee) Release", date: [8, 12] },
+	{ label: "Colorise Release", date: [9, 1] },
+	{ label: "Stranger Release", date: [0, 25] },
+	{ label: "Bliss Release", date: [6, 9] },
+	{ label: "Lee Soojin Birthday", date: [11, 12] },
+	{ label: "Kim Jimin Birthday", date: [4, 10] },
+	{ label: "Park Soeun Birthday", date: [9, 26] },
+	{ label: "Shin Jiyoon Birthday", date: [2, 2] },
+	{ label: "Lee Jaehee Birthday", date: [3, 18] },
+	{ label: "Han Jihyo  Birthday", date: [6, 12] },
+	{ label: "Cho Hyewon Birthday", date: [4, 31] },
+	{ label: "Test Event", date: [4, 13] },
+	{ label: "Good Day (Special Daileee) Release", date: [4, 13] },
+] satisfies ImpDate[]
+
 export const LOCAL_STORAGE_KEYS = {
 	displayName: "pref-display-name",
 	memberShortcuts: "pref-member-shortcuts",

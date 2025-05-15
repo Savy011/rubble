@@ -1,10 +1,32 @@
-export type Message = {
-	id: number,
-	content: string,
-	translation: string,
-	attachments: [],
-	sticker: string,
-	time: string
+export type MemberShortcut = ("soojin" | "monday" | "soeun" | "jiyoon" | "jaehee" | "jihan" | "zoa")[]
+
+type MessageBase = {
+	id: string;
+	timestamp: number;
+	text: string;
 }
 
-export type MemberShortcut = ("soojin" | "monday" | "soeun" | "jiyoon" | "jaehee" | "jihan" | "zoa")[]
+type MessageWithText = {
+	type: "text";
+} & MessageBase
+
+type MessageWithMedia = {
+	type: "audio" | "video" | "photo" | "sticker";
+	src: string;
+} & MessageBase
+
+type MessageWithLive = {
+	type: "live";
+	duration: number;
+	src: string;
+} & MessageBase
+
+type MessageWithLink = {
+	type: "link";
+} & MessageBase
+
+export type Message = MessageWithText | MessageWithMedia | MessageWithLive | MessageWithLink
+
+export type MessageType = "text" | "sticker" | "audio" | "video" | "photo" | "live" | "link"
+
+export type MessageMediaType = "audio" | "video" | "photo"

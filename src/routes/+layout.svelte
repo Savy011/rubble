@@ -23,7 +23,7 @@
 		overflow: hidden;
 		position: fixed;
 		display: grid;
-		grid-template-rows: 30px 1fr;
+		grid-template-rows: 24px 1fr;
 		background: bisque;
 	}
 </style>
