@@ -1,7 +1,7 @@
 import { APPS } from "$lib/constants";
 
 import type { PageServerLoad } from "./$types";
-import { getChatMessages } from "$lib/messages/loader";
+import { getChatMessages } from "$lib/messages";
 import { error } from "@sveltejs/kit";
 
 export const load: PageServerLoad = ({ params, url }) => {

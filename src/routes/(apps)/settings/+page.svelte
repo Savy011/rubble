@@ -1,14 +1,21 @@
 <script lang="ts">
-	import Switch from '$lib/components/ui/switch.svelte';
+	import Switch from '$components/ui/switch.svelte';
 	import { PersistedState } from 'runed';
-	import CaretLeft from 'phosphor-svelte/lib/CaretLeft';
 
 	import { slide } from 'svelte/transition';
 
-	import { MEMBER_LIST, LOCAL_STORAGE_KEYS } from '$lib/constants';
+	import { MEMBER_LIST, LOCAL_STORAGE_ITEMS } from '$lib/constants';
+	import AppHeader from '$components/app-header.svelte';
+	import GearSix from 'phosphor-svelte/lib/GearSix';
 
-	let memberShortcuts = new PersistedState<string[]>(LOCAL_STORAGE_KEYS.memberShortcuts, []);
-	let displayName = new PersistedState(LOCAL_STORAGE_KEYS.displayName, '');
+	let memberShortcuts = new PersistedState<string[]>(
+		LOCAL_STORAGE_ITEMS.memberShortcuts.key,
+		LOCAL_STORAGE_ITEMS.memberShortcuts.default
+	);
+	let displayName = new PersistedState(
+		LOCAL_STORAGE_ITEMS.displayName.key,
+		LOCAL_STORAGE_ITEMS.displayName.default
+	);
 
 	let name = $state(displayName.current);
 
@@ -21,22 +28,29 @@
 	}
 </script>
 
-<h1 class="flex items-center text-4xl font-extrabold">
-	<a class="inline-flex size-8" href="/"><CaretLeft class="size-8" /></a>Settings
-</h1>
+<div class="sticky top-2">
+	<AppHeader href="/">
+		<div class="flex items-center gap-2">
+			Settings
+			<GearSix class="size-6 lg:size-8" weight="fill" />
+		</div>
+	</AppHeader>
+</div>
 
-<section>
-	<h3 class="mb-1 text-2xl font-bold">Display Name</h3>
-	<p class="text-xs text-black/60">Set your name which will be used in chats.</p>
+<section class="p-3">
+	<h3 class="font-archivo mb-1 text-xl font-bold">Display Name</h3>
+	<p class="font-archivo text-xs font-light text-black/60">
+		Set your name which will be used in chats.
+	</p>
 
 	<div class="mt-2 w-full rounded-2xl bg-white/70 px-2 py-2 select-none">
 		<div class="flex items-center justify-between">
 			<input
 				bind:value={name}
-				class={[
-					'h-full w-full  border border-black/30 px-2 py-2 transition-[border-radius] duration-200',
-					name === displayName.current ? 'rounded-xl' : 'rounded-md rounded-t-xl'
-				]}
+				class="h-full w-full border border-black/30 px-2 py-2 transition-[border-radius] duration-200 {name ===
+				displayName.current
+					? 'rounded-xl'
+					: 'rounded-md rounded-t-xl'}"
 			/>
 		</div>
 
@@ -61,9 +75,11 @@
 	</div>
 </section>
 
-<section>
+<section class="p-3">
 	<h3 class="mb-1 text-2xl font-bold">Member Shortcuts</h3>
-	<p class="text-xs text-black/60">Add shortcuts for chats for members to the Home page</p>
+	<p class="font-archivo text-xs font-normal text-black/60">
+		Add shortcuts for chats for members to the Home page
+	</p>
 
 	<div class="mt-2 space-y-0.5">
 		{#each MEMBER_LIST as member}
@@ -84,4 +100,11 @@
 			</div>
 		{/each}
 	</div>
+</section>
+
+<section class="p-3">
+	<h3 class="mb-1 text-2xl font-bold">Reset Settings</h3>
+	<p class="text-error font-archivo text-xs font-light">
+		Reset all settings to their default values.
+	</p>
 </section>

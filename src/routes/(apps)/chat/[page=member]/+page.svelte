@@ -9,19 +9,43 @@
 	import moment from 'moment';
 	import { twemojify } from 'svelte-twemojify';
 	import { VList } from 'virtua/svelte';
+	import { treaty } from '@elysiajs/eden';
+
+	import { fly } from 'svelte/transition';
 
 	import type { PageProps } from './$types';
-	import Streak from '$lib/components/streak.svelte';
-	import MessageContainer from '$lib/components/message-container.svelte';
+	import type { Api } from '$lib/server';
+
+	import Streak from '$components/streak.svelte';
+	import MessageContainer from '$components/message-container.svelte';
 	import { page } from '$app/state';
+	import { goto } from '$app/navigation';
 
 	let { data }: PageProps = $props();
 
 	let query = $derived(page.url.searchParams);
 	let member = $derived(data.member);
 	let messages = $state(data.messages);
+	let loading = $state(false);
 
 	let chatsPage = $derived(Number.parseInt(query.get('page') ?? '1'));
+
+	const app = treaty<Api>('localhost:5173');
+
+	async function handleLoadMore() {
+		loading = true;
+		const { data } = await app.api.messages.get({
+			query: {
+				member: member.label.toLowerCase(),
+				page: chatsPage + 1
+			}
+		});
+		console.log(data);
+		setTimeout(() => (loading = false), 5000);
+		goto(`?member=${member.label.toLowerCase()}&page=${chatsPage + 1}`);
+
+		messages = [...messages, ...data.messages];
+	}
 </script>
 
 <div
@@ -61,7 +85,7 @@
 	<VList
 		data={messages}
 		style="background: url('/default_wallpaper.jpg'); background-position: center; background-size: 100% auto; padding-top: 32px; max-width: 100%;"
-		class="chat scrollbar-none relative overflow-y-scroll"
+		class="font-fixel chat scrollbar-noe relative overflow-y-scroll"
 	>
 		{#snippet children(message, idx)}
 			{@const prev = idx > 0 ? messages[idx - 1] : null}
@@ -110,6 +134,33 @@
 					{/if}
 				</div>
 			</div>
+
+			{#if messages.length - 1 === idx}
+				<div class="mb-4 flex w-full items-center justify-center">
+					<button
+						onclick={handleLoadMore}
+						class="mx-auto h-11 w-32 overflow-hidden rounded-md border border-gray-300 bg-white px-4 py-2 transition-[filter] duration-200 hover:brightness-90"
+					>
+						{#if loading}
+							{#key 'loading'}
+								<span
+									class="bg-red-400"
+									in:fly|global={{ duration: 200, y: '100%', delay: 300 }}
+									out:fly|global={{ duration: 200, y: '100%' }}>Loading</span
+								>
+							{/key}
+						{:else}
+							{#key 'load more'}
+								<span
+									class="w-fit bg-blue-400"
+									in:fly|global={{ duration: 200, y: '100%', delay: 300 }}
+									out:fly|global={{ duration: 200, y: '100%' }}>Load More</span
+								>
+							{/key}
+						{/if}
+					</button>
+				</div>
+			{/if}
 		{/snippet}
 	</VList>
 {/if}

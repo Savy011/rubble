@@ -63,7 +63,27 @@ export const IMP_EVENTS = [
 	{ label: "Good Day (Special Daileee) Release", date: [4, 13] },
 ] satisfies ImpDate[]
 
-export const LOCAL_STORAGE_KEYS = {
-	displayName: "pref-display-name",
-	memberShortcuts: "pref-member-shortcuts",
+export const LOCAL_STORAGE_ITEMS = {
+	displayName: { key: "pref-display-name", default: "y/n" },
+	memberShortcuts: { key: "pref-member-shortcuts", default: [] },
 }
+
+export const CHAT_CREDITS = [
+	{
+		member: "Lee Soojin",
+		peeps: [
+			{ name: "@earthtomoon510", link: "https://x.com/earthtomoon510" }
+		]
+	},
+	{
+		member: "Kim Jimin", peeps: [
+			{ name: "Deisi" },
+			{ name: "@earthtomoon510", link: "https://x.com/earthtomoon510" }
+		]
+	},
+	{ member: "Park Soeun", peeps: [{ name: "WeeeklyFD", link: "https://x.com/FDVod" }] },
+	{ member: "Shin Jiyoon", peeps: [{ name: "@notasianenuf", link: "https://x.com/notasianenuf" }] },
+	{ member: "Lee Jaehee", peeps: [{ name: "WeeeklyFD", link: "https://x.com/FDVod" }] },
+	{ member: "Han Jihyo", peeps: [{ name: "?" }] },
+	{ member: "Cho Hyewon", peeps: [{ name: "Khenn" }] },
+]

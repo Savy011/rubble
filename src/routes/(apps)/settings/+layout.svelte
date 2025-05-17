@@ -4,10 +4,10 @@
 	let { children } = $props();
 </script>
 
-<main
-	class="scrollbar-none space-y-4 overflow-y-scroll p-4"
-	in:fade={{ delay: 200 }}
+<div
+	in:fade={{ delay: 200, duration: 200 }}
 	out:fly={{ x: '-100%', duration: 200 }}
+	class="font-sono overflow-y-scroll"
 >
 	{@render children()}
-</main>
+</div>

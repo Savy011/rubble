@@ -1,3 +1,13 @@
+export function capitalize(str: string) {
+	return str
+		.split('')
+		.map((char, idx) =>
+			idx === 0
+				? char.toUpperCase()
+				: char)
+		.join('');
+};
+
 export function formatDay(day: number) {
 	switch (day) {
 		case 0:

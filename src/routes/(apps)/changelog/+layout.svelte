@@ -4,10 +4,6 @@
 	let { children } = $props();
 </script>
 
-<main
-	class="overflow-y-scroll"
-	in:scale={{ start: 0, delay: 200, duration: 200 }}
-	out:scale={{ start: 0, duration: 200 }}
->
+<main in:scale={{ start: 0, delay: 200, duration: 200 }} out:scale={{ start: 0, duration: 200 }}>
 	{@render children()}
 </main>

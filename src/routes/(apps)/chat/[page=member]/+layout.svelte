@@ -15,7 +15,7 @@
 <style>
 	.app {
 		width: 100%;
-		height: calc(100% - 30px);
+		height: calc(100% - 26px);
 		position: fixed;
 		display: grid;
 		grid-template-rows: 56px 1fr 48px;

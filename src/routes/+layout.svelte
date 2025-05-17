@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
 
-	import TopBar from '$lib/components/top-bar.svelte';
+	import TopBar from '$components/top-bar.svelte';
 
 	import '@fontsource/sono';
 	import '@fontsource/pacifico';
@@ -27,5 +27,12 @@
 		display: grid;
 		grid-template-rows: 24px 1fr;
 		background: bisque;
+	}
+
+	@font-face {
+		font-family: 'Fixel Variable';
+		font-style: normal;
+		font-display: swap;
+		src: url($lib/assets/fonts/fixel-variable.ttf);
 	}
 </style>
