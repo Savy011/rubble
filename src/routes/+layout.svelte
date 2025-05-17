@@ -5,6 +5,8 @@
 
 	import '@fontsource/sono';
 	import '@fontsource/pacifico';
+	import '@fontsource-variable/archivo';
+
 	import '../app.css';
 
 	let { children } = $props();

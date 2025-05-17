@@ -1,9 +1,11 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+@plugin '@tailwindcss/aspect-ratio';
 
 @theme {
 	--font-sono: 'Sono Variable', sans-serif;
 	--font-pacifico: 'Pacifico', cursive;
+	--font-archivo: 'Archivo', sans-serif;
 
 	--color-muted: oklch(0.55 0 0);
 

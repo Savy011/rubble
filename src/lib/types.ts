@@ -25,8 +25,12 @@ type MessageWithLink = {
 	type: "link";
 } & MessageBase
 
-export type Message = MessageWithText | MessageWithMedia | MessageWithLive | MessageWithLink
+export type Message = Prettify<MessageWithText | MessageWithMedia | MessageWithLive | MessageWithLink>
 
 export type MessageType = "text" | "sticker" | "audio" | "video" | "photo" | "live" | "link"
 
 export type MessageMediaType = "audio" | "video" | "photo"
+
+type Prettify<T> = {
+	[K in keyof T]: T[K];
+} & {};

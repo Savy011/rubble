@@ -1,8 +1,20 @@
-import { Hono } from "hono";
+import { MEMBER_LIST_TYPE } from "$lib/constants";
+import { getChatMessages } from "$lib/messages";
+import { Elysia, t } from 'elysia';
 
-export const router = new Hono()
-	.get("/messages", c => c.text("Hello"))
+export const api = new Elysia({ prefix: '/api' })
+	.get('/', () => 'hello rubble user!')
+	.get('/messages', (ctx) => {
+		const { member, page } = ctx.query
 
-export const api = new Hono().route("/api", router);
+		const messages = getChatMessages(member, page);
 
-export type Router = typeof router;
+		return { member, page, messages }
+	}, {
+		query: t.Object({
+			member: t.Union(MEMBER_LIST_TYPE.map(m => t.Literal(m))),
+			page: t.Integer(),
+		})
+	})
+
+export type Api = typeof api 
