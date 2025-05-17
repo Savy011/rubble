@@ -81,7 +81,7 @@
 	<section
 		class="mx-2 mt-1 space-y-1"
 		in:fly={{ x: '100%', duration: 300, delay: 300 }}
-		out:fly={{ x: '-100%', duration: 300 }}
+		out:fly={{ x: '100%', duration: 300 }}
 	>
 		<div class="rounded-sm bg-white/70 p-2 px-4">Progress</div>
 		{#each Array(20), idx}
