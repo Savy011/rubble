@@ -16,7 +16,7 @@
 	];
 </script>
 
-<div class="content" transition:fade={{ duration: 200, delay: 200 }}>
+<div class="content" in:fade={{ duration: 200, delay: 200 }} out:fade={{ duration: 200 }}>
 	<div class="h-full">
 		{@render children()}
 	</div>

@@ -22,7 +22,7 @@
 	<Calender />
 
 	{#each enabledApps as { href, ...app } (href)}
-		<div class="group relative isolate flex h-fit w-fit flex-col items-center justify-center p-1">
+		<div class="relative isolate mx-auto flex h-fit w-fit flex-col items-center justify-center p-1">
 			<div class="mb-2 flex size-16 items-center justify-center rounded-2xl bg-orange-700">
 				<div class="size-9">
 					{app.icon}
@@ -34,7 +34,7 @@
 		</div>
 	{/each}
 
-	<div class="relative isolate flex h-fit w-fit flex-col items-center justify-center p-1">
+	<div class="relative isolate mx-auto flex h-fit w-fit flex-col items-center justify-center p-1">
 		<div class="mb-2 flex size-16 items-center justify-center rounded-2xl bg-orange-700 text-4xl">
 			<Weverse />
 		</div>

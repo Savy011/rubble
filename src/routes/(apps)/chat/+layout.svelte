@@ -3,11 +3,12 @@
 
 	import ChatCircleDots from 'phosphor-svelte/lib/ChatCircleDots';
 	import Link from '$components/link.svelte';
+	import AppAnimationWrapper from '$components/app-animation-wrapper.svelte';
 
 	let { children } = $props();
 </script>
 
-<main class="h-full" in:fade={{ delay: 200 }} out:fly={{ x: '-100%', duration: 200 }}>
+<AppAnimationWrapper class="app h-full">
 	<div>
 		{@render children()}
 	</div>
@@ -21,11 +22,11 @@
 			<p>See <Link href="/changelog">what's new</Link> in this update</p>
 		</div>
 	</div>
-</main>
+</AppAnimationWrapper>
 
 <style>
 	@media (min-width: 640px) {
-		main {
+		.app {
 			display: grid;
 			grid-template-columns: 1fr 2fr;
 		}

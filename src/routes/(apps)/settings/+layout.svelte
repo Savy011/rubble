@@ -1,13 +1,9 @@
 <script lang="ts">
-	import { fade, fly } from 'svelte/transition';
+	import AppAnimationWrapper from '$components/app-animation-wrapper.svelte';
 
 	let { children } = $props();
 </script>
 
-<div
-	in:fade={{ delay: 200, duration: 200 }}
-	out:fly={{ x: '-100%', duration: 200 }}
-	class="font-sono overflow-y-scroll"
->
+<AppAnimationWrapper class="font-fixel overflow-y-scroll">
 	{@render children()}
-</div>
+</AppAnimationWrapper>

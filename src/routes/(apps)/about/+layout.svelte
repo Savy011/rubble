@@ -1,13 +1,9 @@
 <script lang="ts">
-	import { scale } from 'svelte/transition';
+	import AppAnimationWrapper from '$components/app-animation-wrapper.svelte';
 
 	let { children } = $props();
 </script>
 
-<main
-	class="overflow-y-scroll"
-	in:scale={{ start: 0, delay: 200, duration: 200 }}
-	out:scale={{ start: 0, duration: 200 }}
->
+<AppAnimationWrapper class="overflow-y-scroll">
 	{@render children()}
-</main>
+</AppAnimationWrapper>
