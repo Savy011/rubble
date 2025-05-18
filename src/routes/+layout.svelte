@@ -8,6 +8,7 @@
 	import '@fontsource-variable/archivo';
 
 	import '../app.css';
+	import '../splash.css';
 
 	let { children } = $props();
 	let route = $derived(page.route);

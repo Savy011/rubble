@@ -6,14 +6,12 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "preview": "bun run build && wrangler dev",
+    "preview": "vite build && vite preview",
     "prepare": "svelte-kit sync || echo ''",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "format": "prettier --write .",
-    "lint": "prettier --check . && eslint .",
-    "deploy": "bun run build && wrangler deploy",
-    "cf-typegen": "wrangler types ./src/worker-configuration.d.ts"
+    "lint": "prettier --check . && eslint ."
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.5",
