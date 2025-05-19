@@ -141,7 +141,7 @@
 				</div>
 			</div>
 
-			{#if messages.length - 1 === idx}
+			{#if messages.length - 1 === idx && member.label.toLowerCase() !== 'jiyoon'}
 				<div class="mb-4 flex w-full items-center justify-center">
 					<button
 						onclick={handleLoadMore}
