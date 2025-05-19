@@ -1,3311 +1,3878 @@
 [
   {
-    "timestamp": 1643002200000,
     "type": "text",
     "text": "[y/n] 반가워요 헤헤💕❤️😍 \n오늘부터 우리 자주 얘기할까요? \n[y/n]랑 재밌게 놀 생각에 벌써 설레네요 키키키 \n뭐하고 놀까요?",
-    "id": "Z5c8GLmoqW4hWhjSdypOn"
+    "translation": "Nice to meet you hehe💕❤️😍 \nShall we talk more often from today? \nI'm already excited to have fun with you. \nWhat should I do?",
+    "timestamp": 1642989600000,
+    "id": "Y4K3iRD3NN47nB8fMbKeg"
   },
   {
-    "timestamp": 1643013120000,
     "type": "text",
     "text": "[y/n]",
-    "id": "qTJh6Vj4f8Ad2ERljYdm6"
+    "translation": "You",
+    "timestamp": 1643000520000,
+    "id": "nCNSRKfzWITV23OsPfVeA"
   },
   {
-    "timestamp": 1643013240000,
     "type": "text",
     "text": "뭐 하고 있었어요?",
-    "id": "h5q3aPs67paGeVQGI8Ho5"
+    "translation": "What were you doing?",
+    "timestamp": 1643000640000,
+    "id": "JVmsdLdjYHwiTLszTvB6T"
   },
   {
-    "timestamp": 1643013480000,
     "type": "text",
     "text": "유니유니 빔!",
-    "id": "c0EvrQo6WMSA76sppqsDK"
+    "translation": "UNI UNI BEAM!",
+    "timestamp": 1643000880000,
+    "id": "nvZ7BsFSMDUcT3GpbMpcg"
   },
   {
-    "timestamp": 1643013600000,
     "type": "text",
     "text": " 유니유니 빔이 뭐냐면.. 제 사랑을 [y/n]한테 보내는 마법의 주문이랍니다.",
-    "id": "qodKOVrPhNOyujp5ptFmK"
+    "translation": "Yuni Uni beam is... It's a magic spell to send my love to you.",
+    "timestamp": 1643001000000,
+    "id": "09ZiInehNf7zWzNWGxDAw"
   },
   {
-    "timestamp": 1643013900000,
     "type": "text",
     "text": "계속 부르고 싶네 [y/n] ❤️",
-    "id": "lcM2N8umXus4trfFBW7KV"
+    "translation": "I want to keep calling you ❤️",
+    "timestamp": 1643001300000,
+    "id": "VlMZUz6eajvTE9pxrMRsR"
   },
   {
-    "timestamp": 1643013960000,
     "type": "photo",
     "text": "(Photo)",
-    "src": "/jybbl/pics/1.jpg",
-    "id": "3nYYxTPvPRmIW4BlA4QOx"
+    "width": 3024,
+    "height": 3325,
+    "src": "rubble/jiyoon/images/wzApl1rboduqEtfMkYXpa",
+    "timestamp": 1643001360000,
+    "id": "wzApl1rboduqEtfMkYXpa"
   },
   {
-    "timestamp": 1643014440000,
     "type": "text",
     "text": "이걸로 커플 배경화면 어때용",
-    "id": "Bu7RzSBbwvNC1RCN5tFOG"
+    "translation": "How about a couple wallpaper with this?",
+    "timestamp": 1643001840000,
+    "id": "s6VJq1NKho9cheNbmJya1"
   },
   {
-    "timestamp": 1643014500000,
     "type": "text",
     "text": "맞붙이면 하트가 되는 고야",
-    "id": "uDbh6PaQb46OArPDfYkQh"
+    "translation": "If you face each other, it becomes a heart",
+    "timestamp": 1643001900000,
+    "id": "BHo5gZRdy0XsLz8eTp0c4"
   },
   {
-    "timestamp": 1643014500000,
     "type": "text",
     "text": "반대쪽은 [y/n] 손으로",
-    "id": "LdVOh7ALkvf3gRwBU6zYS"
+    "translation": "The other side is your hand",
+    "timestamp": 1643001900000,
+    "id": "rAYjRt7pyLeaLD3VDgiWj"
   },
   {
-    "timestamp": 1643014920000,
     "type": "text",
     "text": "오늘 저녁 뭐 먹징",
-    "id": "CEbC9EEmpW1OJ6SvymWjg"
+    "translation": "What should I eat for dinner?",
+    "timestamp": 1643002320000,
+    "id": "WlmSZXH5qArID804iK8LT"
   },
   {
-    "timestamp": 1643015040000,
     "type": "text",
     "text": "그거 좋당",
-    "id": "pxTxWtmYBM7TOQ6ViGd8p"
+    "translation": "That's good",
+    "timestamp": 1643002440000,
+    "id": "GiYeIy6xjnK8vt5IRs4u5"
   },
   {
-    "timestamp": 1643015460000,
     "type": "text",
     "text": "[y/n] 너무 좋아💓💗💖💘",
-    "id": "NBkYbbv9SOv8xHdLTKup1"
+    "translation": "I like you so much 💓💗💖💘",
+    "timestamp": 1643002860000,
+    "id": "QwX6I8hEg6jmZJKOJ7b1J"
   },
   {
-    "timestamp": 1643015520000,
     "type": "text",
     "text": "버블 해시태그 어떻게 하는 게 좋을까용 골라 주세요 \n 1.재밌게\n2.특이하게\n3.귀엽게",
-    "id": "Bd2EjkcnLHKHEbJgDijHA"
+    "translation": "Please choose what to do with the bubble hashtag\n 1.In a fun way\n2.Uniquely\n3. In a cute way",
+    "timestamp": 1643002920000,
+    "id": "gkOsLJZo1PIWa53IkhGHa"
   },
   {
-    "timestamp": 1643015760000,
     "type": "text",
     "text": "지유니버블 어때요",
-    "id": "gN7ELBOSGxzLH9X9I4g4M"
+    "translation": "How about Ji Unibubble?",
+    "timestamp": 1643003160000,
+    "id": "dhfON5u8VoWMQOaWuVuNg"
   },
   {
-    "timestamp": 1643016000000,
     "type": "text",
     "text": "좋아 좋아 그렇게 진행하겠어!",
-    "id": "cBYw7MVWkWw4ZhAS3AjPM"
+    "translation": "Good, good. That's how I'm going to proceed!",
+    "timestamp": 1643003400000,
+    "id": "3eyzQc5ZHKZiYWGnEUmAA"
   },
   {
-    "timestamp": 1643016120000,
     "type": "text",
     "text": "ㅋㅋㅋㅋ 재밌당❤️",
-    "id": "k2fOctDFi2etQ8quGA7G7"
+    "translation": "It's fun ❤️",
+    "timestamp": 1643003520000,
+    "id": "CoNekXchAJpaVcUIAXsTq"
   },
   {
-    "timestamp": 1643016960000,
     "type": "text",
     "text": "[y/n] 랑 유니랑 알콩달콩",
-    "id": "6CuCWAznW5UtHUcCQRWtX"
+    "translation": "You and Yuni are so sweet",
+    "timestamp": 1643004360000,
+    "id": "uwEn30vxfAApdSvbg6UrI"
   },
   {
-    "timestamp": 1643097600000,
     "type": "text",
     "text": "똑똑똑",
-    "id": "0EQac7q3uBBlYA7ciNIj9"
+    "translation": "Knock, knock, knock.",
+    "timestamp": 1643085000000,
+    "id": "fasUGCiY1HFWpyi5y8Kr0"
   },
   {
-    "timestamp": 1643097660000,
     "type": "text",
     "text": "[y/n] 💕💕💕💕",
-    "id": "PMy03d0a73PV7MiQnEJrT"
+    "translation": "You 💕💕💕💕",
+    "timestamp": 1643085060000,
+    "id": "z0X3sFMi6tIdjttLZQe0M"
   },
   {
-    "timestamp": 1643097720000,
     "type": "text",
     "text": "나 지금 포도 먹고 있어용",
-    "id": "3Q3gpI5JuVWoWcWKHmkDq"
+    "translation": "I'm eating grapes right now",
+    "timestamp": 1643085120000,
+    "id": "Z9NbP8EkDsURanHfzlSPi"
   },
   {
-    "timestamp": 1643097900000,
     "type": "text",
     "text": "아~~ 해봐용",
-    "id": "cwwHryHkppnM9IdWltZqD"
+    "translation": "Say ah",
+    "timestamp": 1643085300000,
+    "id": "YbVD1wOMabf9OYDYt2UC5"
   },
   {
-    "timestamp": 1643098020000,
     "type": "text",
     "text": "샤인머스캣이양 맛있징",
-    "id": "NncOigb9J1aAGwKIdYjgJ"
+    "translation": "Shine Muscat is delicious",
+    "timestamp": 1643085420000,
+    "id": "K5Ew9T9WXytEQGEyDDFDb"
   },
   {
-    "timestamp": 1643098380000,
     "type": "text",
     "text": "오늘 뭐 하지?? [y/n]는 뭐 할 거예용?",
-    "id": "Kj85nRXEXMOm2R5yrwQS4"
+    "translation": "What should I do today? What are you gonna do?",
+    "timestamp": 1643085780000,
+    "id": "or8BwR1aYdN1tFCFKBfMy"
   },
   {
-    "timestamp": 1643098800000,
     "type": "text",
     "text": "나랑 비슷하넹ㅎㅎ",
-    "id": "VlaoEM6sSLFIPwXLZNxrD"
+    "translation": "It's similar to me",
+    "timestamp": 1643086200000,
+    "id": "bKTi7kh6o3LP2FH9korvC"
   },
   {
-    "timestamp": 1643098920000,
     "type": "text",
     "text": "나는 오늘 [y/n] 생각 할 거랍니다",
-    "id": "SnTilvMkLnX9bYuR9BHbY"
+    "translation": "I'm gonna think about you today",
+    "timestamp": 1643086320000,
+    "id": "RFtNPLudGIXVxGqlTjJW8"
   },
   {
-    "timestamp": 1643099100000,
     "type": "text",
     "text": "나랑 놀아용",
-    "id": "DuFwZZ1H5hH5aDOayEjmL"
+    "translation": "Play with me",
+    "timestamp": 1643086500000,
+    "id": "uidZwOCIVSOO11VNcyi7P"
   },
   {
-    "timestamp": 1643099100000,
     "type": "text",
     "text": "ㅋㅋㅋㅋ",
-    "id": "O6quOGTAc9gYLeuAMZeXR"
+    "translation": "LOL",
+    "timestamp": 1643086500000,
+    "id": "1z3NEvYpnbfgVtmpIXzmH"
   },
   {
-    "timestamp": 1643099160000,
     "type": "text",
     "text": "[y/n] 너무 웃경",
-    "id": "2MHnjaxEEKEdiPkb3qYEI"
+    "translation": "You're so funny",
+    "timestamp": 1643086560000,
+    "id": "hPuNKpEvSNW7uMPOi0IzR"
   },
   {
-    "timestamp": 1643099160000,
     "type": "text",
     "text": "밸런스 게임 어때용",
-    "id": "qshropqHFwwLA8P0dJYo9"
+    "translation": "How about the balance game?",
+    "timestamp": 1643086560000,
+    "id": "Qs6x29IrebUw60dogVSCR"
   },
   {
-    "timestamp": 1643099220000,
     "type": "text",
     "text": "지윤이 5명 vs 지윤이 5살",
-    "id": "HRE1q52kQVrfz2yOmdoHw"
+    "translation": "5 JI YOONs vs 5 year old JI YOONs",
+    "timestamp": 1643086620000,
+    "id": "OaHcbseAoYKQ0LKsGQiYB"
   },
   {
-    "timestamp": 1643099280000,
     "type": "text",
     "text": "나는 [y/n] 를 고르겠어",
-    "id": "CkjzrxtnR3Mj8VL66Th99"
+    "translation": "I'll pick you",
+    "timestamp": 1643086680000,
+    "id": "0ABQ7OOBs05MuuYCEtAxS"
   },
   {
-    "timestamp": 1643099700000,
     "type": "text",
     "text": "뿡",
-    "id": "H1Sk7f6XDomRxnyDTaNtA"
+    "translation": "fart",
+    "timestamp": 1643087100000,
+    "id": "wI6memBf9ked1v5RYIWsm"
   },
   {
-    "timestamp": 1643099760000,
     "type": "text",
     "text": "뾱",
-    "id": "2dLDOX0J6lBYomqnJKvvG"
+    "translation": "Peek",
+    "timestamp": 1643087160000,
+    "id": "HVaRwtOmP7IX4x5YwCYz4"
   },
   {
-    "timestamp": 1643099760000,
     "type": "text",
     "text": "먕",
-    "id": "ODfrHKW1DkWTCzT1lB2wb"
+    "translation": "Myang",
+    "timestamp": 1643087160000,
+    "id": "YnmIQj88AudH6koeRZTUj"
   },
   {
-    "timestamp": 1643099820000,
     "type": "text",
     "text": "기습!!! 유니유니빔!!!!!💘",
-    "id": "KHhUAkK1AnJxttmUCm8b7"
+    "translation": "A surprise attack! UNI UNI BEAM!💘",
+    "timestamp": 1643087220000,
+    "id": "fjBatq7ZAntTge2BCqoXb"
   },
   {
-    "timestamp": 1643100120000,
     "type": "text",
     "text": "[y/n]는 영화 엔칸토 봤어요??",
-    "id": "WGdEuzc3wCXR6mxyiDVDm"
+    "translation": "Did you watch the movie Encanto?",
+    "timestamp": 1643087520000,
+    "id": "InpakRqHE8FZvrc8FEDBx"
   },
   {
-    "timestamp": 1643100180000,
     "type": "text",
     "text": "엄~~청 재밌어~ 나 4번 봤어~~",
-    "id": "i1BRNCMzvUpQO5sdOZtB7"
+    "translation": "It's so much fun I saw it four times",
+    "timestamp": 1643087580000,
+    "id": "oBhfH9fYqbnzEzNJOKye9"
   },
   {
-    "timestamp": 1643100180000,
     "type": "text",
     "text": "엔칸토~ 엔칸토~",
-    "id": "Jx2uJXDZBrpGibgmbSQ8F"
+    "translation": "Encanto! Encanto!",
+    "timestamp": 1643087580000,
+    "id": "ybDSggKX0qEqWrPmFq1ht"
   },
   {
-    "timestamp": 1643100240000,
     "type": "text",
     "text": "위돈 톡 어바웃 크루 노노노노~~~~ 노래 다 외웠졍",
-    "id": "7b1G5Fk1mhaWnH9hmz9cO"
+    "translation": "\"With Don't Talk About Crew, No No No~~~~\" I memorized all the songs",
+    "timestamp": 1643087640000,
+    "id": "wBy5Xyu22V12k4wPmNvyC"
   },
   {
-    "timestamp": 1643100540000,
     "type": "text",
     "text": "뾱쀽뺭",
-    "id": "xBnw43BNtfwBfdocdSaeY"
+    "translation": "Ppik ppik ppik",
+    "timestamp": 1643087940000,
+    "id": "BxCcuEgnkVcYsDOMQ0LYI"
   },
   {
-    "timestamp": 1643100600000,
     "type": "text",
     "text": "[y/n]는 점심 먹었어용? 난 먹었줭",
-    "id": "hCt63zCS9nTsl7ED6LpIh"
+    "translation": "Did you have lunch? I ate it",
+    "timestamp": 1643088000000,
+    "id": "Bk9T6ItVwLR2FQUolGTtt"
   },
   {
-    "timestamp": 1643100720000,
     "type": "text",
     "text": "잘했어용~~💓💓",
-    "id": "Q3nNeMlzie7tSeBdilauu"
+    "translation": "Good job~~💓💓",
+    "timestamp": 1643088120000,
+    "id": "7EgPJtiwVp3NEEttGIfdl"
   },
   {
-    "timestamp": 1643100780000,
     "type": "text",
     "text": "아직 안 드신 분들은 이거 드세용 💓💗💖💘💕💓💗💖💘💕",
-    "id": "UgavT9XTuwA1sJdA5WBsr"
+    "translation": "For those who haven't eaten yet, eat this 💓💗💖💘💕💓💗💖💘💕",
+    "timestamp": 1643088180000,
+    "id": "Z0a4c616tB1sZGaT9s9sw"
   },
   {
-    "timestamp": 1643100960000,
     "type": "text",
     "text": "ㅋㅋㅋㅋㅋㅋ💖💖💖💖💖💖",
-    "id": "42SQ5QVgBNJgj3HMq5YgU"
+    "translation": "LOL💖💖💖💖💖💖",
+    "timestamp": 1643088360000,
+    "id": "QagbCRMOxaMACulp185Q0"
   },
   {
-    "timestamp": 1643101080000,
     "type": "text",
     "text": "[y/n] 만 보인단 말이야 \n [y/n] 사랑한단 말이야~~",
-    "id": "eTxt6Wi9bS4AVhXus04j8"
+    "translation": "I can only see you. I love you",
+    "timestamp": 1643088480000,
+    "id": "J8uwrTpTtJD3mbxYVgiY0"
   },
   {
-    "timestamp": 1643101320000,
     "type": "text",
     "text": "이따가 또 연락할게~~💖 이따 봐 💘",
-    "id": "jPJ9YPDKyQMvlny2dQuEv"
+    "translation": "I'll call you later~~💖 See you later 💘",
+    "timestamp": 1643088720000,
+    "id": "OApOnPXQpUHXsJ3KQInNM"
   },
   {
-    "timestamp": 1643197800000,
     "type": "text",
     "text": "[y/n]❤️",
-    "id": "Oolo9PaBcWQUCL9kn8KSe"
+    "translation": "You ❤️",
+    "timestamp": 1643185200000,
+    "id": "ruwfINXDCTocbI9kXjY0Z"
   },
   {
-    "timestamp": 1643198100000,
     "type": "text",
     "text": "잠깐만 프사 바꾸고 올게용",
-    "id": "vbPC9NNqUiSnH7TuKyCXf"
+    "translation": "Hold on. I'm going to change my profile picture",
+    "timestamp": 1643185500000,
+    "id": "prkw3CiW7NhXmhdLfotDz"
   },
   {
-    "timestamp": 1643198280000,
     "type": "text",
     "text": "악 기대는 하지 마용 ㅋㅋㅋ",
-    "id": "sAfrCS23HcOVydyXxKdZE"
+    "translation": "Don't look forward to it",
+    "timestamp": 1643185680000,
+    "id": "GrZR8une2hT9aQ06vg004"
   },
   {
-    "timestamp": 1643198460000,
     "type": "text",
     "text": "고르고 있어용 잠깐만~",
-    "id": "BcxinOjH8qgXjUz6xGmif"
+    "translation": "I'm picking one. Hold on",
+    "timestamp": 1643185860000,
+    "id": "JKQH3avWubfMPTNpoR30X"
   },
   {
-    "timestamp": 1643198700000,
     "type": "text",
     "text": "짠",
-    "id": "OZeA8hJSUxKWVXkdIYWOt"
+    "translation": "Salty",
+    "timestamp": 1643186100000,
+    "id": "FwmJHypsTi76VcaGSHr8A"
   },
   {
-    "timestamp": 1643198940000,
     "type": "text",
     "text": "[y/n] 오늘 저녁 모 먹어용",
-    "id": "J7m6j6Iy59bzck96a0g69"
+    "translation": "What are you eating tonight?",
+    "timestamp": 1643186340000,
+    "id": "Z5XlxXlTJrGJ1dN4wPkgt"
   },
   {
-    "timestamp": 1643199000000,
     "type": "text",
     "text": "나는 왤케 파스타가 먹고 싶징",
-    "id": "g7GgOz4g5tcTKNV0xm9TO"
+    "translation": "Why do I want to eat pasta?",
+    "timestamp": 1643186400000,
+    "id": "bDSYkBuw3yfzY42oJGLUU"
   },
   {
-    "timestamp": 1643199060000,
     "type": "text",
     "text": "나는 무조건! 크림 파스타막 먹어용 [y/n]는??",
-    "id": "2vqMVZmHZOvCIxDBPGGKe"
+    "translation": "I always eat cream pasta. What about you?",
+    "timestamp": 1643186460000,
+    "id": "l4QpdWm3rREMZca87HvF3"
   },
   {
-    "timestamp": 1643199120000,
     "type": "text",
     "text": "헤헤 난 느끼한 게 좋은데~",
-    "id": "5C6LbuprlVarAkF8KqQcw"
+    "translation": "I like greasy food",
+    "timestamp": 1643186520000,
+    "id": "17xhl8ReH5m3OBoH3pLg2"
   },
   {
-    "timestamp": 1643199120000,
     "type": "text",
     "text": "아니 생각해보니까",
-    "id": "31wjXTyV4STYH8l09UbXz"
+    "translation": "Come to think of it,",
+    "timestamp": 1643186520000,
+    "id": "ggdgJHqNzFpF0994Fa0DB"
   },
   {
-    "timestamp": 1643199180000,
     "type": "text",
     "text": "왜 크림 마라탕이 없을까?",
-    "id": "ZBdrWKbrXEFxd58S7Uevq"
+    "translation": "Why is there no cream malatang?",
+    "timestamp": 1643186580000,
+    "id": "wweGyhBqsS3tqkAJd7Tfw"
   },
   {
-    "timestamp": 1643199240000,
     "type": "text",
     "text": "앜ㅋㅋㅋㅋㅋ별로야? 아랐서..",
-    "id": "1wpY2baaeQeBVlJOkiSiC"
+    "translation": "Oh, myLOLYou don't like it? I know.",
+    "timestamp": 1643186640000,
+    "id": "xBDCeA8M00buTVBKYt2lY"
   },
   {
-    "timestamp": 1643199240000,
     "type": "text",
     "text": "만들고 싶은 음식 조합 얘기하자",
-    "id": "OTc6UZE8OwggYFiErUGYX"
+    "translation": "Let's talk about the food combination we want to make",
+    "timestamp": 1643186640000,
+    "id": "xgA46yNdV1CFIL1V3bPZW"
   },
   {
-    "timestamp": 1643199300000,
     "type": "text",
     "text": "[y/n]가 말한 건 다 괜찮은뎅..?❤️",
-    "id": "sF47UehJPNWRBZkX69Ajv"
+    "translation": "Everything you said was fine❤️",
+    "timestamp": 1643186700000,
+    "id": "H4Xv8SsDyM3vzntUZQ15D"
   },
   {
-    "timestamp": 1643199360000,
     "type": "text",
     "text": "나는 땅콩버터 밥 \n땅콩버터 케이크\n근데 땅콩버터를 크림으로 중화하면 안굄. 꾸덕한 땅콩버터여야 함.",
-    "id": "cigLC1SPuL5qxBxJzyjPW"
+    "translation": "I want peanut butter rice\npeanut butter cake\nBut if you neutralize peanut butter with cream, it's not scary. Must be a thick peanut butter.",
+    "timestamp": 1643186760000,
+    "id": "OMW7PxfhrsixajQCkdNwi"
   },
   {
-    "timestamp": 1643199540000,
     "type": "text",
     "text": "사신 [y/n]랑 있으면 뭐든 좋지요!&gt;&lt;",
-    "id": "lOojNNOYA6tBFkh7WxivH"
+    "translation": "Anything is fine with you!&gt;&lt;",
+    "timestamp": 1643186940000,
+    "id": "HLsru85BKngZU2w3WyZPb"
   },
   {
-    "timestamp": 1643199600000,
     "type": "text",
     "text": "[y/n] 면역력 잘 챙기고 있죠..?",
-    "id": "LwATyGv9G8PY053Nz0FPZ"
+    "translation": "Are you taking care of your immunity?",
+    "timestamp": 1643187000000,
+    "id": "wJXx2FPYRRyk4KtAOuMJH"
   },
   {
-    "timestamp": 1643199600000,
     "type": "text",
     "text": "나처럼 아프지 말구..",
-    "id": "HIG3dYZm5veZx1iYNrjWA"
+    "translation": "Don't get sick like me.",
+    "timestamp": 1643187000000,
+    "id": "BqqjOrEwiiyey4FvnLHdE"
   },
   {
-    "timestamp": 1643199660000,
     "type": "text",
     "text": "나 푹 쉬고 잘 먹고 잘 잤더니 다 나았어용",
-    "id": "A3VWGniGqCVbXQmqIpJQc"
+    "translation": "I rested well, ate well, slept well, and I'm all better",
+    "timestamp": 1643187060000,
+    "id": "WTzZAnlBBRadYuRbxBs0R"
   },
   {
-    "timestamp": 1643199720000,
     "type": "text",
     "text": "[y/n] 절대지켜. 아프면 안돼요😠",
-    "id": "M5qfuqiNhZPqWAkTpYqZr"
+    "translation": "I'll protect you. Don't get sick😠",
+    "timestamp": 1643187120000,
+    "id": "viPi6V4L9IY1VywnmFbWY"
   },
   {
-    "timestamp": 1643199780000,
     "type": "text",
     "text": "[y/n] 지유니 함께 평생 건강하기 약속💗",
-    "id": "iE5d4B9ZDwZiULKI412he"
+    "translation": "Promise to be healthy forever with you Jiyoon 💗",
+    "timestamp": 1643187180000,
+    "id": "BYhzQIXA6mKK4TwrvdTta"
   },
   {
-    "timestamp": 1643199840000,
     "type": "text",
     "text": "이따가 또 올게~💗💕💖💓💖💕💗",
-    "id": "rtamEPL2MQS1k2x3c5X50"
+    "translation": "I'll come back later💗💕💖💓💖💕💗",
+    "timestamp": 1643187240000,
+    "id": "O47PSPx2KU1CJ7ALedynv"
   },
   {
-    "timestamp": 1643270220000,
     "type": "text",
     "text": "유니 왔삼",
-    "id": "MmMrOA7lACRyQs7gu5hAE"
+    "translation": "Yuni is here",
+    "timestamp": 1643257620000,
+    "id": "ks9WvhWfj7XLvXld4MiGP"
   },
   {
-    "timestamp": 1643270340000,
     "type": "text",
     "text": "쪽쪽~",
-    "id": "5RouqM6xAUUAZXmVOPMxT"
+    "translation": "(Slurping)",
+    "timestamp": 1643257740000,
+    "id": "2OxhYFmPUgDYW9xl89oBH"
   },
   {
-    "timestamp": 1643270640000,
     "type": "text",
     "text": "나는 오늘 산책할 거예용",
-    "id": "KLqnQPTUywXmFr5xde8LI"
+    "translation": "I'm going to take a walk today",
+    "timestamp": 1643258040000,
+    "id": "hE4jPlJhOExjKxlIwbzL2"
   },
   {
-    "timestamp": 1643270700000,
     "type": "text",
     "text": "그냥 동네 한 바퀴~",
-    "id": "1VbzXVy7gEKZFUctaWnnB"
+    "translation": "Just go around the neighborhood",
+    "timestamp": 1643258100000,
+    "id": "7G0FdziK5zgMIQyhStA3D"
   },
   {
-    "timestamp": 1643270700000,
     "type": "text",
     "text": "[y/n]는 모해용",
-    "id": "hTNU0JoOmN0L4jsWgg7ow"
+    "translation": "What are you doing?",
+    "timestamp": 1643258100000,
+    "id": "nvWoWeMusmbY9HfJyPJ4c"
   },
   {
-    "timestamp": 1643270820000,
     "type": "text",
     "text": "[y/n]는 요새 좋아하는 게 있나용",
-    "id": "HxEDvqUMpNXyTY7NwWMNV"
+    "translation": "Is there anything you like these days?",
+    "timestamp": 1643258220000,
+    "id": "uPlGhWSvdpN3SbnYFTdKn"
   },
   {
-    "timestamp": 1643270820000,
     "type": "text",
     "text": "나는 낮잠에 푹 빠져서 계속 잠만 자요 ㅋㅋㅋ",
-    "id": "7KiewfEm14ax5Cc8dg7zB"
+    "translation": "I'm so into naps that I just keep sleeping lol",
+    "timestamp": 1643258220000,
+    "id": "ZqXG4shu2his7xNzFBbBj"
   },
   {
-    "timestamp": 1643270880000,
     "type": "text",
     "text": "어제는 거의 잠만 잤다니까~",
-    "id": "YRW1R46Nk0oGhVN2XYZJ9"
+    "translation": "I only slept yesterday",
+    "timestamp": 1643258280000,
+    "id": "WOjK8hRpCt9dJTKHHrly5"
   },
   {
-    "timestamp": 1643270880000,
     "type": "text",
     "text": "쿨쿨",
-    "id": "LxrGhqGeLTg8kQLB6ZzAI"
+    "translation": "Cool, cool",
+    "timestamp": 1643258280000,
+    "id": "T4foqosmuspJRmMV38xMR"
   },
   {
-    "timestamp": 1643271300000,
     "type": "text",
     "text": "난 [y/n] 꿈만 꿔야지",
-    "id": "GdnCV13H3Awl6UJNzf4P0"
+    "translation": "I'll only dream about you",
+    "timestamp": 1643258700000,
+    "id": "6k990kk3PtesutHUJqdMC"
   },
   {
-    "timestamp": 1643271300000,
     "type": "text",
     "text": "난 [y/n]의 별명을 생각해 봤어!",
-    "id": "aBeIZINVy4fgOZS5WU29Y"
+    "translation": "I thought of your nickname!",
+    "timestamp": 1643258700000,
+    "id": "PX5GpwxReX525FmNZ1tJ8"
   },
   {
-    "timestamp": 1643271360000,
     "type": "text",
     "text": "[y/n]붕붕 어때요~?",
-    "id": "zng4jg2rQBVN7DlWHjUyQ"
+    "translation": "What do you think?",
+    "timestamp": 1643258760000,
+    "id": "1M3yMcZE02TDGpJPcfnPc"
   },
   {
-    "timestamp": 1643271360000,
     "type": "text",
     "text": "아니면",
-    "id": "MdIwrlGjkpokKBFnPLswE"
+    "translation": "Or",
+    "timestamp": 1643258760000,
+    "id": "nO15JGJOsS7OChWw2aEDV"
   },
   {
-    "timestamp": 1643271420000,
     "type": "text",
     "text": "[y/n]뽀",
-    "id": "GuoHudQ1YlRtmrTO9Frrv"
+    "translation": "Your po",
+    "timestamp": 1643258820000,
+    "id": "XOPkF5tV0YJLJbJV8hmg1"
   },
   {
-    "timestamp": 1643271420000,
     "type": "text",
     "text": "[y/n]뽀가 더 좋아요??",
-    "id": "PiEwHhv9yh02WMarYdsfM"
+    "translation": "Do you like your kiss more?",
+    "timestamp": 1643258820000,
+    "id": "5NrIrB31OmaH5KaSRvBBh"
   },
   {
-    "timestamp": 1643271480000,
     "type": "text",
     "text": "번갈아가면서 불러주지~",
-    "id": "J8mRBMydnfvC6tdrWyIuw"
+    "translation": "I'll take turns singing it",
+    "timestamp": 1643258880000,
+    "id": "xHBvvnfWzjrfMFfvxanCo"
   },
   {
-    "timestamp": 1643271540000,
     "type": "text",
     "text": "나는 밥 먹었는데~ [y/n]뽀는 먹었어요?",
-    "id": "Lq6NujwhiJie1cXhaannC"
+    "translation": "I ate Did you eat Po?",
+    "timestamp": 1643258940000,
+    "id": "G9SUgfA0Ch63YEIEeTcwP"
   },
   {
-    "timestamp": 1643272080000,
     "type": "text",
     "text": "오늘 햇살이 좋군",
-    "id": "SqpnrZWKTJKMkGqhrdQB1"
+    "translation": "The sunlight is nice today",
+    "timestamp": 1643259480000,
+    "id": "SIxcNRxD3Ehk7uiZVQXkh"
   },
   {
-    "timestamp": 1643272140000,
     "type": "text",
     "text": "😘",
-    "id": "q8mtwj7UACtQOLAQLzGOD"
+    "translation": "😘",
+    "timestamp": 1643259540000,
+    "id": "JWP5wOgpRiO109TZBoeyF"
   },
   {
-    "timestamp": 1643272200000,
     "type": "text",
     "text": "최근에 굴뚝새를 봤어용",
-    "id": "7CogSx9VNlBWlhDX4q72x"
+    "translation": "I saw a chimney-bird recently",
+    "timestamp": 1643259600000,
+    "id": "DyVBqb7mFv2Jaq4tVlTiY"
   },
   {
-    "timestamp": 1643272260000,
     "type": "text",
     "text": "너무 작고 빨라서 알아보는 데 오래 걸렸엉 ㅎㅎ",
-    "id": "PGfXzV3OgmJs8ERZxyh3d"
+    "translation": "It took me a long time to recognize it because it was so small and fast",
+    "timestamp": 1643259660000,
+    "id": "Oo044ocx46UVxlkxd0yJs"
   },
   {
-    "timestamp": 1643272320000,
     "type": "text",
     "text": "[y/n]뽀랑 같이 산책하면서 새 구경하고 싶당",
-    "id": "6nzL4z7GqwtQ8G1T8pNZ4"
+    "translation": "I want to take a walk with you and watch birds",
+    "timestamp": 1643259720000,
+    "id": "o5OuVT9TeFqfxPmSuWFAV"
   },
   {
-    "timestamp": 1643272620000,
     "type": "text",
     "text": "오늘 추천해 주고 싶은 노래가 있지..",
-    "id": "tsOXwmo4ZtWXftqDL088m"
+    "translation": "There is a song I want to recommend today.",
+    "timestamp": 1643260020000,
+    "id": "haeAkgYh9skRpwkweRbea"
   },
   {
-    "timestamp": 1643272980000,
     "type": "text",
     "text": "잠시만~ 기다려 봐용❤️😘",
-    "id": "4eBy1nk1kKv5RFrms6IAN"
+    "translation": "Wait a minute~ Wait a minute ❤️😘",
+    "timestamp": 1643260380000,
+    "id": "opL5xUFmUj9M1ygZ4SZs5"
   },
   {
-    "timestamp": 1643273280000,
     "type": "photo",
     "text": "(Photo)",
-    "src": "/jybbl/pics/2.jpg",
-    "id": "SiRNaF5v77gXGbamivKpP"
+    "src": "rubble/jiyoon/images/vtTQkuguHBCuyl6zrApb6",
+    "width": 589,
+    "height": 617,
+    "timestamp": 1643260680000,
+    "id": "vtTQkuguHBCuyl6zrApb6"
   },
   {
-    "timestamp": 1643273280000,
     "type": "text",
     "text": "이 노래 좋아🍓💗",
-    "id": "cvOGiOjkKYmbtLubzESrA"
+    "translation": "I like this song 🍓💗",
+    "timestamp": 1643260680000,
+    "id": "h0VYkqqHLD5NcYML7644D"
   },
   {
-    "timestamp": 1643273340000,
     "type": "text",
     "text": "[y/n]뽀~💗",
-    "id": "YGHY3Ye3adb5L5HKHnuZB"
+    "translation": "You kiss! 💗",
+    "timestamp": 1643260740000,
+    "id": "5Lh8yvFqRrMSSd1iG8FUC"
   },
   {
-    "timestamp": 1643273460000,
     "type": "text",
     "text": "뭔가 버블로 재밌는 것들 많이 하고 싶당",
-    "id": "n5LsMxyhgSNPpH3UJ1YtU"
+    "translation": "I want to do a lot of fun things on Bubble",
+    "timestamp": 1643260860000,
+    "id": "UvX34A8eXhpfkEbfLiYiR"
   },
   {
-    "timestamp": 1643273460000,
     "type": "text",
     "text": "담에 또 뭐 하고 싶은지 보내주세용❤️",
-    "id": "gAV40EFTK5ezlCpxt01i3"
+    "translation": "Please send me what else you want to do next ❤️",
+    "timestamp": 1643260860000,
+    "id": "jvoNxzxAeDLP08rEFQ8W5"
   },
   {
-    "timestamp": 1643274120000,
     "type": "text",
     "text": "다음에 재밌는 거 들고 올게요 ㅎㅎㅎㅎ",
-    "id": "vzk5OKjw6dTOSLSOd1xgy"
+    "translation": "I'll bring something fun next time (Laughing)",
+    "timestamp": 1643261520000,
+    "id": "eO43xgnvruIG2xXA7X8qi"
   },
   {
-    "timestamp": 1643464800000,
     "type": "text",
     "text": "[y/n]~ 건강 잘 챙기고 있죠? 걱정하지 말구~ 보고 싶어요❤️",
-    "id": "vMuQliyVVPS8Zv0SiyhlG"
+    "translation": "Are you taking care of your health? Don't worry I miss you ❤️",
+    "timestamp": 1643452200000,
+    "id": "COTI5jRoqp6uwxNqhFF6C"
   },
   {
-    "timestamp": 1643464860000,
     "type": "text",
     "text": "다들 조심해용 ㅠㅠ",
-    "id": "754jWnBEbkYGqYrEwtW3A"
+    "translation": "Everyone, be careful",
+    "timestamp": 1643452260000,
+    "id": "PquTH7FHIPrgikNGiNEdu"
   },
   {
-    "timestamp": 1643464920000,
     "type": "text",
     "text": "행복만 하쟈💗💗건강하자❤️❤️❤️",
-    "id": "t97L6Ok0vhMr1sS1S1sjZ"
+    "translation": "Let's be happy 💗💗 Let's be healthy ❤️❤️❤️",
+    "timestamp": 1643452320000,
+    "id": "b9Kjwx38CnFnd52RJHu5d"
   },
   {
-    "timestamp": 1643465100000,
     "type": "text",
     "text": "[y/n]는 저녁 먹었나아~?",
-    "id": "E2aZl7RuuNWIYpStpYrbf"
+    "translation": "Did you have dinner?",
+    "timestamp": 1643452500000,
+    "id": "B7ytMOmUHa4HSaYdnejB5"
   },
   {
-    "timestamp": 1643465220000,
     "type": "text",
     "text": "나는 먹는 중~",
-    "id": "daP2c57J7gmjnNE0CDHoh"
+    "translation": "I'm eating",
+    "timestamp": 1643452620000,
+    "id": "bkXYuoDjbnUKxmIOTYJxC"
   },
   {
-    "timestamp": 1643465280000,
     "type": "text",
     "text": "[y/n] 사랑과 관심 먹고 무럭무럭 크는 중~ 💘",
-    "id": "0XkgL4KnFSTLSD7khTDMI"
+    "translation": "I'm growing up after eating your love and interest. 💘",
+    "timestamp": 1643452680000,
+    "id": "GHeaN3mx5U2Vo3Zx9JhU5"
   },
   {
-    "timestamp": 1643465280000,
     "type": "text",
     "text": "앗..ㅎㅎ 너무 진부했나?",
-    "id": "3ivV5O0LfcurCQuVXt79D"
+    "translation": "Was it too cliche?",
+    "timestamp": 1643452680000,
+    "id": "zu7cubhtuWQa2Wz2VNGqP"
   },
   {
-    "timestamp": 1643465340000,
     "type": "text",
     "text": "유니 완두콩 잭과 콩나무처럼 크겠어요.",
-    "id": "18PavgZyyxRbBBEKnhuhO"
+    "translation": "It'll be as big as the Uni pea jack and the beanstalk.",
+    "timestamp": 1643452740000,
+    "id": "KNytrg88kj9PuEwkGfFXX"
   },
   {
-    "timestamp": 1643465880000,
     "type": "text",
     "text": "다음에 [y/n]랑 놀러 가야지",
-    "id": "mSgLqsEKmyeBOaZsWE0Sf"
+    "translation": "I'll go out with you next time",
+    "timestamp": 1643453280000,
+    "id": "xyl545NfBTUMR94syJdTK"
   },
   {
-    "timestamp": 1643465880000,
     "type": "text",
     "text": "저~ 먼 곳으로..",
-    "id": "VczlneRibB4oNyc0I2P9m"
+    "translation": "Over there, far away...",
+    "timestamp": 1643453280000,
+    "id": "3npITdAmiZUluDueZeras"
   },
   {
-    "timestamp": 1643465940000,
     "type": "text",
     "text": "앗 스포 아님..^^",
-    "id": "5fHvloRFsaPU1b8t0MYYG"
+    "translation": "Ah, it's not a spoiler...^^",
+    "timestamp": 1643453340000,
+    "id": "tDu6MZ5VL5jSzp945AUwY"
   },
   {
-    "timestamp": 1643466000000,
     "type": "text",
     "text": "아 진짜 스포 아닌데 스포 아니라고 하니까 더수상하네? 진짜 스포 아닌뎅..ㅠㅠㅋㅋㅋㅋㅋㅋ",
-    "id": "uS8TfJ4TLaD0qZw4mjvzg"
+    "translation": "It's really not a spoiler. It's more suspicious to say it's not a spoiler It's really not a spoiler.cryingLOL",
+    "timestamp": 1643453400000,
+    "id": "6Ygo1G4GeX48X5fOrXbnu"
   },
   {
-    "timestamp": 1643466060000,
     "type": "text",
     "text": "다른 얘기 하자 ㅎㅎㅎㅎ",
-    "id": "t5n4C7j1WJDU2XGo6L53L"
+    "translation": "Let's talk about something else",
+    "timestamp": 1643453460000,
+    "id": "wHab9EHU1DMoi4pssfOea"
   },
   {
-    "timestamp": 1643466180000,
     "type": "text",
     "text": "지민이 무대 봤죠 다들 ㅎㅎ?!",
-    "id": "MbXr64rGwJXIr8T2SSdEX"
+    "translation": "You all saw Jimin's performance, right?",
+    "timestamp": 1643453580000,
+    "id": "kOh6IaWPAj0v32ffthUQq"
   },
   {
-    "timestamp": 1643466180000,
     "type": "text",
     "text": "항상 엄청 고민하면서 열심히 준비한답니다 우리 데이데이먼..💕",
-    "id": "PAfDJGIUgl4ooFN5PCOop"
+    "translation": "I always think hard about it and prepare hard Our Day Damon...💕",
+    "timestamp": 1643453580000,
+    "id": "PGnL8YpUhBmzk11s5i4Dk"
   },
   {
-    "timestamp": 1643466300000,
     "type": "text",
     "text": "[y/n] 진짜 보고 싶다..❤️",
-    "id": "u5WZehUWiHyuCFCMgCzI2"
+    "translation": "I really miss you.❤️",
+    "timestamp": 1643453700000,
+    "id": "pnRsjWOSV2mHvJvUhfMxe"
   },
   {
-    "timestamp": 1643466720000,
     "type": "text",
     "text": "바다도 보고 싶다~~",
-    "id": "2IbbDeuNfK5J8yihSfw5y"
+    "translation": "I want to see the ocean, too~~",
+    "timestamp": 1643454120000,
+    "id": "8ZPcHT7LOHcnLuPCyiLzV"
   },
   {
-    "timestamp": 1643466840000,
     "type": "text",
     "text": "[y/n]에게 들려주고 싶은 노래가 많은데 헤헤",
-    "id": "OyLgwUzKueaCujOencUeY"
+    "translation": "There are a lot of songs I want to play for you",
+    "timestamp": 1643454240000,
+    "id": "6YBpy0r2YAT8qrRiJgakp"
   },
   {
-    "timestamp": 1643466900000,
     "type": "text",
     "text": "이렇게 얘기하는 것도 좋지만 [y/n] 얼굴 보고 얘기하고 싶당",
-    "id": "9K3QvRl9cjWq0QEs53S5g"
+    "translation": "It's nice to talk to you like this, but I want to talk to you in person",
+    "timestamp": 1643454300000,
+    "id": "jZ8yQYOHmVHWwEbbIV6QP"
   },
   {
-    "timestamp": 1643467020000,
     "type": "text",
     "text": "내 하트를 받아랏❤️",
-    "id": "GbYRvqRXpXrxxMZQvsZWJ"
+    "translation": "Take my heart ❤️",
+    "timestamp": 1643454420000,
+    "id": "7aj7xlOl7FAVGAS87KLHe"
   },
   {
-    "timestamp": 1643467020000,
     "type": "text",
     "text": "유니유니 빔 받아랏",
-    "id": "l34oXoiGW2Bi4I3cNUuDU"
+    "translation": "UNI UNI, get the beam",
+    "timestamp": 1643454420000,
+    "id": "hFfuuLXtuAb4hHxY9Eb37"
   },
   {
-    "timestamp": 1643467080000,
     "type": "text",
     "text": "내일 또 오께요 [y/n] 기다료💖💗😘💘",
-    "id": "bcAeNNMsVPgoQF7HieZp5"
+    "translation": "I'll be back tomorrow Wait for you 💖💗😘💘",
+    "timestamp": 1643454480000,
+    "id": "YsHWYGtmg5GFsxse6q6mi"
   },
   {
-    "timestamp": 1643467140000,
     "type": "text",
     "text": "좋은 저녁 되세요 [y/n]뽀❤️😘",
-    "id": "w65zKTMdu6auvxWF425om"
+    "translation": "Good evening. Your kiss ❤️😘",
+    "timestamp": 1643454540000,
+    "id": "fOd6oCd2nyoYSFDBYSfW6"
   },
   {
-    "timestamp": 1643467140000,
     "type": "text",
     "text": "(아침인 데일리를 위해 다시 한 번)",
-    "id": "ZuwCvABeVCuozi7YL3lF7"
+    "translation": "(One more time for the morning Daly)",
+    "timestamp": 1643454540000,
+    "id": "cEv7RU2zlDPSkcN3qkxkd"
   },
   {
-    "timestamp": 1643467140000,
     "type": "text",
     "text": "좋은 하루 되세요 [y/n]💕💓💖",
-    "id": "9QJvVLrwdO2CTTTyjvNGf"
+    "translation": "Have a nice day You 💕💓💖",
+    "timestamp": 1643454540000,
+    "id": "r5j4X0kNqopbVf5DvlRpT"
   },
   {
-    "timestamp": 1643556360000,
     "type": "text",
     "text": "똑똑똑 . [y/n] 있나요",
-    "id": "QhiG76vA3QdO1uTFMq3P9"
+    "translation": "Knock knock knock. Are you there?",
+    "timestamp": 1643543760000,
+    "id": "QTSc9yU4QRjxI9Ff4xsSK"
   },
   {
-    "timestamp": 1643556420000,
     "type": "text",
     "text": "쪽",
-    "id": "Xl8itOuX1kYvtPfF6P2s6"
+    "translation": "Side",
+    "timestamp": 1643543820000,
+    "id": "mh6kAW9kDL5peSzQ8BGXE"
   },
   {
-    "timestamp": 1643556600000,
     "type": "text",
     "text": "[y/n]뽀랑 놀러 왔는데요 오늘 집에 [y/n]뽀 있나요",
-    "id": "4yVAnqIlVWMWQdk2BqRdB"
+    "translation": "I'm here to play with your po. Do you have your po at home today?",
+    "timestamp": 1643544000000,
+    "id": "sE4iJE3cEVnie7g4jN9OH"
   },
   {
-    "timestamp": 1643556600000,
     "type": "text",
     "text": "엥 없어용?",
-    "id": "Mnl6i80rQZ51jYIgQJt2x"
+    "translation": "You don't have it?",
+    "timestamp": 1643544000000,
+    "id": "JDnJPbkahX1ucpo9uHs5B"
   },
   {
-    "timestamp": 1643556660000,
     "type": "text",
     "text": "있어용?",
-    "id": "YJiUlnK1k26bghXPyZzGt"
+    "translation": "Do you have it's",
+    "timestamp": 1643544060000,
+    "id": "5qp4dgaSw518c7c0ZTzaU"
   },
   {
-    "timestamp": 1643556660000,
     "type": "text",
     "text": "우리 엇갈리면 앙대",
-    "id": "qteBnPh8mIzTWXQjX8d6h"
+    "translation": "They say we can't do it if we don't get it right",
+    "timestamp": 1643544060000,
+    "id": "eNKvdM2PZX67MYzr5OgZR"
   },
   {
-    "timestamp": 1643556720000,
     "type": "text",
     "text": "다시 물어보겠습니다~~ 똑똑똑",
-    "id": "mVjB9W2VFMgKztBt3oLEj"
+    "translation": "I'll ask you again~~ Knock knock",
+    "timestamp": 1643544120000,
+    "id": "GzUtZ8p5HrLsNkblxZq3F"
   },
   {
-    "timestamp": 1643556720000,
     "type": "text",
     "text": "[y/n]붕붕 있나용",
-    "id": "AUPE0TcvxrVhtErW1zoMg"
+    "translation": "Do you have a boom?",
+    "timestamp": 1643544120000,
+    "id": "79OinIBMzZa3iWSMFVdmx"
   },
   {
-    "timestamp": 1643556720000,
     "type": "text",
     "text": "있는 것 같군요.",
-    "id": "4EF9XPPnyZpzh774pROH3"
+    "translation": "I think there is.",
+    "timestamp": 1643544120000,
+    "id": "Yjh9mW6gmFfS6ZDOBHG6S"
   },
   {
-    "timestamp": 1643556720000,
     "type": "text",
     "text": "내가 [y/n] 주려고 갖고 온 게 있엉.",
-    "id": "lcp31swf1JWs30571JYst"
+    "translation": "I brought something for you.",
+    "timestamp": 1643544120000,
+    "id": "ntEPbw772Xh4Bcw710smA"
   },
   {
-    "timestamp": 1643556720000,
     "type": "text",
     "text": "🍀",
-    "id": "UxWLppaNlYGE21X88jj8j"
+    "translation": "🍀",
+    "timestamp": 1643544120000,
+    "id": "8OEXooErJsNWkqXrXJ22m"
   },
   {
-    "timestamp": 1643556780000,
     "type": "text",
     "text": "네 잎 클로버 찾아왔어..저기 뒷동산에서",
-    "id": "BOAJrMtr9E7JlTnLZyXRp"
+    "translation": "I'm looking for a four-leaf clover.In the hill behind us",
+    "timestamp": 1643544180000,
+    "id": "q4dh7T3UiNpgv5neqWEVz"
   },
   {
-    "timestamp": 1643556900000,
     "type": "text",
     "text": "오늘은 옛날 노래를 들으며 과거로 돌아가볼까 봐요",
-    "id": "bbAvWLdJQ7lUmhkoCvXav"
+    "translation": "Let's go back to the past while listening to old songs",
+    "timestamp": 1643544300000,
+    "id": "26o4wIMTEbYn0ExhimKgE"
   },
   {
-    "timestamp": 1643556900000,
     "type": "photo",
     "text": "(Photo)",
-    "src": "/jybbl/pics/3.jpg",
-    "id": "B1yul4z2Nsr0n4q2ES2XY"
+    "src": "rubble/jiyoon/images/BW19xa0yQOBZyq0uTs8I3",
+    "timestamp": 1643544300000,
+    "width": 960,
+    "height": 1627,
+    "id": "BW19xa0yQOBZyq0uTs8I3"
   },
   {
-    "timestamp": 1643556960000,
     "type": "text",
     "text": "내가 좋아하는 노래~",
-    "id": "hRkVYBVOf4CeAzQBoQRqv"
+    "translation": "A song that I like",
+    "timestamp": 1643544360000,
+    "id": "GQ87fxh50wOOfWSsuAa3h"
   },
   {
-    "timestamp": 1643556960000,
     "type": "text",
     "text": "💕💕",
-    "id": "mGKGMANAdMRydTILxmCD2"
+    "translation": "💕💕",
+    "timestamp": 1643544360000,
+    "id": "y67jlLoA7ayC6XfLU9jxB"
   },
   {
-    "timestamp": 1643557020000,
     "type": "text",
     "text": "기분이 좋아지는 노래죠",
-    "id": "h81CjtFOhO5B5ZTkirqmZ"
+    "translation": "It's a song that makes you feel good",
+    "timestamp": 1643544420000,
+    "id": "oE67qdUkzc91a0AjSmPb4"
   },
   {
-    "timestamp": 1643557080000,
     "type": "photo",
     "text": "(Photo)",
-    "src": "/jybbl/pics/4.jpg",
-    "id": "toZUaYA5hiFbQTGj5ZzkP"
+    "src": "rubble/jiyoon/images/puxhVI6KLghIPI6auG6UP",
+    "width": 960,
+    "height": 1561,
+    "timestamp": 1643544480000,
+    "id": "puxhVI6KLghIPI6auG6UP"
   },
   {
-    "timestamp": 1643557080000,
     "type": "text",
     "text": "두 번째 추억의 노래..💗",
-    "id": "iWsfTPxP8576TTFaglmRa"
+    "translation": "The second song of my memory...💗",
+    "timestamp": 1643544480000,
+    "id": "1NgNY1GDBlmCFEEz1etMx"
   },
   {
-    "timestamp": 1643557200000,
     "type": "text",
     "text": "라바바바바밥바~",
-    "id": "XBlFcDQLdjxvSuxwhFcSw"
+    "translation": "Lava, ba, ba, ba, ba",
+    "timestamp": 1643544600000,
+    "id": "JVXsZ4jOAY5ArKi2bPMTJ"
   },
   {
-    "timestamp": 1643557380000,
     "type": "text",
     "text": "신난다 신나",
-    "id": "d6p3DWHSYb7BOFVDTWDIQ"
+    "translation": "It's exciting",
+    "timestamp": 1643544780000,
+    "id": "tJkuBc7xnU13DgtiGhMCX"
   },
   {
-    "timestamp": 1643557440000,
     "type": "text",
     "text": "나 라 밤바 영화 보고 진짜 펑펑 울었어요🥺",
-    "id": "sxDPzrYUWMl2fPXqPF5v1"
+    "translation": "I cried a lot after watching the movie \"La Bamba\"🥺",
+    "timestamp": 1643544840000,
+    "id": "osU09ODyoFRZNuEcInhkz"
   },
   {
-    "timestamp": 1643557500000,
     "type": "text",
     "text": "La Bamba",
-    "id": "FI79aBjnn765Ec2c7FKsS"
+    "translation": "La Bamba",
+    "timestamp": 1643544900000,
+    "id": "lqKbsfk3uGDZw1lFSyBzr"
   },
   {
-    "timestamp": 1643557560000,
     "type": "text",
     "text": "아니 이 영화는 슬프다고 말하는 것 자체가 스포일러닼ㅋㅋㅋㅋ",
-    "id": "9rBLwV2y4LO1jvhisweUu"
+    "translation": "No, saying that this movie is sad itself is a spoiler",
+    "timestamp": 1643544960000,
+    "id": "wDisJmlw9yf2MrbiNvmF0"
   },
   {
-    "timestamp": 1643557680000,
     "type": "text",
     "text": "진짜 엉엉 울어떠..🥺",
-    "id": "NcatY80WsfGDpCC42Dyeg"
+    "translation": "I'm really crying.🥺",
+    "timestamp": 1643545080000,
+    "id": "GgdjWlfsDlN3updHerg3x"
   },
   {
-    "timestamp": 1643557800000,
     "type": "text",
     "text": "또 엔칸토에 What else Can I Do?",
-    "id": "pQGDDoKoP7Czd6K8uVM7c"
+    "translation": "And what else can I do to Encanto?",
+    "timestamp": 1643545200000,
+    "id": "GHAdGhEvgbs1dGucauh3W"
   },
   {
-    "timestamp": 1643557800000,
     "type": "text",
     "text": "노래 너무 조아용",
-    "id": "i79rz9tpGo865BQB64yD9"
+    "translation": "The song is so good",
+    "timestamp": 1643545200000,
+    "id": "QOGJDmfVupcr21NSwmQbb"
   },
   {
-    "timestamp": 1643557800000,
     "type": "text",
     "text": "나 엔칸토 진짜 좋아해요 ㅋㅋㅋ 맨날 노래 부르고",
-    "id": "tnywYQuGhPmhWtDLMKYYm"
+    "translation": "I really like Encanto. I always sing",
+    "timestamp": 1643545200000,
+    "id": "18eQi4VsSjb9HVwtxZrbc"
   },
   {
-    "timestamp": 1643557860000,
     "type": "text",
     "text": "위돈 톡어바웃 브루 노 논 논 노~ 위 돈 톡 어바웃 브루노~~~ 벗!",
-    "id": "9Ie4CfdBkmuGfNlBzZ3Lz"
+    "translation": "We Don't Talk About Bruno Non No! We Don't Talk About Bruno!",
+    "timestamp": 1643545260000,
+    "id": "E9A8ZF87mqAk6vtqZhADi"
   },
   {
-    "timestamp": 1643558040000,
     "type": "text",
     "text": "나 춤도 거의 다 외웠어요 케케케",
-    "id": "ZcOhXetz47WkeK8LXEiYu"
+    "translation": "I memorized almost all the dances, too like this",
+    "timestamp": 1643545440000,
+    "id": "l1HJqgzBcW8SlSOTa4yyV"
   },
   {
-    "timestamp": 1643558040000,
     "type": "text",
     "text": "[y/n]랑 같이 볼 걸 ㅎㅎ 혼자 봤넹",
-    "id": "RBDkQm7fQsS5RXoqHheU4"
+    "translation": "I should have watched it with you. I watched it alone",
+    "timestamp": 1643545440000,
+    "id": "gkxZuUTx4CynBfSOck7K2"
   },
   {
-    "timestamp": 1643558100000,
     "type": "text",
     "text": "쪽",
-    "id": "32Itbo0tRWptZovXVCaYS"
+    "translation": "Side",
+    "timestamp": 1643545500000,
+    "id": "xp6978WQ1w9y2iXJn0ISY"
   },
   {
-    "timestamp": 1643558160000,
     "type": "text",
     "text": "방심했지? 유후",
-    "id": "z1k8KgszulqilMZASXofi"
+    "translation": "You were careless, right? Yoohoo",
+    "timestamp": 1643545560000,
+    "id": "BoE6QiuA4QfNLMqNVhsXw"
   },
   {
-    "timestamp": 1643558220000,
     "type": "text",
     "text": "유니 자야 되는뎅..",
-    "id": "E7GNoEv1DtXLHGv0tp8p6"
+    "translation": "Uni needs to sleep.",
+    "timestamp": 1643545620000,
+    "id": "PUnFNT9rbi2pu3RJwIHpQ"
   },
   {
-    "timestamp": 1643558280000,
     "type": "text",
     "text": "가야 하는데 가기 싫어면 어떡하죵?",
-    "id": "sbLV54yQhK5ayv4wagOKT"
+    "translation": "What if I have to go but I don't want to go?",
+    "timestamp": 1643545680000,
+    "id": "nzjEHwOmUw9c1JwwQl1cq"
   },
   {
-    "timestamp": 1643558280000,
     "type": "text",
     "text": "흑흑흑 ㅠㅠ 🥺💧 내일 또 올게요 💧",
-    "id": "QBjw9dfU8UujR1C9uNF5u"
+    "translation": "(Crying) 🥺💧 I'll come back tomorrow 💧",
+    "timestamp": 1643545680000,
+    "id": "dv05Fou5f55OqvQZzwhlW"
   },
   {
-    "timestamp": 1643558340000,
     "type": "text",
     "text": "잘 자요 사랑하는 [y/n]❤️",
-    "id": "yku56PwoAqmRJonx8dAJl"
+    "translation": "Good night my dear ❤️",
+    "timestamp": 1643545740000,
+    "id": "yKgxIIZjFLA7IBG0LeSvc"
   },
   {
-    "timestamp": 1643719020000,
     "type": "text",
     "text": "[y/n] 나 왔뚀",
-    "id": "kwrb0WtzB2wWvaPJxqP2D"
+    "translation": "You're here",
+    "timestamp": 1643706420000,
+    "id": "UxI2xvt1o3WaMuNDNesej"
   },
   {
-    "timestamp": 1643719260000,
     "type": "text",
     "text": "오늘 뭐 했어용?",
-    "id": "7OzRV2l4UExqXy0GFsU4t"
+    "translation": "What did you do today?",
+    "timestamp": 1643706660000,
+    "id": "io6kOs6e8PubcIkgcqKTX"
   },
   {
-    "timestamp": 1643719680000,
     "type": "text",
     "text": "나도 떡국 먹었어용❤️",
-    "id": "IEZ0Nd50xjRwtCoboMCDu"
+    "translation": "I ate rice cake soup too ❤️",
+    "timestamp": 1643707080000,
+    "id": "Gne6r5RL8xdvXoHsajvgi"
   },
   {
-    "timestamp": 1643719860000,
     "type": "text",
     "text": "쪽쪽",
-    "id": "In3nd5xhZc9rW5IaiJYO4"
+    "translation": "Just a little bit by bit",
+    "timestamp": 1643707260000,
+    "id": "bkyNaeAvcsznDwIWUaB5F"
   },
   {
-    "timestamp": 1643720220000,
     "type": "text",
     "text": "저는 오늘 눈사람 만들고~ 새도 봤어용",
-    "id": "g0SJYLfi8aJRrbjoFCG6K"
+    "translation": "I made a snowman and saw a bird",
+    "timestamp": 1643707620000,
+    "id": "CbYOIeG7Y0eqMtQWTCr23"
   },
   {
-    "timestamp": 1643720220000,
     "type": "text",
     "text": "노랑턱멧새 봤어용ㅎㅎ",
-    "id": "SIz1STMwnHUKQGU1IdA2n"
+    "translation": "I saw the yellow-chinned wild bird lol",
+    "timestamp": 1643707620000,
+    "id": "hZEHJA6mi6eKs68xXLj5P"
   },
   {
-    "timestamp": 1643721060000,
     "type": "text",
     "text": "앗 나 내일 다시 올게용 ㅠㅠ 쪼꼼만 기아려줘용",
-    "id": "p7BsDYOthm6CUZRtiQVtt"
+    "translation": "Oh, I'll come back tomorrow. Please wait a little bit",
+    "timestamp": 1643708460000,
+    "id": "G74P3IKZTz7Xt0sMsHzKd"
   },
   {
-    "timestamp": 1643791080000,
     "type": "text",
     "text": "[y/n]~~💕💕",
-    "id": "3tUZiJxQ4RUSVxSKao4Ga"
+    "translation": "You~~💕💕",
+    "timestamp": 1643778480000,
+    "id": "RQQ9Qf81cqi3kFaXkcNuJ"
   },
   {
-    "timestamp": 1643791140000,
     "type": "text",
     "text": "어제 갑자기 가버려서 놀랐죠 ㅠㅠ 갑지가 일이 생겨서..",
-    "id": "ELL7rHtMfIB6xUyvXTun1"
+    "translation": "I was surprised that he left suddenly yesterday Something came up all of course.",
+    "timestamp": 1643778540000,
+    "id": "K7XrVAvNYFyxTg5q8Yje1"
   },
   {
-    "timestamp": 1643791200000,
     "type": "text",
     "text": "아항 우리 오늘 10일이네~?",
-    "id": "LxdEipvuWmHnJS26XeKpg"
+    "translation": "Today is the 10th",
+    "timestamp": 1643778600000,
+    "id": "jnG6ojGbStEoHoPipJmzO"
   },
   {
-    "timestamp": 1643791380000,
     "type": "text",
     "text": "10일 기념 쪽",
-    "id": "V1vsB5nCuirEz0WwKyvfy"
+    "translation": "the 10th anniversary page",
+    "timestamp": 1643778780000,
+    "id": "OWcXVeBJ925dVWpCBR1ny"
   },
   {
-    "timestamp": 1643793720000,
     "type": "text",
     "text": "헤헤",
-    "id": "jyM3l3V5xp36CpHq1lTHH"
+    "translation": "hehe",
+    "timestamp": 1643781120000,
+    "id": "l3bA7PoYvLTeZhzmtSMjH"
   },
   {
-    "timestamp": 1643793720000,
     "type": "text",
     "text": "보고싶다 너무너무",
-    "id": "EdTGQXQ8fy0SuuEVBWD0s"
+    "translation": "I miss you so much",
+    "timestamp": 1643781120000,
+    "id": "oBRZWs52DJ7VGVXyMqeJi"
   },
   {
-    "timestamp": 1643793780000,
     "type": "text",
     "text": "나의 딸기크림아기동박새미니봉어빵뽀뽀완두콩[y/n]",
-    "id": "TXHImzqHVJzQ2YXxzL9RD"
+    "translation": "My strawberry cream baby strawberry shrimp mini bag bread kiss pea you",
+    "timestamp": 1643781180000,
+    "id": "A9E6utHVpatx7HYqqSVNL"
   },
   {
-    "timestamp": 1643793900000,
     "type": "text",
     "text": "그만큼 좋아한다는 뜻이야",
-    "id": "6eIVf7dXCqZfUMWGfqSzT"
+    "translation": "That's how much I like you",
+    "timestamp": 1643781300000,
+    "id": "8hL4jJyrZPrUNsVaI2uDg"
   },
   {
-    "timestamp": 1643793960000,
     "type": "text",
     "text": "대결 해야지",
-    "id": "aR2J3knyOHHhHk6zjyXxB"
+    "translation": "We need to compete",
+    "timestamp": 1643781360000,
+    "id": "6WpqLolwr9YTGfjbQsY1U"
   },
   {
-    "timestamp": 1643793960000,
     "type": "text",
     "text": "누가누가 더 좋아하나",
-    "id": "7ycDM0Ys7Gf7BQmMFYveD"
+    "translation": "Who likes who more?",
+    "timestamp": 1643781360000,
+    "id": "lno4x4kBtbuzJJw1nlWXr"
   },
   {
-    "timestamp": 1643793960000,
     "type": "text",
     "text": "나의 땅콩버터 [y/n]",
-    "id": "NqlM5dzxZk9lqkymhZ3d7"
+    "translation": "My peanut butter",
+    "timestamp": 1643781360000,
+    "id": "50i6NHEzdotjlo78lG5V2"
   },
   {
-    "timestamp": 1643794020000,
     "type": "text",
     "text": "나의 마라탕아기강아지바닐라슈단호박크림스프 [y/n]",
-    "id": "tmZ4qrr5XetCoba38oeBr"
+    "translation": "My Malatang baby puppy Vanilla Shu Dan Pumpkin Cream Soup",
+    "timestamp": 1643781420000,
+    "id": "DoKjHBmzshiRbWn1xNsV2"
   },
   {
-    "timestamp": 1643794140000,
     "type": "text",
     "text": "미니붕어빵 먹어뽰어요?",
-    "id": "O6NElilJJ0Kr62NQf4zeW"
+    "translation": "Did you eat the mini bungeoppang?",
+    "timestamp": 1643781540000,
+    "id": "VrXfJ4cnqvYZV9Lscob4T"
   },
   {
-    "timestamp": 1643794200000,
     "type": "text",
     "text": "슈크림 미니붕어빵 진짜 맛있어~..💕💗",
-    "id": "n47vqx9NDBZtEazXpFWae"
+    "translation": "The custard cream mini fish bun is really good.💕💗",
+    "timestamp": 1643781600000,
+    "id": "vwmDaRiYEneCp3FrqZN8m"
   },
   {
-    "timestamp": 1643794320000,
     "type": "text",
     "text": "쪽",
-    "id": "RqkVje1KjpAswYGHQ3sTs"
+    "translation": "Side",
+    "timestamp": 1643781720000,
+    "id": "TeLgyjkbTzwJZeRwn8bJ3"
   },
   {
-    "timestamp": 1643794320000,
     "type": "text",
     "text": "방심",
-    "id": "3ZCmihFzrGbaU4mL9XaWO"
+    "translation": "let one'",
+    "timestamp": 1643781720000,
+    "id": "XsLa2mQCwYRbJ1ulWZb0A"
   },
   {
-    "timestamp": 1643794500000,
     "type": "text",
     "text": "삐약삐약",
-    "id": "1IlelS0KK9haQZCsRJp4G"
+    "translation": "Peep peep",
+    "timestamp": 1643781900000,
+    "id": "kOYlS49xgIMbpK2xrX1pE"
   },
   {
-    "timestamp": 1643794560000,
     "type": "text",
     "text": "헐 daileeecolors 하고 싶다",
-    "id": "zJytxltQsiYjBfLAQDH9W"
+    "translation": "I want to do dailee ecolors",
+    "timestamp": 1643781960000,
+    "id": "klMZbMe7tiWGAmgwG8Lbf"
   },
   {
-    "timestamp": 1643794680000,
     "type": "text",
     "text": "내가 그림 그리고 데일리가 색칠하는 거예요❤️",
-    "id": "2moNOVS6Gq4iXC4AZdLNm"
+    "translation": "I'm drawing and Daly is coloring❤️",
+    "timestamp": 1643782080000,
+    "id": "vvzvG4UoPx7r3afjzdwUi"
   },
   {
-    "timestamp": 1643796420000,
     "type": "text",
     "text": "쪽~❤️ 난 이제 점심 먹으러 갈게요💕💗",
-    "id": "aj7YXvt4AsUq5KOe0ibxE"
+    "translation": "❤️ I'm going to go eat lunch now💕💗",
+    "timestamp": 1643783820000,
+    "id": "0fiBYDWvsDbXh2w4d1mOu"
   },
   {
-    "timestamp": 1643885700000,
     "type": "text",
     "text": "[y/n]❤️",
-    "id": "qt3sh7vFYnuzzCAV1xRm9"
+    "translation": "You ❤️",
+    "timestamp": 1643873100000,
+    "id": "oKWyKa3SQwuE6lGJCSZzO"
   },
   {
-    "timestamp": 1643885880000,
     "type": "text",
     "text": "용용용 므마바 보부바부버우구부 쥬굽빵 뿅뿅",
-    "id": "GdQwpH4K76Tdiy630HJOL"
+    "translation": "Yong Yong Yong MMABA BOBBOBOOBOOBOOBOOBOOBOOBOOBOOBOOBOOBOOBOOBANG",
+    "timestamp": 1643873280000,
+    "id": "pVqNUQSjc22wTIvBW9QBK"
   },
   {
-    "timestamp": 1643886000000,
     "type": "text",
     "text": "보고싶어",
-    "id": "6t1WhgHa0mbEU6gIbgfFW"
+    "translation": "I miss you.",
+    "timestamp": 1643873400000,
+    "id": "pW3c9amLDpetmlmwUue71"
   },
   {
-    "timestamp": 1643886060000,
     "type": "text",
     "text": "뭐하고 있었어요~?",
-    "id": "OLxA0LK7FOO1b7nEZv6d5"
+    "translation": "What were you doing?",
+    "timestamp": 1643873460000,
+    "id": "ahqnwGNgSG9hZMmPvBDlN"
   },
   {
-    "timestamp": 1643886120000,
     "type": "text",
     "text": "힘내라 힘❤️❤️",
-    "id": "ngvCw41goFaV5L5MkXrmG"
+    "translation": "Cheer up, strength ❤️❤️",
+    "timestamp": 1643873520000,
+    "id": "nIL6xrPR9ZJEn2CavS8Pk"
   },
   {
-    "timestamp": 1643886180000,
     "type": "text",
     "text": "근데 난 누워있지롱",
-    "id": "jrLoUHEy5dR4v1u11yQ3T"
+    "translation": "But I'm lying down",
+    "timestamp": 1643873580000,
+    "id": "yBlHRYI53NfFzbPK0AfIm"
   },
   {
-    "timestamp": 1643886180000,
     "type": "text",
     "text": "앗 물론 [y/n] 생각도 하고 있지요",
-    "id": "EwH9sZXyPKaq4DfLiAIfM"
+    "translation": "Oh, of course I'm thinking about you",
+    "timestamp": 1643873580000,
+    "id": "Q4IJXhDLazSXd4OzHxqGL"
   },
   {
-    "timestamp": 1643886660000,
     "type": "text",
     "text": "하늘이 파랗다 오늘",
-    "id": "9KKTOrSSB9s5rpYGgLFE2"
+    "translation": "The sky is blue today",
+    "timestamp": 1643874060000,
+    "id": "Xap8bSrmC81Y5Ubxnlm1R"
   },
   {
-    "timestamp": 1643886840000,
     "type": "text",
     "text": "[y/n]는~좋아하는 음식 있나?",
-    "id": "kfet1HxmK2we0b4AutvaO"
+    "translation": "Do you have any favorite food?",
+    "timestamp": 1643874240000,
+    "id": "4Bdq9aeFWVlgnPtP0SCFb"
   },
   {
-    "timestamp": 1643886900000,
     "type": "text",
     "text": "나는 크림 파스타 징짜 좋아하는데 요즘 못 먹었어요ㅠㅠ",
-    "id": "TalXB2PsTkHl2pakb5aKA"
+    "translation": "I really like cream pasta, but I haven't eaten it these dayscrying",
+    "timestamp": 1643874300000,
+    "id": "WqNXAyJTBd1AvKwwyTSEh"
   },
   {
-    "timestamp": 1643887020000,
     "type": "text",
     "text": "최근에 먹었던 음식 중에 가장 맛있었던 건?",
-    "id": "pdrwSt2Hq10BwobcsHfDD"
+    "translation": "What was the most delicious food you had recently?",
+    "timestamp": 1643874420000,
+    "id": "yA3AfscjqU7YZ4ljsmmmv"
   },
   {
-    "timestamp": 1643887200000,
     "type": "text",
     "text": "나는..음...고민 중..",
-    "id": "saS2OOaLrY98uikKcSz1P"
+    "translation": "I'm thinking, um...",
+    "timestamp": 1643874600000,
+    "id": "rjV42ZpdUihsUlaN4bGmb"
   },
   {
-    "timestamp": 1643887200000,
     "type": "text",
     "text": "갈비찜!",
-    "id": "kbgGXv885kWvfz2kLtk1t"
+    "translation": "Braised Short Ribs!",
+    "timestamp": 1643874600000,
+    "id": "QyR20tDVTMMcckvWPmm1i"
   },
   {
-    "timestamp": 1643887320000,
     "type": "text",
     "text": "[y/n] 이것 좀 봐요",
-    "id": "etLwrOJI8ajexLFt5jDNL"
+    "translation": "Look at this",
+    "timestamp": 1643874720000,
+    "id": "Vay0qe7mdIRj3dwjsiqZx"
   },
   {
-    "timestamp": 1643887320000,
     "type": "photo",
     "text": "(Photo)",
-    "src": "/jybbl/pics/5.jpeg",
-    "id": "GJVPDGlsGI1LAENwkCVgV"
+    "src": "rubble/jiyoon/images/xu3hvlXbtl7DKYmrriRBr",
+    "width": 1125,
+    "height": 1500,
+    "timestamp": 1643874720000,
+    "id": "xu3hvlXbtl7DKYmrriRBr"
   },
   {
-    "timestamp": 1643887440000,
     "type": "text",
     "text": "[y/n]가 보고 싶어서 보내 본 사진",
-    "id": "y1u44lBIekJdEOZFYLe4F"
+    "translation": "The picture I sent you because I missed you",
+    "timestamp": 1643874840000,
+    "id": "AwX3ZG2lbaYLRlvZGSoNK"
   },
   {
-    "timestamp": 1643887500000,
     "type": "text",
     "text": "나는 이제 저녁 먹으러 가 볼게용💖💖",
-    "id": "ro3Jufgg1I0EouZfnbXv6"
+    "translation": "I'm going to go eat dinner now 💖💖",
+    "timestamp": 1643874900000,
+    "id": "1a1x7y79a7m5MPGZYb5lJ"
   },
   {
-    "timestamp": 1644042420000,
     "type": "text",
     "text": "[y/n]뽀",
-    "id": "eyNcR30Kq8lND6W16FBJs"
+    "translation": "Your po",
+    "timestamp": 1644029820000,
+    "id": "8cpioiXmbAygxhRgLLGab"
   },
   {
-    "timestamp": 1644042480000,
     "type": "text",
     "text": "[y/n] 바보~",
-    "id": "WjtgbJBCjICwvY2GSHbm9"
+    "translation": "You're an idiot!",
+    "timestamp": 1644029880000,
+    "id": "XvmbdcV4t9Grc1qIB3mHm"
   },
   {
-    "timestamp": 1644042540000,
     "type": "text",
     "text": "나밖에 모르는 바보❤️",
-    "id": "wqA5BXNA2nMoTOW5Fdsrv"
+    "translation": "A fool who only knows me ❤️",
+    "timestamp": 1644029940000,
+    "id": "cd6HC3KBkppEycmVCROHy"
   },
   {
-    "timestamp": 1644042600000,
     "type": "text",
     "text": "My love💗",
-    "id": "TL1PIo57VLte68eNEmexA"
+    "translation": "My love💗",
+    "timestamp": 1644030000000,
+    "id": "eVh0DQdX8omj816LjJNmL"
   },
   {
-    "timestamp": 1644042720000,
     "type": "text",
     "text": "쀼빠삐뽀빠삐뽀뿌뿌빵",
-    "id": "D4uCc8TeHTbgAsp4F9riK"
+    "translation": "Bbbbbbbbbbbbbbbbbbbbbbb",
+    "timestamp": 1644030120000,
+    "id": "PTvVOIPQIM7VSh9hEgyA7"
   },
   {
-    "timestamp": 1644042780000,
     "type": "text",
     "text": "오늘 아침 안 먹고 아이스크림 먹었어요",
-    "id": "97rVsCnetlLkwIaXxxMsN"
+    "translation": "I didn't eat breakfast but had ice cream",
+    "timestamp": 1644030180000,
+    "id": "r5GcOzWcqZnubmm1mmh7q"
   },
   {
-    "timestamp": 1644043020000,
     "type": "text",
     "text": "녹차 아이스크림 ㅎㅎ",
-    "id": "ptlUD6iG8EWrVeGTDrgi8"
+    "translation": "Green tea ice cream",
+    "timestamp": 1644030420000,
+    "id": "t9nvxzDVJKubid713OHkA"
   },
   {
-    "timestamp": 1644043080000,
     "type": "text",
     "text": "점심 뭐 먹을까욥",
-    "id": "h6fkRYmwJvEVP7sKgYPDk"
+    "translation": "What should I eat for lunch?",
+    "timestamp": 1644030480000,
+    "id": "WlCRGdM5xJ9stJOiYvPWi"
   },
   {
-    "timestamp": 1644043080000,
     "type": "text",
     "text": "유니 점메추 부탁",
-    "id": "huWJUBt0M7wnITY2eaSAX"
+    "translation": "Uni's lunch menu recommendation, please",
+    "timestamp": 1644030480000,
+    "id": "Ev3wlia2noLWLmIL1DNIN"
   },
   {
-    "timestamp": 1644043320000,
     "type": "text",
     "text": "괜찮군.",
-    "id": "T70qnXpyPCI8b6NOFMGTw"
+    "translation": "That's not bad.",
+    "timestamp": 1644030720000,
+    "id": "SaaW0ZS65Pa4rWhw89qVm"
   },
   {
-    "timestamp": 1644043380000,
     "type": "text",
     "text": "우니의 점심 노래 추천 원해요?",
-    "id": "nyiW5wdkLK74iJDvWgzP1"
+    "translation": "Do you want me to recommend a lunch song?",
+    "timestamp": 1644030780000,
+    "id": "KsrXZup5fb9j5QyOtWrof"
   },
   {
-    "timestamp": 1644043440000,
     "type": "photo",
     "text": "(Photo)",
-    "src": "/jybbl/pics/6.jpeg",
-    "id": "fKmf0HCWepQzyANGPmSxY"
+    "src": "rubble/jiyoon/images/b4Xa1z1pXQX636ueewLwn",
+    "width": 960,
+    "height": 1405,
+    "timestamp": 1644030840000,
+    "id": "b4Xa1z1pXQX636ueewLwn"
   },
   {
-    "timestamp": 1644043620000,
     "type": "text",
     "text": "오늘 약간 감성적이고 싶다면",
-    "id": "N7D09SK0L9aTKelptmMe4"
+    "translation": "If you want to be sentimental today,",
+    "timestamp": 1644031020000,
+    "id": "qcbEU5XnjLy97OXAEwApR"
   },
   {
-    "timestamp": 1644043620000,
     "type": "photo",
     "text": "(Photo)",
-    "src": "/jybbl/pics/7.jpeg",
-    "id": "FOhfoeooQDIOY3QJeux0u"
+    "src": "rubble/jiyoon/images/briDgNMX616SyRUt9jZxE",
+    "width": 960,
+    "height": 1328,
+    "timestamp": 1644031020000,
+    "id": "briDgNMX616SyRUt9jZxE"
   },
   {
-    "timestamp": 1644043740000,
     "type": "text",
     "text": "나도 이 노래 듣고 있지~",
-    "id": "UpohwKdh2cFBdZqkldixh"
+    "translation": "I'm listening to this song, too",
+    "timestamp": 1644031140000,
+    "id": "yE4bIhDnYbu0X2rpgQh7U"
   },
   {
-    "timestamp": 1644043740000,
     "type": "text",
     "text": "같은 노래를 듣고 같은 하늘은 보는 우리 ㅎㅎ",
-    "id": "rQh5QVsFcxVtEwSQqjiLR"
+    "translation": "We listen to the same song and look at the same sky",
+    "timestamp": 1644031140000,
+    "id": "bpHOg1kQF8VsPRGTNTwon"
   },
   {
-    "timestamp": 1644043980000,
     "type": "sticker",
     "text": "/Sticker/",
-    "src": "/jybbl/emotes/1.png",
-    "id": "5xJQEgBLNPchaMqgRHkoI"
+    "src": "rubble/jiyoon/stickers/mgy8nobbo9dgvbbq4fp2",
+    "width": 250,
+    "height": 250,
+    "timestamp": 1644031380000,
+    "id": "u4pqCi549UzHSAmTx62Ss"
   },
   {
-    "timestamp": 1644044100000,
     "type": "text",
     "text": "[y/n]의 최애 아이스크림 맛은?",
-    "id": "VLN8S4fuYCYPSW3q9kWHU"
+    "translation": "What's your favorite ice cream flavor?",
+    "timestamp": 1644031500000,
+    "id": "DUePfyxkTsCZUVEgAfxfu"
   },
   {
-    "timestamp": 1644044160000,
     "type": "text",
     "text": "나는 항상 우유나 바닐라가 조아",
-    "id": "nXxWbrHHVqDDYW7L7do40"
+    "translation": "I always like milk or vanilla",
+    "timestamp": 1644031560000,
+    "id": "lD75AvrhecUdpP19LKeO3"
   },
   {
-    "timestamp": 1644044220000,
     "type": "text",
     "text": "우유가 너무 조아",
-    "id": "iMvMAxyc4tPKeSaFtTjeE"
+    "translation": "The milk is too strong",
+    "timestamp": 1644031620000,
+    "id": "pz0kwTMuIK4QeZAMkzQLV"
   },
   {
-    "timestamp": 1644044280000,
     "type": "text",
     "text": "[y/n]는 카스테라 좋아해요?",
-    "id": "lISjrLR8vzQd7J77mPPU6"
+    "translation": "Do you like castella?",
+    "timestamp": 1644031680000,
+    "id": "qx4ofABrkP8WzmPQGmaxJ"
   },
   {
-    "timestamp": 1644044340000,
     "type": "text",
     "text": "폭신한 빵",
-    "id": "RLsIu8uDRnvGNzjk6uoyn"
+    "translation": "fluffy bread",
+    "timestamp": 1644031740000,
+    "id": "ddQj4tDD3f0bzeYIestRE"
   },
   {
-    "timestamp": 1644044400000,
     "type": "text",
     "text": "앗 배고프당ㅎㅎㅎ❤️❤️❤️",
-    "id": "13Q1FzW61GXt9CFBWZY2D"
+    "translation": "Oh, I'm hungry. ❤️❤️❤️",
+    "timestamp": 1644031800000,
+    "id": "1BP1hw57iCFcUtFQKE97f"
   },
   {
-    "timestamp": 1644044460000,
     "type": "text",
     "text": "유니 이제 점심벅으러 가야지~ \n[y/n] 안녕💗",
-    "id": "gk86EjA5iiHB8QwMy8UDO"
+    "translation": "Uni, you need to go eat lunch now \nHello to you💗",
+    "timestamp": 1644031860000,
+    "id": "EQB6hvcqNfvlciIDZS4s8"
   },
   {
-    "timestamp": 1644044460000,
     "type": "text",
     "text": "잠깐 이리 와봐요..",
-    "id": "5LlowGg1kTYUAT7dxnOjV"
+    "translation": "Come here for a second.",
+    "timestamp": 1644031860000,
+    "id": "VfThi0iJjVle5V8ib9tSc"
   },
   {
-    "timestamp": 1644044520000,
     "type": "text",
     "text": "사랑해😘",
-    "id": "SY9MAFKVC335P5KuCnZLD"
+    "translation": "I love you 😘",
+    "timestamp": 1644031920000,
+    "id": "RzFMO9X25qeC8FSAqP5RE"
   },
   {
-    "timestamp": 1644044520000,
     "type": "text",
     "text": "빠방~💗💕",
-    "id": "EHg50Wl4XtHqdBweARzDz"
+    "translation": "Bba-bba-bba-bba-bba-bang 💗💕",
+    "timestamp": 1644031920000,
+    "id": "Cm3Yqxv0SddfVXZZa5ik7"
   },
   {
-    "timestamp": 1644161520000,
     "type": "text",
     "text": "[y/n] 자?",
-    "id": "9QzDYzxKwllzAuxDTvoPO"
+    "translation": "Are you sleeping?",
+    "timestamp": 1644148920000,
+    "id": "ojfFKj4L13e1j1pUBS0em"
   },
   {
-    "timestamp": 1644161640000,
     "type": "text",
     "text": "모해💗",
-    "id": "AkDn6N1uBWhwbtUrfExs5"
+    "translation": "What are you doing 💗",
+    "timestamp": 1644149040000,
+    "id": "c5W0niVs5wnW3usSn2OyC"
   },
   {
-    "timestamp": 1644161640000,
     "type": "text",
     "text": "Wyd",
-    "id": "qf14XSdeLr3aknG3z7s3u"
+    "translation": "Wyd",
+    "timestamp": 1644149040000,
+    "id": "ZejnP7fNgbv9fIAP41lMO"
   },
   {
-    "timestamp": 1644161640000,
     "type": "text",
     "text": "나랑 놀아줄 수 있어요?",
-    "id": "F75wA6G9ON85THLtGB4iN"
+    "translation": "Can you play with me?",
+    "timestamp": 1644149040000,
+    "id": "okw87UzA3CxTpHmEBdU4U"
   },
   {
-    "timestamp": 1644161700000,
     "type": "text",
     "text": "뿌빠삐뽀 뿌쀼 뺘뺘뺘",
-    "id": "KE9SGONB4DM7ebI4HWQMW"
+    "translation": "Boo-bbo-bbo-bbo-bbo-bbo-bbo-bbo-bbo",
+    "timestamp": 1644149100000,
+    "id": "297JJpe2cuvTBALgjKp79"
   },
   {
-    "timestamp": 1644162120000,
     "type": "audio",
     "text": "(Voice Message)",
-    "src": "/jybbl/audio/audio1.mp3",
-    "id": "fyTfQa9WcbzqmoFOXvp94"
+    "src": "https://liz9999.github.io/jybbl/audio/audio1.mp3",
+    "timestamp": 1644149520000,
+    "id": "WNmBV7UT6yRPEmJ8VqAUS"
   },
   {
-    "timestamp": 1644162120000,
     "type": "text",
     "text": "나는 [y/n]가 좋아",
-    "id": "jFGEgLKt0Ej9fppFbT3it"
+    "translation": "I like you",
+    "timestamp": 1644149520000,
+    "id": "TxtQ64zeS3K3LIl9FdEtU"
   },
   {
-    "timestamp": 1644162240000,
     "type": "text",
     "text": "뿌빠뿌",
-    "id": "4WCjLWpeRFpWrlqFdQ6QR"
+    "translation": "Bbu-bbu-bbu",
+    "timestamp": 1644149640000,
+    "id": "xvQEbxG4DPtVjUtP7m7Sh"
   },
   {
-    "timestamp": 1644162240000,
     "type": "text",
     "text": "사랑한다는 뜻이야",
-    "id": "jCl0SF7x1jyZlvaA7glcS"
+    "translation": "It means I love you",
+    "timestamp": 1644149640000,
+    "id": "jQDChnnYP8YqbTVCSeMX0"
   },
   {
-    "timestamp": 1644162300000,
     "type": "text",
     "text": "햄스터 좋아",
-    "id": "HpXY3ZQODuqCcEZ17GksU"
+    "translation": "I like hamsters",
+    "timestamp": 1644149700000,
+    "id": "hvVuiaINvFfP5zxA2NRfa"
   },
   {
-    "timestamp": 1644162360000,
     "type": "text",
     "text": "근데 나는 이제 날카로운 햄찌가 되고 싶다요..",
-    "id": "9G756GfWr3HbSZW4IIuOC"
+    "translation": "But now I want to be a sharp hamster.",
+    "timestamp": 1644149760000,
+    "id": "ToiJqDddPP2Mv4GhXSwgx"
   },
   {
-    "timestamp": 1644162420000,
     "type": "text",
     "text": "아",
-    "id": "Xil17lbGtWNm10WNtZquv"
+    "translation": "Ah.",
+    "timestamp": 1644149820000,
+    "id": "dvt7qVoRyN4QC6uqrYWNx"
   },
   {
-    "timestamp": 1644162420000,
     "type": "text",
     "text": "신기한 거 보여줄까요",
-    "id": "YFBgV3K1UENpOI1aqcpCP"
+    "translation": "Do you want to see something cool?",
+    "timestamp": 1644149820000,
+    "id": "3K3NJnKzdf799PndlcK5q"
   },
   {
-    "timestamp": 1644162480000,
     "type": "photo",
     "text": "(Photo)",
-    "src": "/jybbl/pics/8.jpeg",
-    "id": "uoxTUTESg0L4UulL8xvat"
+    "src": "rubble/jiyoon/images/4bL0ySXuTH3Lj1oU66PD3",
+    "width": 1526,
+    "height": 1569,
+    "timestamp": 1644149880000,
+    "id": "4bL0ySXuTH3Lj1oU66PD3"
   },
   {
-    "timestamp": 1644162540000,
     "type": "text",
     "text": "매를 보았지요ㅎㅎ\n참매 아니면 새매래요~",
-    "id": "yEcvAV1F6gtrG3PCiZbUw"
+    "translation": "I saw a hawk\nThey said it's either \"chamae\" or \"saemae.\"",
+    "timestamp": 1644149940000,
+    "id": "JbB8ge6ONaJuF2UFEZCup"
   },
   {
-    "timestamp": 1644162540000,
     "type": "text",
     "text": "눈빛이 진짜 잘카롭고 멋졌어",
-    "id": "D4rbJqsYfcuaKfkAakEPL"
+    "translation": "His eyes were so charismatic and cool",
+    "timestamp": 1644149940000,
+    "id": "C3EprDeu7iPsa5OfxdrLz"
   },
   {
-    "timestamp": 1644162600000,
     "type": "text",
     "text": "나랑 눈 마주치고 교감했어",
-    "id": "Bm1urbIqAWeVZl55c70EV"
+    "translation": "He made eye contact with me",
+    "timestamp": 1644150000000,
+    "id": "E4HZ6Zj3DJluGy8NRurNS"
   },
   {
-    "timestamp": 1644162660000,
     "type": "text",
     "text": "\"재가 왜 나를 쳐다보지..?\" 하는 눈짗으로 나를 봤졍",
-    "id": "ekzlbySVfR2pYdCtkvEsS"
+    "translation": "\"Why is Jae looking at me?\" He looked at me",
+    "timestamp": 1644150060000,
+    "id": "CU7qbeg5ukySQJznjkrEQ"
   },
   {
-    "timestamp": 1644162660000,
     "type": "text",
     "text": "난 자유로운 새가 될래요~",
-    "id": "axHSePac23WJPNYFqA5Eb"
+    "translation": "I want to be a free bird",
+    "timestamp": 1644150060000,
+    "id": "Rckh3VuhHsP4nhSTe3BG1"
   },
   {
-    "timestamp": 1644162660000,
     "type": "text",
     "text": "헤헤❤️❤️❤️❤️❤️",
-    "id": "GaMzGCphwiEd1jrsYmrH3"
+    "translation": "Hehe ❤️❤️❤️❤️❤️",
+    "timestamp": 1644150060000,
+    "id": "KyytYNNnE7WLrwuhPFgFB"
   },
   {
-    "timestamp": 1644162720000,
     "type": "text",
     "text": "우리 손잡고 새도 보고 꽃도 보고 나무도 보자 💗",
-    "id": "puLlCu6QjydPnedGJOwFR"
+    "translation": "Let's hold hands and see birds, flowers, and trees 💗",
+    "timestamp": 1644150120000,
+    "id": "V6razasJ1HlKCt6LfhyZU"
   },
   {
-    "timestamp": 1644162780000,
     "type": "text",
     "text": "[y/n] 너무 좋아용",
-    "id": "HNpqafasgnS2OaqKdOrUj"
+    "translation": "I like you so much",
+    "timestamp": 1644150180000,
+    "id": "ORLS5NbcMMz0Z5Pmk3zX8"
   },
   {
-    "timestamp": 1644162840000,
     "type": "text",
     "text": "보고 싶어........🥺🥺",
-    "id": "X3oPu3zpz9CsGgbq1gNkP"
+    "translation": "I miss you........🥺🥺",
+    "timestamp": 1644150240000,
+    "id": "u4wXFE36EiApH32HfI0dJ"
   },
   {
-    "timestamp": 1644162900000,
     "type": "text",
     "text": "나 오늘 과일 먹었어요",
-    "id": "afA0FaLOP5w1RA4u44Hwc"
+    "translation": "I ate fruits today",
+    "timestamp": 1644150300000,
+    "id": "HoXosskGEa1qPhuwQfOX1"
   },
   {
-    "timestamp": 1644162900000,
     "type": "text",
     "text": "🍎",
-    "id": "tZnI8vds75yWdiGtjQjPC"
+    "translation": "🍎",
+    "timestamp": 1644150300000,
+    "id": "k5zClNnkBtuyzSy7oSsd4"
   },
   {
-    "timestamp": 1644162900000,
     "type": "text",
     "text": "물론 땅콩버터와 함께",
-    "id": "3mM4eHPRt8xVbL80Ggn5u"
+    "translation": "With peanut butter, of course",
+    "timestamp": 1644150300000,
+    "id": "51DWKCstzSTJUjD6SGA11"
   },
   {
-    "timestamp": 1644163020000,
     "type": "text",
     "text": "땅콘버터는 x키피가 최고지~ 스x피~",
-    "id": "ke2lrKDvfEyA0uLKIa1r3"
+    "translation": "Ddangkon Butter is the best. Spy",
+    "timestamp": 1644150420000,
+    "id": "4RQhtSnZ4hGvfqrEdOzkN"
   },
   {
-    "timestamp": 1644163020000,
     "type": "text",
     "text": "리x 땅콩버터도 맛있구",
-    "id": "8FpNSVRcD45In681hLwjZ"
+    "translation": "Rix. Peanut butter is good, too",
+    "timestamp": 1644150420000,
+    "id": "Bv9UD4tyeLnbUpOeKTLFp"
   },
   {
-    "timestamp": 1644163080000,
     "type": "text",
     "text": "아 어떡하지?",
-    "id": "UhdvOmq8IW5xaaZIADNhi"
+    "translation": "What should I do?",
+    "timestamp": 1644150480000,
+    "id": "TG2f7AHaVt7EzNQBj4128"
   },
   {
-    "timestamp": 1644163140000,
     "type": "text",
     "text": "[y/n] 너무 보고 싶어",
-    "id": "gwdytfUMWtVaCGTdRqbll"
+    "translation": "I miss you so much",
+    "timestamp": 1644150540000,
+    "id": "Q8oibMgDeUAPXnE653K3T"
   },
   {
-    "timestamp": 1644163140000,
     "type": "text",
     "text": "리고 피넛버터",
-    "id": "oJwzWSfNr2OvYP1vRLa6S"
+    "translation": "And peanut butter",
+    "timestamp": 1644150540000,
+    "id": "hliIyPjjlNYvwd9zwr0DM"
   },
   {
-    "timestamp": 1644163140000,
     "type": "text",
     "text": "말해도 되는구나 ㅋㅋㅋㅋ",
-    "id": "IpINguD9fa8AasuK0FRYM"
+    "translation": "I can say it",
+    "timestamp": 1644150540000,
+    "id": "BwCTDKFp59AcVNRF2ygGO"
   },
   {
-    "timestamp": 1644163140000,
     "type": "text",
     "text": "아니 물론 [y/n]가 땅콩버터보다 좋아요",
-    "id": "RQktkQaRnBxlxobUskfom"
+    "translation": "No, of course you're better than peanut butter",
+    "timestamp": 1644150540000,
+    "id": "ngjf4xXEAJ1ARLXPyckiV"
   },
   {
-    "timestamp": 1644163200000,
     "type": "text",
     "text": "유니 자러 갈게요 코..",
-    "id": "NHbuNGJXd7Og826H22BKn"
+    "translation": "Euni, I'm going to sleep. Nose...",
+    "timestamp": 1644150600000,
+    "id": "yddk60QRi3kJDSkKRotij"
   },
   {
-    "timestamp": 1644163200000,
     "type": "text",
     "text": "잘자요[y/n]",
-    "id": "l21GxW87HeuZcN6v7z5Gv"
+    "translation": "Good night",
+    "timestamp": 1644150600000,
+    "id": "h03x6ccP7zDpApbnQeJyC"
   },
   {
-    "timestamp": 1644163200000,
     "type": "text",
     "text": "마이 [y/n]❤️",
-    "id": "zdTD47HTobuXQjunVfrpJ"
+    "translation": "My You ❤️",
+    "timestamp": 1644150600000,
+    "id": "Uwe3JPKnDHscJnTb7UKgm"
   },
   {
-    "timestamp": 1644226020000,
     "type": "text",
     "text": "[y/n]붕붕",
-    "id": "LB4ylMLOdgex0yr5Kw5x8"
+    "translation": "You, Boong Boong",
+    "timestamp": 1644213420000,
+    "id": "7AgwUch6GgK3VM2xK9ME2"
   },
   {
-    "timestamp": 1644226440000,
     "type": "text",
     "text": "오잉또잉",
-    "id": "R8t1U46anRtlmTitcsQB9"
+    "translation": "Oh, my",
+    "timestamp": 1644213840000,
+    "id": "2GBx2esvMvyqkqMKLnZlB"
   },
   {
-    "timestamp": 1644226440000,
     "type": "text",
     "text": "연습하러 왔어용",
-    "id": "kn8v4dVqfuWvNYE8KQKFi"
+    "translation": "I came to practice",
+    "timestamp": 1644213840000,
+    "id": "D22lNyTjHd8oMMTpliVVX"
   },
   {
-    "timestamp": 1644226440000,
     "type": "text",
     "text": "연습 다 하고 다시 보낼게용💖💖",
-    "id": "bfOZXvW41nQtr4QTZ3eDg"
+    "translation": "I'll send it back after practice 💖💖",
+    "timestamp": 1644213840000,
+    "id": "EUXWPkltwNK6nCEbyLOIV"
   },
   {
-    "timestamp": 1644234840000,
     "type": "text",
     "text": "나왔쬬",
-    "id": "mZJNArM8R9Yslq8YvUnXk"
+    "translation": "It's out",
+    "timestamp": 1644222240000,
+    "id": "4vRixqP0GM8heu0Fc2PKe"
   },
   {
-    "timestamp": 1644234900000,
     "type": "text",
     "text": "숙소 가는 중~",
-    "id": "TMO4KBUEAsFZD0SWnIkXw"
+    "translation": "I'm on my way to the dorm",
+    "timestamp": 1644222300000,
+    "id": "2TGUqFqrUURvRdPrXf6Ft"
   },
   {
-    "timestamp": 1644234900000,
     "type": "text",
     "text": "쪽",
-    "id": "6xZdkeJvgcV8Y95b6WvOM"
+    "translation": "Side",
+    "timestamp": 1644222300000,
+    "id": "R013lzw0RnD4A4nxVoduR"
   },
   {
-    "timestamp": 1644234960000,
     "type": "text",
     "text": "저녁 뭐 먹을 거예요?",
-    "id": "iviX2zyJoPQZyt2jZV1Ay"
+    "translation": "What are you going to eat for dinner?",
+    "timestamp": 1644222360000,
+    "id": "nrchgTr5ZONTuy4539xHM"
   },
   {
-    "timestamp": 1644235020000,
     "type": "text",
     "text": "나는 혜원이 귤 훔쳐 먹을 거양",
-    "id": "EYNNinQqn9qfOqhCeW5N4"
+    "translation": "I'm going to steal a tangerine from HYE WON",
+    "timestamp": 1644222420000,
+    "id": "gtDIsis7YBqhqF0MFujeV"
   },
   {
-    "timestamp": 1644236220000,
     "type": "text",
     "text": "맛있당~~",
-    "id": "fJhSZfLSxKPXqYinLnprh"
+    "translation": "It's good!",
+    "timestamp": 1644223620000,
+    "id": "lvb6tIDIZuZyUEsdCaSeB"
   },
   {
-    "timestamp": 1644236280000,
     "type": "text",
     "text": "[y/n] 좋아하는 과일 있어요?",
-    "id": "xfV5jUSLJ7fp5wACCdbXR"
+    "translation": "Do you have a favorite fruit?",
+    "timestamp": 1644223680000,
+    "id": "ITi8JyqmkQtKNvKtw2xQ3"
   },
   {
-    "timestamp": 1644236340000,
     "type": "text",
     "text": "난 복숭아❤️❤️",
-    "id": "SmtcfGZ4vqQfUeyasnTMN"
+    "translation": "I'm peach ❤️❤️",
+    "timestamp": 1644223740000,
+    "id": "gf45gBBB7Y5QlVKsrgzqE"
   },
   {
-    "timestamp": 1644236520000,
     "type": "text",
     "text": "[y/n]가 제일 좋긴 해",
-    "id": "VJJR5JMknip4LPa3x6hD8"
+    "translation": "I like you the most",
+    "timestamp": 1644223920000,
+    "id": "g2JjXFtBxpSSWhDVcKyuu"
   },
   {
-    "timestamp": 1644236520000,
     "type": "text",
     "text": "제일제일 좋아",
-    "id": "fBoQV70TXuXj2X2Nr859E"
+    "translation": "I like it the most",
+    "timestamp": 1644223920000,
+    "id": "VqCv4bYIRriR1pxke4Rb4"
   },
   {
-    "timestamp": 1644236580000,
     "type": "text",
     "text": "너무너무 좋아",
-    "id": "wINPhlMUVeIJgokJJG2Nv"
+    "translation": "I love it so much",
+    "timestamp": 1644223980000,
+    "id": "OqeYMrGXAEfZcvP1xFwNN"
   },
   {
-    "timestamp": 1644236640000,
     "type": "text",
     "text": "쪽쪽~❤️",
-    "id": "U5zNCc5fFjcMRFST8O0ut"
+    "translation": "(Slurping) ❤️",
+    "timestamp": 1644224040000,
+    "id": "FSgbvwiAxHy2VC7EXxGlT"
   },
   {
-    "timestamp": 1644397140000,
     "type": "text",
     "text": "[y/n]",
-    "id": "tWWYtyuOWXBL5rKJ5Iy3M"
+    "translation": "You",
+    "timestamp": 1644384540000,
+    "id": "SqcBtqsleY4pkaK3jMg9p"
   },
   {
-    "timestamp": 1644397140000,
     "type": "text",
     "text": "띠롱",
-    "id": "wY6MGXbotnhxvrbTysX8r"
+    "translation": "It'sound!",
+    "timestamp": 1644384540000,
+    "id": "zikk79931z8fpDdoRcf30"
   },
   {
-    "timestamp": 1644397140000,
     "type": "text",
     "text": "띠링",
-    "id": "1FaOdfD4lsbdvpEU5ot8c"
+    "translation": "Ring",
+    "timestamp": 1644384540000,
+    "id": "ptcCsnQ3hdpflBXZpvVoy"
   },
   {
-    "timestamp": 1644397260000,
     "type": "text",
     "text": "금발 놀랐죠 다들 ㅎㅎ",
-    "id": "0WpxAv9CMCq0qrLYf106S"
+    "translation": "Everyone was surprised with blonde hair",
+    "timestamp": 1644384660000,
+    "id": "mRYTglyv7KPHt4iucpqQc"
   },
   {
-    "timestamp": 1644397260000,
     "type": "text",
     "text": "그거 Holiday Party 때야~",
-    "id": "DlsZvE1xb8xs8c7zIZucF"
+    "translation": "That's during the Holiday Party",
+    "timestamp": 1644384660000,
+    "id": "eJsF18SWmQZYXqIJEJ1qA"
   },
   {
-    "timestamp": 1644397380000,
     "type": "text",
     "text": "나한테는 그게 옛날이었는데..! ㅋㅋㅋ",
-    "id": "krcPoo1mHlPEtknFDs7Pp"
+    "translation": "That was a long time ago for me LOL",
+    "timestamp": 1644384780000,
+    "id": "lNZ14Pa4Eqf7c6HVEMi71"
   },
   {
-    "timestamp": 1644397380000,
     "type": "text",
     "text": "옛날이라고 해서 데일리들이 헷갈려 하더라궁?",
-    "id": "ZbkFDi9bCRzrjqGwQ1INg"
+    "translation": "Daily people get confused because it's a long time ago",
+    "timestamp": 1644384780000,
+    "id": "KHkLoWZpPbLNWdpe9ZW52"
   },
   {
-    "timestamp": 1644397560000,
     "type": "text",
     "text": "지금 머리 어두운 색",
-    "id": "h8PXSYfysVt3BjAWZiRJ5"
+    "translation": "My hair is dark right now",
+    "timestamp": 1644384960000,
+    "id": "3NvoMEi9bFBT64CBSzq2L"
   },
   {
-    "timestamp": 1644397560000,
     "type": "text",
     "text": "나 이제 점심 먹어 ㅠㅠ",
-    "id": "TL77Zu4D5pJYZ9FylosYj"
+    "translation": "I'm going to eat lunch now",
+    "timestamp": 1644384960000,
+    "id": "oOZORHyn16jNNK3AVUpA3"
   },
   {
-    "timestamp": 1644397620000,
     "type": "text",
     "text": "그니깡..",
-    "id": "nbR6cNpRWLrHXBjluNw3z"
+    "translation": "It's...",
+    "timestamp": 1644385020000,
+    "id": "mW8PIhar7FAdqLy3moHAR"
   },
   {
-    "timestamp": 1644397620000,
     "type": "text",
     "text": "보고 싶엉",
-    "id": "4HbbKK6kFTzawFzUmJx8L"
+    "translation": "I miss you",
+    "timestamp": 1644385020000,
+    "id": "HLt227tWY1hOhW5n3e6nD"
   },
   {
-    "timestamp": 1644397680000,
     "type": "sticker",
     "text": "/Sticker/",
-    "src": "/jybbl/emotes/2.png",
-    "id": "uZCdFWqDu8uX6dkzrtSet"
+    "src": "rubble/jiyoon/stickers/bgmspl1mgakbqv6hr0ug",
+    "width": 250,
+    "height": 250,
+    "timestamp": 1644385080000,
+    "id": "2KnRqZLlwdFtBJDzZAbp2"
   },
   {
-    "timestamp": 1644397680000,
     "type": "text",
     "text": "내 생일 얼마 안 남았다 헐~",
-    "id": "VFm2sKISbeegvv4RJTTeD"
+    "translation": "My birthday is just around the corner. Wow!",
+    "timestamp": 1644385080000,
+    "id": "NWqkC7opRbsyqVA5Xom7q"
   },
   {
-    "timestamp": 1644397740000,
     "type": "text",
     "text": "생일은 [y/n]와 함께 보내고 싶다",
-    "id": "ttnVExZqFNGWl2lieN2Cl"
+    "translation": "I want to spend my birthday with you",
+    "timestamp": 1644385140000,
+    "id": "zi2mZZSLuQTyI1qgCoBnN"
   },
   {
-    "timestamp": 1644397800000,
     "type": "text",
     "text": "벌써 내가 21세",
-    "id": "UoPrEtQF1DuVi0s4EUZoB"
+    "translation": "I'm already 21",
+    "timestamp": 1644385200000,
+    "id": "xItxcBCFMTBhFal5cZc9r"
   },
   {
-    "timestamp": 1644397800000,
     "type": "text",
     "text": "믿기지 않아",
-    "id": "7yO8Z30bnLjg53v17Sw4y"
+    "translation": "I can't believe it",
+    "timestamp": 1644385200000,
+    "id": "8tS8JJ7qpAmFnIHHdMQ85"
   },
   {
-    "timestamp": 1644397980000,
     "type": "text",
     "text": "영원히 [y/n]의 아기 할래",
-    "id": "VM3Wb2zq1MIvE0rZth3pk"
+    "translation": "I'll be your baby forever",
+    "timestamp": 1644385380000,
+    "id": "TSAs8x3y1XeZJIo05kWMZ"
   },
   {
-    "timestamp": 1644398100000,
     "type": "text",
     "text": "유니언니",
-    "id": "dapULXrkaeoSV7EOWO2Fj"
+    "translation": "Unni unnie",
+    "timestamp": 1644385500000,
+    "id": "i4qRTU2Vp6lNDHgQpbJhg"
   },
   {
-    "timestamp": 1644398100000,
     "type": "text",
     "text": "나도 이제 언니랍니다",
-    "id": "ENeskuAjrX8MQPUKzLWG9"
+    "translation": "I'm an older sister now",
+    "timestamp": 1644385500000,
+    "id": "PSjsZ96JLEN9P32Pqys6r"
   },
   {
-    "timestamp": 1644398220000,
     "type": "text",
     "text": "아 맞다 최근에 키를 쟀는데",
-    "id": "hmXjABtfrGhFaXOjBzeLj"
+    "translation": "Oh, right. I recently measured my height",
+    "timestamp": 1644385620000,
+    "id": "HYsakj3Ahy0bc1ybNoQpi"
   },
   {
-    "timestamp": 1644398220000,
     "type": "text",
     "text": "165.5cm",
-    "id": "8tBylhDEy7VO1yz9HO3Bj"
+    "translation": "165.5cm",
+    "timestamp": 1644385620000,
+    "id": "UWxx8XjW0UDKuw1TG6RmM"
   },
   {
-    "timestamp": 1644398220000,
     "type": "text",
     "text": "대박이요!",
-    "id": "GmOJc0uVJhFnLSbky4eHV"
+    "translation": "It's awesome!",
+    "timestamp": 1644385620000,
+    "id": "7jSBCnC81Q8gGi9EZEQ8U"
   },
   {
-    "timestamp": 1644398400000,
     "type": "text",
     "text": "근데 수진언니가 좀 더 큰 것 같기도 하고..",
-    "id": "022NxPvz3YpbIf1cbz7Py"
+    "translation": "But I think Soojin is a little taller.",
+    "timestamp": 1644385800000,
+    "id": "SGzx5Jk5zD7qoIJ2Ck9yA"
   },
   {
-    "timestamp": 1644398640000,
     "type": "text",
     "text": "아 맞다",
-    "id": "Z3euOOm8cbzEEJJXAQ0au"
+    "translation": "Oh, right.",
+    "timestamp": 1644386040000,
+    "id": "VNHuRrYK6SddtY90tGhhr"
   },
   {
-    "timestamp": 1644398640000,
     "type": "text",
     "text": "엄청엄청 귀여운 거 보여줄까요?",
-    "id": "fqEML1Tg0ItxYE9LbhsE4"
+    "translation": "Do you want to see something really cute?",
+    "timestamp": 1644386040000,
+    "id": "EC2TfDz41CYBMc9W0qWHp"
   },
   {
-    "timestamp": 1644398640000,
     "type": "photo",
     "text": "(Photo)",
-    "src": "/jybbl/pics/9.jpeg",
-    "id": "dXfiGD8rHoBClrxTOAUuM"
+    "src": "rubble/jiyoon/images/cTYnzGGhQ7sRRLbIfyygz",
+    "width": 1514,
+    "height": 1600,
+    "timestamp": 1644386040000,
+    "id": "cTYnzGGhQ7sRRLbIfyygz"
   },
   {
-    "timestamp": 1644398700000,
     "type": "text",
     "text": "우리 미호❤️",
-    "id": "brIbeAOOAkGsoTMEmKCWl"
+    "translation": "Our Miho ❤️",
+    "timestamp": 1644386100000,
+    "id": "kyskL6WcC5ihBmi3MGCJZ"
   },
   {
-    "timestamp": 1644398700000,
     "type": "text",
     "text": "미호 별명은 호미❤️",
-    "id": "F6VMDv9eZhHamoyeBCaGI"
+    "translation": "Miho's nickname is hoe ❤️",
+    "timestamp": 1644386100000,
+    "id": "V3duSDDCwX0MSLTYJ6atH"
   },
   {
-    "timestamp": 1644398760000,
     "type": "text",
     "text": "미호 너무 귀엽지❤️❤️❤️❤️❤️❤️❤️❤️❤️",
-    "id": "01SejIHTbXv8EcNjWQd0Z"
+    "translation": "Miho is so cute ❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+    "timestamp": 1644386160000,
+    "id": "Lj37dxeZh5fy5hSKuFKuB"
   },
   {
-    "timestamp": 1644398820000,
     "type": "text",
     "text": "유니는 이제 진짜진짜 점심 먹으러 가 볼게요 ❤️ 쪽!",
-    "id": "KAIMQRoTCw1AT4uQS9RoX"
+    "translation": "I'm really going to go eat lunch now. ❤️ Chew!",
+    "timestamp": 1644386220000,
+    "id": "zJI9cZsqi1EK2B4dKT37E"
   },
   {
-    "timestamp": 1644495960000,
     "type": "text",
     "text": "유니 왔다",
-    "id": "1lLTMk6YM21EiPZKA3KBp"
+    "translation": "Yuni is here",
+    "timestamp": 1644483360000,
+    "id": "PPVMRrewkdE9RMHHAFlDu"
   },
   {
-    "timestamp": 1644496020000,
     "type": "text",
     "text": "사랑한다",
-    "id": "zTQNiTTnu4QLIJ8op9fBT"
+    "translation": "I love you.",
+    "timestamp": 1644483420000,
+    "id": "SjzRiX8KOKSvokFl5OjGt"
   },
   {
-    "timestamp": 1644496620000,
     "type": "text",
     "text": "나 어제 백신 맞아떵ㅠㅠ",
-    "id": "owJhtiqzgtBOotWOAdwIt"
+    "translation": "I got a vaccine yesterday",
+    "timestamp": 1644484020000,
+    "id": "sRt7GJ5tCDjquCHjWZIow"
   },
   {
-    "timestamp": 1644496620000,
     "type": "text",
     "text": "3차ㅠㅠ",
-    "id": "z4wNlLjcHmmA1MRiKVFef"
+    "translation": "The 3rd round",
+    "timestamp": 1644484020000,
+    "id": "vfSkbUjllG2HmoRuckH3p"
   },
   {
-    "timestamp": 1644496680000,
     "type": "text",
     "text": "오늘 아침에는 아팠는데 지금은 괜찮아요",
-    "id": "oyzDNt0GRPV7VEnqILzsq"
+    "translation": "I was sick this morning, but I'm fine now",
+    "timestamp": 1644484080000,
+    "id": "AeEupDhNNpwDHz0RBfzrL"
   },
   {
-    "timestamp": 1644496740000,
     "type": "text",
     "text": "그리고 오늘 점심으로 리조토 먹었어용",
-    "id": "Kmulv3iVpLY5L2YQWhh6i"
+    "translation": "And I ate risotto for lunch today",
+    "timestamp": 1644484140000,
+    "id": "HI0NBv1ZdYTq7hH7r9FFk"
   },
   {
-    "timestamp": 1644496800000,
     "type": "text",
     "text": "보고싶어어어어어",
-    "id": "G7zo9xDM1I5U88tLkzoEZ"
+    "translation": "I miss you",
+    "timestamp": 1644484200000,
+    "id": "9ml8QPEDGXfHV25SM7ZKu"
   },
   {
-    "timestamp": 1644497160000,
     "type": "text",
     "text": "[y/n]뽀~",
-    "id": "V1KkTzOYfRuI4E0OVVYGm"
+    "translation": "Your kiss!",
+    "timestamp": 1644484560000,
+    "id": "x9x4cYZjR8k3PcQS6QfBl"
   },
   {
-    "timestamp": 1644497160000,
     "type": "text",
     "text": "지금 먼데이랑 소은이랑 같이 있지용",
-    "id": "AFaWQTg03WWZM5EGcZu15"
+    "translation": "I'm with Monday and Soeun right now",
+    "timestamp": 1644484560000,
+    "id": "nYaDee6T1QHJAaqliQdU3"
   },
   {
-    "timestamp": 1644497280000,
     "type": "text",
     "text": "셋이 노는 중",
-    "id": "8c2k4uuUigpG7DDTf31TF"
+    "translation": "The three of us are playing",
+    "timestamp": 1644484680000,
+    "id": "u2UD6Sv2GAtAi0Cza6gLJ"
   },
   {
-    "timestamp": 1644498600000,
     "type": "text",
     "text": "헤헤헤 이따가 또 와야지~~",
-    "id": "Aer1dJkCw0zB8lHQyFKIZ"
+    "translation": "Hehehe. I'll come back later",
+    "timestamp": 1644486000000,
+    "id": "hHuRywSm3nYEa2Ds3t3Af"
   },
   {
-    "timestamp": 1644582480000,
     "type": "text",
     "text": "속보입니다",
-    "id": "4cE2m6oe3er9ETPlECZkl"
+    "translation": "Breaking news",
+    "timestamp": 1644569880000,
+    "id": "D7WI4og1SO545Ipd2kViU"
   },
   {
-    "timestamp": 1644582480000,
     "type": "text",
     "text": "속 안 보이게 조심하제요",
-    "id": "ekV6szlWCdwkMcOOyW6so"
+    "translation": "Be careful not to show your insides",
+    "timestamp": 1644569880000,
+    "id": "5aeQAHoh8wg8TpcL8rsRy"
   },
   {
-    "timestamp": 1644582540000,
     "type": "text",
     "text": "아 이거 이미 누가 했어?ㅋㅋㅋ",
-    "id": "HZE3FgjP7iczU8qNm5W5P"
+    "translation": "Who already did this?LOL",
+    "timestamp": 1644569940000,
+    "id": "f6pZOoOg13k7QYrKDO5hs"
   },
   {
-    "timestamp": 1644582540000,
     "type": "text",
     "text": "[y/n] 나랑 개그 대결",
-    "id": "sRKjXBb8pqYudbEvOAEN5"
+    "translation": "You and I are going to have a comedy battle",
+    "timestamp": 1644569940000,
+    "id": "u8rjrrwFjvTWKufelX9W1"
   },
   {
-    "timestamp": 1644582600000,
     "type": "text",
     "text": "대결 시~작!",
-    "id": "XAiMnDTvZhNc7s5snR5O8"
+    "translation": "Competition, start!",
+    "timestamp": 1644570000000,
+    "id": "LHRhu5aTnlGuGaL3vJLhO"
   },
   {
-    "timestamp": 1644582600000,
     "type": "text",
     "text": "내가 먼저야?ㅋㅋㅋㅋ",
-    "id": "uOTgik442IuP0OM9aNuMU"
+    "translation": "Am I first? LOL",
+    "timestamp": 1644570000000,
+    "id": "dVHrnjx7lsIMuFCWbrMVi"
   },
   {
-    "timestamp": 1644582660000,
     "type": "text",
     "text": "\"유니가 옥수수를 먹었다\"",
-    "id": "D91OG6oDlHqlxCypFtKpU"
+    "translation": "\"Yooni ate corn\"",
+    "timestamp": 1644570060000,
+    "id": "5vcGMGpsWBXOOmYOv2HFW"
   },
   {
-    "timestamp": 1644582660000,
     "type": "text",
     "text": "세 글자로 줄이면?!",
-    "id": "hBK4Dce6urkjn8T4WpkLN"
+    "translation": "If you shorten it to three letters?",
+    "timestamp": 1644570060000,
+    "id": "7gtXTNnbDWlZNDFLmWhAj"
   },
   {
-    "timestamp": 1644582720000,
     "type": "text",
     "text": "정답은 \"유니콘\"입니다",
-    "id": "j2P0ChrQGQ92LntdOB6u8"
+    "translation": "The answer is \"Unicorn\"",
+    "timestamp": 1644570120000,
+    "id": "x8KjaU8B1bGoJinhggGl4"
   },
   {
-    "timestamp": 1644582840000,
     "type": "text",
     "text": "키키키키키키!!!키키키키키ㅣㅋㅋㅋㅋ키킼!!",
-    "id": "pW4EMMoyVFNiU2e8aXcus"
+    "translation": "(Laughing)LOL! LOL! LOL!",
+    "timestamp": 1644570240000,
+    "id": "T9kjvbvGstVIiUGEkOLT2"
   },
   {
-    "timestamp": 1644582840000,
     "type": "text",
     "text": "[y/n] 차례",
-    "id": "42Wuu7WHjHEqTdGj7VUJG"
+    "translation": "Your turn",
+    "timestamp": 1644570240000,
+    "id": "5ftHlWRk7cG5gHPRoF1Vk"
   },
   {
-    "timestamp": 1644582900000,
     "type": "text",
     "text": "뭔데뭔데~?~?",
-    "id": "g0ymQU8NZMXwnpXILaVB2"
+    "translation": "What is it?",
+    "timestamp": 1644570300000,
+    "id": "6YkSEFlJhxALTL1dWmjel"
   },
   {
-    "timestamp": 1644582960000,
     "type": "text",
     "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-    "id": "fdxS6msFw2ZOCrDkn8Qqu"
+    "translation": "(Laughing) (Laughing)",
+    "timestamp": 1644570360000,
+    "id": "48hVZqTm9W12tsMnCMM6B"
   },
   {
-    "timestamp": 1644582960000,
     "type": "text",
     "text": "메롱😝",
-    "id": "gqzga55O4G4RMWMzfPzyQ"
+    "translation": "Stick your tongue out 😝",
+    "timestamp": 1644570360000,
+    "id": "jak9Yivp2bWZ4POikkqao"
   },
   {
-    "timestamp": 1644583020000,
     "type": "text",
     "text": "오늘 저녁은 뭐 먹지?",
-    "id": "f6QvIqMOIk4QR4GtfN3TW"
+    "translation": "What should I eat for dinner tonight?",
+    "timestamp": 1644570420000,
+    "id": "lBGEvhs8tQoZqaSBgZ1EH"
   },
   {
-    "timestamp": 1644583080000,
     "type": "text",
     "text": "마카롱 먹을래~~",
-    "id": "IlWUTyxedIpRnATY434iV"
+    "translation": "I want to eat macarons",
+    "timestamp": 1644570480000,
+    "id": "I5IKpy3KP7RrSCJpiDSBk"
   },
   {
-    "timestamp": 1644583140000,
     "type": "text",
     "text": "아 맞다 너 건강하게 먹어야 해",
-    "id": "1Ru3P47Kj3GNSsIASatLN"
+    "translation": "Oh, right. You have to eat healthy",
+    "timestamp": 1644570540000,
+    "id": "NbGPq7yh9K77GmKcVNb1g"
   },
   {
-    "timestamp": 1644583200000,
     "type": "text",
     "text": "나 콜레스테롤 수치 높았던 것 같아 저번에 건강검진했걸랑",
-    "id": "J7A24F61X2GPmq1oKulpj"
+    "translation": "I think my cholesterol level was high. I had a medical checkup last time",
+    "timestamp": 1644570600000,
+    "id": "YBjnmxfiBXuZSUAy6RQp5"
   },
   {
-    "timestamp": 1644583320000,
     "type": "text",
     "text": "유니 면역력 없어ㅠㅠ 자주 아팡",
-    "id": "FoeQ5JSpZ0Su0Ot59Rwyi"
+    "translation": "Uni doesn't have immunity. Often, Afang",
+    "timestamp": 1644570720000,
+    "id": "XV6b0iGDwNuJYxNjYebiC"
   },
   {
-    "timestamp": 1644583380000,
     "type": "text",
     "text": "근데 울 엄마가 그랬는데 어렸을 때부터 몸이 약했대",
-    "id": "r89P5vvjjlej66bsRC7eY"
+    "translation": "But my mom said that I was weak since I was young",
+    "timestamp": 1644570780000,
+    "id": "r38FsZKGHec5yExn7Ds82"
   },
   {
-    "timestamp": 1644583440000,
     "type": "text",
     "text": "최근 들어 막 아픈 건 아니니까 걱정하지 말구",
-    "id": "n075K5aYi7RfNLrZ4zYBq"
+    "translation": "I haven't been sick lately, so don't worry",
+    "timestamp": 1644570840000,
+    "id": "1pvM1LKbfoA7NxAPOr4CR"
   },
   {
-    "timestamp": 1644583440000,
     "type": "text",
     "text": "건강 장 챙길게.. 약속🥰",
-    "id": "4Rm8rD4ZANR5BsXxhdFl4"
+    "translation": "I'll take care of my health. Promise 🥰",
+    "timestamp": 1644570840000,
+    "id": "54O6i6RnhxieHlxN519k4"
   },
   {
-    "timestamp": 1644583560000,
     "type": "text",
     "text": "마자 유니 몸은 약하지만 두뇌는 강할지도..?",
-    "id": "5VxmdyhCxZXJGSv1jTccl"
+    "translation": "Waja Uni's body is weak, but her brain is strong, right?",
+    "timestamp": 1644570960000,
+    "id": "gbn7CXKZt1FefLDx8CnQb"
   },
   {
-    "timestamp": 1644583740000,
     "type": "text",
     "text": "몸도 마음도 강해져야지",
-    "id": "uYrOG04TqShic4AMp1n0c"
+    "translation": "You need to be physically and mentally strong",
+    "timestamp": 1644571140000,
+    "id": "3HmoMRXQgDAJ68bTBdv8h"
   },
   {
-    "timestamp": 1644583800000,
     "type": "text",
     "text": "[y/n]도 건강한지 매일 내가 체크할 거임",
-    "id": "h5tf3SkKXtyr1bTk0iEtE"
+    "translation": "I'll check every day to see if you're healthy, too",
+    "timestamp": 1644571200000,
+    "id": "XHjoYlh1gFIw4roifwzDX"
   },
   {
-    "timestamp": 1644583860000,
     "type": "text",
     "text": "나도 운동은 자주 하는뎅..",
-    "id": "pQ0f2ZWJP2wTIPGa4oub2"
+    "translation": "I exercise often too.",
+    "timestamp": 1644571260000,
+    "id": "3c9AyTbltnyO6PitMmUHC"
   },
   {
-    "timestamp": 1644583920000,
     "type": "text",
     "text": "이렇게 소소한 얘기 하니까 좋당ㅎㅎ",
-    "id": "Kyi6UyxRaUDsgcBUvz99g"
+    "translation": "It's nice to talk about small things like this",
+    "timestamp": 1644571320000,
+    "id": "K8aBVWGCA3hFqJd5NhTDG"
   },
   {
-    "timestamp": 1644584040000,
     "type": "text",
     "text": "유니 내일 또 올게 사랑해❤️",
-    "id": "0XKUaA66TOeytEuymaBg4"
+    "translation": "Uni, I'll come back tomorrow. I love you. ❤️",
+    "timestamp": 1644571440000,
+    "id": "eFEsTvWHmAfNi0xzgxyqr"
   },
   {
-    "timestamp": 1644652740000,
     "type": "text",
     "text": "유니 컴",
-    "id": "QsWZnRCYKmlSlMB2hue6E"
+    "translation": "Unicom",
+    "timestamp": 1644640140000,
+    "id": "nonEHUMLzBarTmKZO9rrn"
   },
   {
-    "timestamp": 1644652800000,
     "type": "text",
     "text": "오늘 유니 뭐 먹었게",
-    "id": "AE0e1PJr9gfkAmpphpw73"
+    "translation": "Guess what Yuni ate today",
+    "timestamp": 1644640200000,
+    "id": "ZWe8bz5hKnf7ftkhEWHGy"
   },
   {
-    "timestamp": 1644652800000,
     "type": "text",
     "text": "오 비슷해",
-    "id": "dtHwE3yeLYngr0hqTAoh8"
+    "translation": "Oh, it's similar",
+    "timestamp": 1644640200000,
+    "id": "ImpqDATHdlexS63B2jyFL"
   },
   {
-    "timestamp": 1644652800000,
     "type": "text",
     "text": "라멘 먹었지롱",
-    "id": "WPDHN5XEbnKzIK1ryJt5p"
+    "translation": "I ate ramen",
+    "timestamp": 1644640200000,
+    "id": "Xr6pP78jDuk4i4q6WTRMf"
   },
   {
-    "timestamp": 1644652800000,
     "type": "text",
     "text": "진짜 맛있었어..",
-    "id": "EMWNIitKQ6xTkQ8w7CxuS"
+    "translation": "It was really good.",
+    "timestamp": 1644640200000,
+    "id": "9PT4FaPn9hFwLDIhbSsXN"
   },
   {
-    "timestamp": 1644652920000,
     "type": "text",
     "text": "어제 데이데이 먼데이가 라면을 맛있게 먹더라구",
-    "id": "KGtHMEYG9rI1LsgmwPvXe"
+    "translation": "Yesterday was Day Day Monday. He ate ramen deliciously",
+    "timestamp": 1644640320000,
+    "id": "IqbGMq8n16qi8KEUFAAuk"
   },
   {
-    "timestamp": 1644652920000,
     "type": "text",
     "text": "그거 보고 나도 먹고 싶어졌어 ㅋㅋ 물론 라멘과 라면은 다른 음식이지만",
-    "id": "Z9AG1GBbGZRZ8JLvAAzMp"
+    "translation": "That made me want to eat it, too. Of course, ramen and ramen are different foods",
+    "timestamp": 1644640320000,
+    "id": "hjbUAOXCAKK5l3nNc10qg"
   },
   {
-    "timestamp": 1644652980000,
     "type": "text",
     "text": "근데 좀 후회가 되네? 기름진 음식 먹은 게..",
-    "id": "ZOEsSO1C4zZ24X2D6Eufg"
+    "translation": "But I regret it Eating greasy food...",
+    "timestamp": 1644640380000,
+    "id": "O9aiuXRJz3cMW0yYN6avE"
   },
   {
-    "timestamp": 1644653100000,
     "type": "text",
     "text": "지금 콩콩 뛰고 있어",
-    "id": "Wxv3Ltmc8dvnSxS1vJDfx"
+    "translation": "It's pounding right now",
+    "timestamp": 1644640500000,
+    "id": "BSRoF1K0Ircetdks1BdRt"
   },
   {
-    "timestamp": 1644653220000,
     "type": "text",
     "text": "콩콩~",
-    "id": "nzhY4SOHlffmuz3zXQfSF"
+    "translation": "Boom, jump!",
+    "timestamp": 1644640620000,
+    "id": "Gm9yYZ1Wg12IGKBkprCGa"
   },
   {
-    "timestamp": 1644653340000,
     "type": "text",
     "text": "나 운동해도 되겠지? 백신 맞고 3일 지남",
-    "id": "ydHTxViSu6pr4ejDRZTKc"
+    "translation": "I can work out, right? Three days after getting vaccinated",
+    "timestamp": 1644640740000,
+    "id": "GFz3ihT7fCoZQbRL6MpUw"
   },
   {
-    "timestamp": 1644653460000,
     "type": "text",
     "text": "아 진쨔??",
-    "id": "ouOEuY3RkZ5m8Zt8VsLog"
+    "translation": "Oh really?",
+    "timestamp": 1644640860000,
+    "id": "9E7iOpxpWHMlJCiowlieN"
   },
   {
-    "timestamp": 1644653460000,
     "type": "text",
     "text": "그럼 콩콩 정도만 해야지~",
-    "id": "v5raXkA4aBM7zNbssWEFd"
+    "translation": "Then I'll just do it like this",
+    "timestamp": 1644640860000,
+    "id": "odCXaGHn6uvWhRva1YyTd"
   },
   {
-    "timestamp": 1644653580000,
     "type": "text",
     "text": "유니 이제 쌩쌩함",
-    "id": "D0OsjVHkTAfLgko61hFUd"
+    "translation": "Yuni is now energetic",
+    "timestamp": 1644640980000,
+    "id": "xizDUXGpDP2oYkGVFKSFV"
   },
   {
-    "timestamp": 1644653640000,
     "type": "text",
     "text": "아 오늘 아침에 유리조각 밟아서 피났어 ㅠㅠㅠ",
-    "id": "GeiyQYF7tM5ENUzRX4buc"
+    "translation": "I stepped on a piece of glass this morning and bled",
+    "timestamp": 1644641040000,
+    "id": "sV5bshu0so1LR4dqNWGBJ"
   },
   {
-    "timestamp": 1644653640000,
     "type": "text",
     "text": "호 해줭",
-    "id": "xfsFePzD8fEI3gWn78d83"
+    "translation": "Please say \"ho\"",
+    "timestamp": 1644641040000,
+    "id": "hF3muwhNS6Q9W9fhBnoEe"
   },
   {
-    "timestamp": 1644653700000,
     "type": "text",
     "text": "아 근데 진짜 쪼끄마한 좁쌀보다 더 작은 조각 이어써 괜차나",
-    "id": "mvhZ5ukuQQh9irPxrhvXg"
+    "translation": "But it's a smaller piece than a small millet. It's okay",
+    "timestamp": 1644641100000,
+    "id": "OQug8xysjDHmJQ12AKtVZ"
   },
   {
-    "timestamp": 1644653760000,
     "type": "text",
     "text": "[y/n] 걱정 금지~",
-    "id": "mcw4QzYtWwKDB0MQeifYD"
+    "translation": "Don't worry about me",
+    "timestamp": 1644641160000,
+    "id": "Bb3Ve8vOfrNHb9zwNjmPM"
   },
   {
-    "timestamp": 1644653760000,
     "type": "text",
     "text": "[y/n]가 호 해줘서 다 나았어",
-    "id": "LAS7cXoCI40N5bP8PRxrk"
+    "translation": "I'm all better because you said \"ho.\"",
+    "timestamp": 1644641160000,
+    "id": "BJJgh6L1Q4i8LXU6ch4oK"
   },
   {
-    "timestamp": 1644653820000,
     "type": "text",
     "text": "유리조각 뭐야 눈치없어~",
-    "id": "gFIIH3kHs8ueYF1WUQTiK"
+    "translation": "What is this piece of glass? You're tactless",
+    "timestamp": 1644641220000,
+    "id": "liOMCxeOtuYWGyLuz9S27"
   },
   {
-    "timestamp": 1644653880000,
     "type": "text",
     "text": "근데 오늘따라 더",
-    "id": "Cu9ZCOI55JnuxhYoqNwQu"
+    "translation": "But today,",
+    "timestamp": 1644641280000,
+    "id": "z6hC0h39emNCMUhyetW80"
   },
   {
-    "timestamp": 1644653880000,
     "type": "text",
     "text": "[y/n] 보고 싶네",
-    "id": "g69MifhmGpjCm1L2Zg7ad"
+    "translation": "I miss you",
+    "timestamp": 1644641280000,
+    "id": "NqALIaxH2I8CCRc7pzrEX"
   },
   {
-    "timestamp": 1644653940000,
     "type": "text",
     "text": "우리 같이 마라탕 언제 먹어ㅠㅠ",
-    "id": "3eIHMZAcNCYtWSRZNYkRT"
+    "translation": "When do we eat malatang together?",
+    "timestamp": 1644641340000,
+    "id": "mnOXlJjSDMHFPzfOo8yyD"
   },
   {
-    "timestamp": 1644654000000,
     "type": "text",
     "text": "우리 손잡고 놀기로 약속했자나ㅠㅠ",
-    "id": "eBzhcnUDUv4l56njHfu6r"
+    "translation": "We promised to play hand in hand",
+    "timestamp": 1644641400000,
+    "id": "CsPPlKon1UqjfpKOyK8kd"
   },
   {
-    "timestamp": 1644654480000,
     "type": "text",
     "text": "유니 이제 일하러 갈게~~❤️",
-    "id": "pJLOTMgHJUaIQixQvrdqg"
+    "translation": "Uni, I'm going to go work now~❤️",
+    "timestamp": 1644641880000,
+    "id": "0N2QP93t9WPpa6I7nDaCG"
   },
   {
-    "timestamp": 1645005840000,
     "type": "text",
     "text": "[y/n]💗",
-    "id": "WlcbET7UgrDDjvcWTKSrr"
+    "translation": "You 💗",
+    "timestamp": 1644993240000,
+    "id": "CYCQNIwFsqkciZdqYDzQG"
   },
   {
-    "timestamp": 1645006080000,
     "type": "text",
     "text": "걱정 많이 했어요??🥺",
-    "id": "axbbYqYGPfaWeS90dweJr"
+    "translation": "Did you worry a lot?🥺",
+    "timestamp": 1644993480000,
+    "id": "p6PDjorxzLWyHkp1Fn2KL"
   },
   {
-    "timestamp": 1645006140000,
     "type": "text",
     "text": "[y/n]는 괜찮아요?",
-    "id": "Quo4OPRd4JLjXOaOl5TXC"
+    "translation": "Are you all right?",
+    "timestamp": 1644993540000,
+    "id": "XVa5nkIZIvBiBJXPB497D"
   },
   {
-    "timestamp": 1645006140000,
     "type": "text",
     "text": "후웅...",
-    "id": "bFVkatSpClICxtuuqy42L"
+    "translation": "Whoo...",
+    "timestamp": 1644993540000,
+    "id": "98ZHqNmZLEDYgUZLd45Rc"
   },
   {
-    "timestamp": 1645006200000,
     "type": "text",
     "text": "유니유니빔 맞자",
-    "id": "u2MHxfISroKbyvZPjuHub"
+    "translation": "Let's get it right",
+    "timestamp": 1644993600000,
+    "id": "zdgZgX149og8bDDIPLqc3"
   },
   {
-    "timestamp": 1645006200000,
     "type": "text",
     "text": "보고싶다앙",
-    "id": "0yiLoHMQ3ZmaewXMB5ryJ"
+    "translation": "I miss you",
+    "timestamp": 1644993600000,
+    "id": "gMlfn1jQAVdag8NuHveu4"
   },
   {
-    "timestamp": 1645006320000,
     "type": "text",
     "text": "오늘은 춤을 많이 출 거야",
-    "id": "QhI1ADr7xL9JQOzaW0U02"
+    "translation": "I'm going to dance a lot today",
+    "timestamp": 1644993720000,
+    "id": "waWsVF9eF1jn7UF7gS5Bk"
   },
   {
-    "timestamp": 1645006380000,
     "type": "text",
     "text": "아앙 나 머리가 왜 이렇게 자주 아프징???",
-    "id": "F50oJ74PvHZkdSJdw71ef"
+    "translation": "Why does my head hurt so often?",
+    "timestamp": 1644993780000,
+    "id": "I5w3qlu9C7xXLWYigPGTq"
   },
   {
-    "timestamp": 1645006380000,
     "type": "text",
     "text": "편두통쓰~",
-    "id": "neJC7e8KYprcsWpVxZIH0"
+    "translation": "I have a migraine!",
+    "timestamp": 1644993780000,
+    "id": "9keNFfI05RVQRMT5SSJCN"
   },
   {
-    "timestamp": 1645006440000,
     "type": "text",
     "text": "공감?",
-    "id": "EFO3xFB7KZTA6XLZsc1c5"
+    "translation": "Agree?",
+    "timestamp": 1644993840000,
+    "id": "O9JOsUeuwzfl7OLvZIAr8"
   },
   {
-    "timestamp": 1645006500000,
     "type": "text",
     "text": "우리 모두 아프지 말아요",
-    "id": "0bLhaK0XK2iYA0eWVBOHf"
+    "translation": "Let's all stay healthy",
+    "timestamp": 1644993900000,
+    "id": "Eln2kieoF8DEy3VtmId3o"
   },
   {
-    "timestamp": 1645006560000,
     "type": "text",
     "text": "오늘 아침에 마죽 먹었지롱",
-    "id": "QraQ67yvTRMJ5mYD804yk"
+    "translation": "I had porridge this morning",
+    "timestamp": 1644993960000,
+    "id": "E7vybPURjXUOpR9UyQmk1"
   },
   {
-    "timestamp": 1645006560000,
     "type": "text",
     "text": "점심은 샌드위치 먹어야지~",
-    "id": "fbj1R17Xm0GoDPPuRxsBF"
+    "translation": "I'm going to eat sandwiches for lunch",
+    "timestamp": 1644993960000,
+    "id": "Ck5tbLbFLUu3BxT3TQC56"
   },
   {
-    "timestamp": 1645006620000,
     "type": "sticker",
     "text": "/Sticker/",
-    "src": "/jybbl/emotes/2.png",
-    "id": "WJXiB2N6KGXEjFW3gserd"
+    "src": "rubble/jiyoon/stickers/bgmspl1mgakbqv6hr0ug",
+    "width": 250,
+    "height": 251,
+    "timestamp": 1644994020000,
+    "id": "O5tcbWQ9p065dEZic4ia3"
   },
   {
-    "timestamp": 1645006680000,
     "type": "text",
     "text": "둠칫둠칫",
-    "id": "9du53ipGPSPobqb9ftpG2"
+    "translation": "Doom chit, doom chit",
+    "timestamp": 1644994080000,
+    "id": "aT4lofua5ND2yDRO8uzmI"
   },
   {
-    "timestamp": 1645006680000,
     "type": "text",
     "text": "요즘 일찍 일어나게 돼",
-    "id": "HCcr8AeMp4HeFWpznD4YV"
+    "translation": "I wake up early these days",
+    "timestamp": 1644994080000,
+    "id": "BHL1CtzFoDYvODQq0aQhG"
   },
   {
-    "timestamp": 1645006680000,
     "type": "text",
     "text": "그래서 일찍 일어나서 글 썼지롱",
-    "id": "0ljIxFb8bcCgnptkyA00X"
+    "translation": "So I woke up early and wrote something",
+    "timestamp": 1644994080000,
+    "id": "oHnO9N4W3FURKrJplBgND"
   },
   {
-    "timestamp": 1645006740000,
     "type": "text",
     "text": "소설 썼어 ㅎㅎ",
-    "id": "SiuD5xQMUODY9oPdBZHWw"
+    "translation": "I wrote a novel",
+    "timestamp": 1644994140000,
+    "id": "1a4qLOiHi3SvzYIa2cDc2"
   },
   {
-    "timestamp": 1645006800000,
     "type": "text",
     "text": "키키키 비밀~",
-    "id": "MkR0sr0TTVuMEgvuDJ35c"
+    "translation": "Laughing. It's a secret",
+    "timestamp": 1644994200000,
+    "id": "ijWF71oXiV7tkBNw0wHPb"
   },
   {
-    "timestamp": 1645006860000,
     "type": "text",
     "text": "우웅웅",
-    "id": "MFTnNIySnShV0HsVKt6Yp"
+    "translation": "Whoo! Whoo!",
+    "timestamp": 1644994260000,
+    "id": "C1DWmvEhbrUydvt8s7Cis"
   },
   {
-    "timestamp": 1645006860000,
     "type": "text",
     "text": "판타지 판타지 ㅎㅎ",
-    "id": "q3zOSkgiPsi8jk7lMYzSF"
+    "translation": "Fantasy. Fantasy",
+    "timestamp": 1644994260000,
+    "id": "bnrvI2gESPX2iegbUCK9q"
   },
   {
-    "timestamp": 1645007400000,
     "type": "text",
     "text": "유니 이제 춤 추러 갈겡❤️❤️❤️",
-    "id": "fBuQIOhMLiCaZ2dS95dIw"
+    "translation": "Uni, I'm going to dance now. ❤️❤️❤️",
+    "timestamp": 1644994800000,
+    "id": "cWfIKQ1LK5wihlKQCpVrF"
   },
   {
-    "timestamp": 1645101120000,
     "type": "text",
     "text": "유니왔다",
-    "id": "tLJT7kgbh0tI0EN6GDoEV"
+    "translation": "It's UNI.N",
+    "timestamp": 1645088520000,
+    "id": "KKoEjPoQJs6pUlHZGHm93"
   },
   {
-    "timestamp": 1645101120000,
     "type": "text",
     "text": "사랑하는 [y/n]보러 왔다",
-    "id": "vu5tf9jFIUbOmEmc0bCRX"
+    "translation": "I came to see you, dear",
+    "timestamp": 1645088520000,
+    "id": "GgNY6SwznYpxNHAG7YIE7"
   },
   {
-    "timestamp": 1645101180000,
     "type": "text",
     "text": "오늘은 밥을 많이 먹어서 배가 불러요",
-    "id": "LHqRiOF9ZUViIopg4WkDZ"
+    "translation": "I ate a lot today, so I'm full",
+    "timestamp": 1645088580000,
+    "id": "cll1r2l5VJPTs16bAYxTe"
   },
   {
-    "timestamp": 1645101180000,
     "type": "text",
     "text": "분명 샐러드를 먹으려고 했는데 샐러드가 양이 너무 많아서 배불렁",
-    "id": "V15knaJ2cqLDIBvLsLycb"
+    "translation": "I was going to eat salad, but the salad was too much, so I'm full",
+    "timestamp": 1645088580000,
+    "id": "yxuure8mxy2IbOLcTDG85"
   },
   {
-    "timestamp": 1645101240000,
     "type": "text",
     "text": "좀 남길걸..",
-    "id": "TEXUN9OPGbuDmuGLZigvG"
+    "translation": "I should've left some.",
+    "timestamp": 1645088640000,
+    "id": "fbIVdNh8xsSR8A0Lua3kf"
   },
   {
-    "timestamp": 1645101300000,
     "type": "text",
     "text": "보고 싶다 오늘도",
-    "id": "Ji176KSkoatneynnKQtFA"
+    "translation": "I miss you today, too",
+    "timestamp": 1645088700000,
+    "id": "xcNrCZHLWjvwEgciE3Pye"
   },
   {
-    "timestamp": 1645101360000,
     "type": "text",
     "text": "안아조❤️",
-    "id": "EnTHwAl7yUuvFYEEHEDaD"
+    "translation": "Hugging ❤️",
+    "timestamp": 1645088760000,
+    "id": "k6VPQDFHrmLPkOSHSIojJ"
   },
   {
-    "timestamp": 1645101360000,
     "type": "text",
     "text": "안아줘~~💘",
-    "id": "MfwPco5WTpvdjMaEIlvpV"
+    "translation": "Give me a hug~~",
+    "timestamp": 1645088760000,
+    "id": "FxyKRwVV0l6rQcBeydeBY"
   },
   {
-    "timestamp": 1645101420000,
     "type": "text",
     "text": "아이스크림 먹고 싶다",
-    "id": "88S5EapT7XRfiKyQ8PGXk"
+    "translation": "I want to eat ice cream",
+    "timestamp": 1645088820000,
+    "id": "CtVQMf6GBOe3KEVK8kn3b"
   },
   {
-    "timestamp": 1645101420000,
     "type": "text",
     "text": "아이스크림은 나뚜루 녹차",
-    "id": "KlNcSCUUDjevsTj9HKY03"
+    "translation": "Ice cream is Naturu green tea",
+    "timestamp": 1645088820000,
+    "id": "3uQgerFLNDCuKtQYJrjiZ"
   },
   {
-    "timestamp": 1645101420000,
     "type": "text",
     "text": "그게 짱이여~",
-    "id": "9DSj4qZCvkxUuIkKG1zZp"
+    "translation": "That's the best",
+    "timestamp": 1645088820000,
+    "id": "mA0Yl3TFX3RQCu4g5VQwB"
   },
   {
-    "timestamp": 1645101480000,
     "type": "text",
     "text": "녹차 좋아하면 앙대..?",
-    "id": "KRVjo7R8GVMqrJmYz9Ox7"
+    "translation": "If you like green tea, you can't...?",
+    "timestamp": 1645088880000,
+    "id": "l9pH3bjBhPMgan9kFlPU4"
   },
   {
-    "timestamp": 1645101540000,
     "type": "text",
     "text": "[y/n]는 민초 좋아해?",
-    "id": "G16PbdSyBIcRE4pfalyyY"
+    "translation": "Do you like mint chocolate?",
+    "timestamp": 1645088940000,
+    "id": "gNOKDvSr1YDHYaNrbJqnR"
   },
   {
-    "timestamp": 1645101540000,
     "type": "text",
     "text": "나는 있으면 벅고 없으면 안 먹는 타입",
-    "id": "qBiq1HVsLRyZtxvculKVj"
+    "translation": "I feel overwhelmed when it's there, but I don't eat it when",
+    "timestamp": 1645088940000,
+    "id": "No3I3SDlBeRnYMqMu3jqz"
   },
   {
-    "timestamp": 1645101540000,
     "type": "text",
     "text": "싫지는 않아 하지만 좋아하지도 않지",
-    "id": "TZM97wzbk1lXdZrkuQFBT"
+    "translation": "I don't hate it, but I don't like it",
+    "timestamp": 1645088940000,
+    "id": "yVlRwhDz4wBI8CqvNZL80"
   },
   {
-    "timestamp": 1645101600000,
     "type": "text",
     "text": "꺅",
-    "id": "laevSb3LYgfqLDITgFP5j"
+    "translation": "Oh my god",
+    "timestamp": 1645089000000,
+    "id": "badpevTlj5nxfp3RWssPi"
   },
   {
-    "timestamp": 1645101660000,
     "type": "text",
     "text": "갑자기 [y/n]가 너무 좋아서 소리 질러 봤어",
-    "id": "QOfjZes3vHBMzawOZony6"
+    "translation": "I screamed because I liked you so much",
+    "timestamp": 1645089060000,
+    "id": "pZJHiUlqHMuhjaalZHRoP"
   },
   {
-    "timestamp": 1645101720000,
     "type": "text",
     "text": "쪽!",
-    "id": "jaHEx6Ro6S8Ui5kUgUDM8"
+    "translation": "Here!",
+    "timestamp": 1645089120000,
+    "id": "ryrp3H4E4bS96dwgbfpBD"
   },
   {
-    "timestamp": 1645101780000,
     "type": "text",
     "text": "면역력 높이는 데엔 비타민D까 좋대",
-    "id": "EY7JwbwqemAJgvhBEuF0e"
+    "translation": "Vitamin D is good for your immune system",
+    "timestamp": 1645089180000,
+    "id": "ruIY5Az5yZN3OsLB2YGNl"
   },
   {
-    "timestamp": 1645101900000,
     "type": "text",
     "text": "비타민이랑 유산균 잘 챙겨 먹어 아랐지?",
-    "id": "l5RjNkrCYPYGGpLkUF0tg"
+    "translation": "Make sure you take vitamins and lactobacillus, okay?",
+    "timestamp": 1645089300000,
+    "id": "CrGaGOa7RJ12Nng0p0AyQ"
   },
   {
-    "timestamp": 1645101960000,
     "type": "text",
     "text": "뿌쀼빠빠쀼",
-    "id": "g4zOGYh8ldz3enrq60H8r"
+    "translation": "BbuBbuBbuBbuBbuBbuBbuBbuBbuBbu",
+    "timestamp": 1645089360000,
+    "id": "88JR3hkGb2l3tgD7tLStl"
   },
   {
-    "timestamp": 1645102320000,
     "type": "text",
     "text": "헤헤",
-    "id": "1xWZc2vU7PFKjP4wAbxKz"
+    "translation": "hehe",
+    "timestamp": 1645089720000,
+    "id": "oKsVdIfrSiyvFJZ9uZYBb"
   },
   {
-    "timestamp": 1645102320000,
     "type": "text",
     "text": "[y/n]도 나 보고 싶지?",
-    "id": "uTBdsTCnHxvNuPktPxu7H"
+    "translation": "You miss me too, don't you?",
+    "timestamp": 1645089720000,
+    "id": "Vg6zf0CEc7XYMUhrv2fVP"
   },
   {
-    "timestamp": 1645102440000,
     "type": "text",
     "text": "3월이 기다려진다..",
-    "id": "piybZyZsxATt8o1RbsjGI"
+    "translation": "I can't wait for March.",
+    "timestamp": 1645089840000,
+    "id": "oADxBydnoqOS7QSWDTXge"
   },
   {
-    "timestamp": 1645102500000,
     "type": "text",
     "text": "헤헤 내 생일도 기다려지긴 해",
-    "id": "nznXm1ww07iGX6cFWBt7h"
+    "translation": "I can't wait for my birthday",
+    "timestamp": 1645089900000,
+    "id": "YoqsmnwxzfcczgtpKks7R"
   },
   {
-    "timestamp": 1645102620000,
     "type": "text",
     "text": "헐 맞아 나 생일이 항상 학교 개학이랑 겹쳤어ㅠㅠㅠ",
-    "id": "wBe64KYDxuEpy63gO5KWP"
+    "translation": "Oh, that's right. My birthday always overlapped with the beginning of school",
+    "timestamp": 1645090020000,
+    "id": "u8Yv2vN3ApCU6aGtzgXfX"
   },
   {
-    "timestamp": 1645102620000,
     "type": "text",
     "text": "개학식 아니면 입학식",
-    "id": "2fFzh8ELoByGUHs7Oy1oQ"
+    "translation": "School opening ceremony or entrance ceremony",
+    "timestamp": 1645090020000,
+    "id": "zt4YS2R1tGNkxhZ1QzKbI"
   },
   {
-    "timestamp": 1645102680000,
     "type": "text",
     "text": "그래서 맨날 \"안녕? 만나서 반가워. 내 일음은 지윤이고 오늘 생일이야~\" 이럼",
-    "id": "ktLQ9zFaZ1V8uyPAWlkJX"
+    "translation": "So I always say, \"Hello?\" Nice to meet you. \"My day is Jiyoon and it's my birthday today.\"",
+    "timestamp": 1645090080000,
+    "id": "ghbfZjeBmcwKJxNMq97c1"
   },
   {
-    "timestamp": 1645102740000,
     "type": "text",
     "text": "처음 보는 애들이니까 축하도 안 해주고 ㅠㅠㅠㅠㅠㅠ우아앙",
-    "id": "JJOIcF9YYkSO7yuu1QTvq"
+    "translation": "They didn't congratulate me because it was my first time seeing them(Crying)",
+    "timestamp": 1645090140000,
+    "id": "KkVk5LkPaJx7uuVTRiZCx"
   },
   {
-    "timestamp": 1645102740000,
     "type": "text",
     "text": "ㅠㅠㅠㅠ항상 서운했지~",
-    "id": "620CjFyVFR5Nurgezrmug"
+    "translation": "I was always sad",
+    "timestamp": 1645090140000,
+    "id": "O3lOEYfY4SFtLGrN1wyWI"
   },
   {
-    "timestamp": 1645102800000,
     "type": "text",
     "text": "하지만 위클리가 되고 나니 항상 [y/n]가 날 축하해 줘서 행복해",
-    "id": "EdiiOwngD9YEwxrC4dJzh"
+    "translation": "But after I became Weekly, I'm always happy that you congratulated me",
+    "timestamp": 1645090200000,
+    "id": "0NtmrJ8D03wBS7t4FO9hv"
   },
   {
-    "timestamp": 1645102860000,
     "type": "text",
     "text": "[y/n]와 함께라면 매일이 생일💓",
-    "id": "D4fIZJtVSmOXsgZSFdrOK"
+    "translation": "Every day is my birthday with you 💓",
+    "timestamp": 1645090260000,
+    "id": "pdgVjdIPsCMPYXABMyvBp"
   },
   {
-    "timestamp": 1645102860000,
     "type": "text",
     "text": "유니 이제 씻으러 가야지~ 빠방❤️❤️",
-    "id": "NJBQIE4w6YvL52Qooinnu"
+    "translation": "Yuni, you need to go wash up now Bba-Bb-Bb-bang",
+    "timestamp": 1645090260000,
+    "id": "t1kgFSzbek8IInTqu5l3x"
   },
   {
-    "timestamp": 1645176060000,
     "type": "text",
     "text": "유니다~",
-    "id": "QbaHuNUye6kgFIYnX89A0"
+    "translation": "It's UNI",
+    "timestamp": 1645163460000,
+    "id": "INiHF7Ft5Y3mdijxsjFaw"
   },
   {
-    "timestamp": 1645176060000,
     "type": "text",
     "text": "프롤로그 필름 봤어?",
-    "id": "apwCX2DNmxpLBmundYzQV"
+    "translation": "Did you see the prologue film?",
+    "timestamp": 1645163460000,
+    "id": "wgvJOTWYNWg4iVPc6tTcv"
   },
   {
-    "timestamp": 1645176120000,
     "type": "text",
     "text": "스포를 방지하기 위해 이 얘기는 여기까지만! ㅋㅋㅋ",
-    "id": "iYeet2XBShPZuQ3QSVJeD"
+    "translation": "To prevent spoilers, let's stop talking about this LOL",
+    "timestamp": 1645163520000,
+    "id": "EMUTg6Qai3uDh4YkHjkm3"
   },
   {
-    "timestamp": 1645176180000,
     "type": "text",
     "text": "ㅋㅋㅋㅋ 아니~ 미리 알면 재미없다구",
-    "id": "pX50ZnYxtDb0VOg1gyQZh"
+    "translation": "(Laughing out loud) No It's not fun to know in advanceDistrict",
+    "timestamp": 1645163580000,
+    "id": "vZmwxvkhMzZ1THsyVRcZu"
   },
   {
-    "timestamp": 1645176240000,
     "type": "text",
     "text": "나도 기대가 되네",
-    "id": "dxfkCjawF0kNuOM3UAMHh"
+    "translation": "I'm looking forward to it, too",
+    "timestamp": 1645163640000,
+    "id": "n8PH3GwN1G8JGVugz24ei"
   },
   {
-    "timestamp": 1645176300000,
     "type": "text",
     "text": "모든 것은 비밀로!",
-    "id": "hgr7oYSoaqeubEB4pNeTN"
+    "translation": "Everything is a secret!",
+    "timestamp": 1645163700000,
+    "id": "iwRS7Fgk8YQeZlgCdbac3"
   },
   {
-    "timestamp": 1645176300000,
     "type": "sticker",
     "text": "/Sticker/",
-    "src": "/jybbl/emotes/2.png",
-    "id": "o8j0TbWGpV3E3Vl7oEgO2"
+    "src": "rubble/jiyoon/stickers/bgmspl1mgakbqv6hr0ug",
+    "width": 250,
+    "height": 251,
+    "timestamp": 1645163700000,
+    "id": "ufarcAZOqKK5n888FpKm4"
   },
   {
-    "timestamp": 1645176360000,
     "type": "text",
     "text": "얼른 보여주고 싶닿ㅎㅎ",
-    "id": "zmv9F7v2BZBeDU70oMe7z"
+    "translation": "I can't wait to show you",
+    "timestamp": 1645163760000,
+    "id": "Ogmqg2yeYkwjrRYSAikM4"
   },
   {
-    "timestamp": 1645176360000,
     "type": "text",
     "text": "오늘 아침에 너무 졸렸어ㅠㅠ",
-    "id": "izAb7CbW8wDZPXHT7Kc2l"
+    "translation": "I was so sleepy this morning",
+    "timestamp": 1645163760000,
+    "id": "Q1f7nEf70sxOnSOJnrbrR"
   },
   {
-    "timestamp": 1645176420000,
     "type": "text",
     "text": "[y/n]보고 싶다",
-    "id": "QSnE4F3qFwHe4Jvt8N4N8"
+    "translation": "I miss you",
+    "timestamp": 1645163820000,
+    "id": "6A0g6toOYiU1CXyWSyPe4"
   },
   {
-    "timestamp": 1645176540000,
     "type": "text",
     "text": "[y/n]가 벚나무라면",
-    "id": "W5lTKrYx7IuBInJAWvf9J"
+    "translation": "If you're a cherry tree,",
+    "timestamp": 1645163940000,
+    "id": "ceExv8FUI7aUR2lgwQRD9"
   },
   {
-    "timestamp": 1645176540000,
     "type": "text",
     "text": "나는 분명 그 옆에 핀 목견",
-    "id": "Wr7P281DSka6wIjwX6hXN"
+    "translation": "I'm sure it's a wooden dog that bloomed next to it",
+    "timestamp": 1645163940000,
+    "id": "3vXinpPhoclrRuM4aZzbW"
   },
   {
-    "timestamp": 1645176600000,
     "type": "text",
     "text": "하지만 난 나무라서",
-    "id": "jpD6wZucv8xPA8wWwSCAq"
+    "translation": "But I'm a tree",
+    "timestamp": 1645164000000,
+    "id": "lkTq8n9O7rD32UxMFLilE"
   },
   {
-    "timestamp": 1645176600000,
     "type": "text",
     "text": "꽃이 져도 항상 [y/n] 곁에서 지켜복 거야",
-    "id": "nZUXrexwepKAjSY7ZtsZu"
+    "translation": "Even if the flowers fall, I'll always protect you",
+    "timestamp": 1645164000000,
+    "id": "ynlYHNw46aaDRyTaDvhDy"
   },
   {
-    "timestamp": 1645176660000,
     "type": "text",
     "text": "내 사랑 다 줄 거야",
-    "id": "c0xCpycXmdXbU60GWEHY3"
+    "translation": "I'll give you all my love",
+    "timestamp": 1645164060000,
+    "id": "h9nDUPvqyBwunWpwkTTqj"
   },
   {
-    "timestamp": 1645176720000,
     "type": "text",
     "text": "쥰랑해❤️",
-    "id": "f02y1rHSKwBvrAfOeSS1p"
+    "translation": "I love you ❤️",
+    "timestamp": 1645164120000,
+    "id": "dQnMGpJwLQfKuTwBprRa7"
   },
   {
-    "timestamp": 1645176840000,
     "type": "text",
     "text": "지윤을 빨리 말하면 쥰",
-    "id": "pcgQFpilu3eSuGafzKrj3"
+    "translation": "If I say Jiyoon quickly, it's Jun",
+    "timestamp": 1645164240000,
+    "id": "X7Gn4rresqN18MIgIPiXn"
   },
   {
-    "timestamp": 1645176900000,
     "type": "text",
     "text": "헤헤",
-    "id": "OEDTB3cRFRwsZaoUgqgFa"
+    "translation": "hehe",
+    "timestamp": 1645164300000,
+    "id": "C1Zd95KPiLGEDIeVG7CYK"
   },
   {
-    "timestamp": 1645176960000,
     "type": "sticker",
     "text": "/Sticker/",
-    "src": "/jybbl/emotes/1.png",
-    "id": "c8oL3UVSss0hTPEG4URQn"
+    "src": "rubble/jiyoon/stickers/mgy8nobbo9dgvbbq4fp2",
+    "width": 250,
+    "height": 250,
+    "timestamp": 1645164360000,
+    "id": "UWPpKswhJIGW87BoU0lV3"
   },
   {
-    "timestamp": 1645176960000,
     "type": "text",
     "text": "나는 노래하는 게 참 좋아",
-    "id": "7GgK1fPfsqMEuLd8JY82R"
+    "translation": "I love singing",
+    "timestamp": 1645164360000,
+    "id": "iZpqKAUi2IZRqrtJvxztC"
   },
   {
-    "timestamp": 1645177260000,
     "type": "text",
     "text": "❤️",
-    "id": "UrxkOq57cs5oTFAfmNP8l"
+    "translation": "❤️",
+    "timestamp": 1645164660000,
+    "id": "bIvW4cxrErR48l4S5UnEB"
   },
   {
-    "timestamp": 1645177380000,
     "type": "text",
     "text": "[y/n]는 요즘 어떤 노래가 좋아?",
-    "id": "C9gCgVBKp6K7SXBCo3RyZ"
+    "translation": "What songs do you like these days?",
+    "timestamp": 1645164780000,
+    "id": "yUwNMFmR9e0VyrBOqXZKP"
   },
   {
-    "timestamp": 1645177500000,
     "type": "text",
     "text": "ㅎㅎ [y/n]가 좋다면 나도 좋아",
-    "id": "2FBr3vlLGIv41tru0H9us"
+    "translation": "lol if you like it, I like it too",
+    "timestamp": 1645164900000,
+    "id": "oO1xoE9zA4LhTc43lzPGb"
   },
   {
-    "timestamp": 1645177620000,
     "type": "text",
     "text": "유니 이제 가볼게 쥰랑해❤️",
-    "id": "00ud3QSoPuqPJkhrruSTW"
+    "translation": "Yuni, I'm going to go now. I love you! ❤️",
+    "timestamp": 1645165020000,
+    "id": "f75BGstTnbitQpDZi0lCC"
   },
   {
-    "timestamp": 1645447560000,
-    "type": "text",
-    "text": "유니와따",
-    "id": "jBys4qCWY7OHFBMty4L2M"
-  },
-  {
-    "timestamp": 1645447680000,
-    "type": "text",
-    "text": "유니 머리 봤져??",
-    "id": "Myp1kaAuWIVldtt9Z3Z4A"
-  },
-  {
-    "timestamp": 1645447740000,
-    "type": "text",
-    "text": "[y/n]한테 잘 보이려궁",
-    "id": "IfcYXQJu9q4uHicSiH5kZ"
-  },
-  {
-    "timestamp": 1645447860000,
-    "type": "text",
-    "text": "쪽💓😘",
-    "id": "jgHReW6iOdFqUwVm6ytbI"
-  },
-  {
-    "timestamp": 1645447860000,
-    "type": "text",
-    "text": "[y/n]는 지금 뭐해용💘",
-    "id": "vy7xDFowc1T0UYIGwyL8K"
-  },
-  {
-    "timestamp": 1645447980000,
-    "type": "text",
-    "text": "지유니도 [y/n]생각 중~💕",
-    "id": "axaAa3xQrDFSou3TxD99K"
-  },
-  {
-    "timestamp": 1645448040000,
-    "type": "text",
-    "text": "ㅋㅋㅋ",
-    "id": "BrVtmgnglNqpNAYSdQ1xp"
-  },
-  {
-    "timestamp": 1645448040000,
-    "type": "text",
-    "text": "사랑해",
-    "id": "OMbN3rEQVUjnUx3tjA39L"
-  },
-  {
-    "timestamp": 1645448040000,
-    "type": "text",
-    "text": "앗",
-    "id": "MiDzMiI77vT3cWfWqjmps"
-  },
-  {
-    "timestamp": 1645448040000,
-    "type": "text",
-    "text": "말해 버렸다",
-    "id": "1K367LxGe2wuFg0OXXyvc"
-  },
-  {
-    "timestamp": 1645448100000,
-    "type": "text",
-    "text": "나 오늘 뭐 먹었게~~💛",
-    "id": "sd2pI3bwCOdaacURI4OmO"
-  },
-  {
-    "timestamp": 1645448160000,
-    "type": "text",
-    "text": "수진언니가 만든 빵이랑 계란",
-    "id": "GHEvLJehUQPD69R04szfP"
-  },
-  {
-    "timestamp": 1645448280000,
-    "type": "text",
-    "text": "오늘따라 [y/n] 보고 싶네.. 어떡하지?",
-    "id": "0kJIV3q6plCR7MqZuT7Rn"
-  },
-  {
-    "timestamp": 1645448280000,
-    "type": "text",
-    "text": "전화할래?",
-    "id": "DoFHqP5BiL0uiaoCWjCoE"
-  },
-  {
-    "timestamp": 1645448340000,
-    "type": "text",
-    "text": "목소리 듣고 싶어 ",
-    "id": "WwT0BtgnHZ94f8YBIgZTg"
-  },
-  {
-    "timestamp": 1645448340000,
-    "type": "photo",
-    "text": "(Photo)",
-    "src": "/jybbl/pics/10.jpeg",
-    "id": "ZvZ1Gg5fVH8XF5MybeKZy"
-  },
-  {
-    "timestamp": 1645448400000,
-    "type": "text",
-    "text": "지금 듣고 있는 노래",
-    "id": "Rhjndh34fIHSHOZgzSZsh"
-  },
-  {
-    "timestamp": 1645448400000,
-    "type": "text",
-    "text": "같은 노래를 들으면 같이 있는 것 같을까 봐",
-    "id": "GwoIEmEcxWbC4wSLxQh2L"
-  },
-  {
-    "timestamp": 1645448400000,
-    "type": "text",
-    "text": "물론 우린 항상 함께여",
-    "id": "DyIW2pnqpTuNwvP2W9q0N"
-  },
-  {
-    "timestamp": 1645448460000,
-    "type": "text",
-    "text": "나 로맨틱해? ㅎㅎ",
-    "id": "BfqNtqNnZJlpdaRvuTW0v"
-  },
-  {
-    "timestamp": 1645448580000,
-    "type": "text",
-    "text": "헤헤",
-    "id": "RnXO2q5FJ4e9nRsmLvHVX"
-  },
-  {
-    "timestamp": 1645448580000,
-    "type": "sticker",
-    "text": "/Sticker/",
-    "src": "/jybbl/emotes/2.png",
-    "id": "O2gu1iHe4JssyVHurtyqX"
-  },
-  {
-    "timestamp": 1645448640000,
-    "type": "text",
-    "text": "우리의 모습",
-    "id": "BzQhUH90o99vEgmBLNxyn"
-  },
-  {
-    "timestamp": 1645448640000,
-    "type": "sticker",
-    "text": "/Sticker/",
-    "src": "/jybbl/emotes/1.png",
-    "id": "HDmeNVZyO5g9hvtjWyfsO"
-  },
-  {
-    "timestamp": 1645448640000,
-    "type": "text",
-    "text": "내가 더 사랑할 거야",
-    "id": "lPTFsnyzjHiZr7cWKoXFn"
-  },
-  {
-    "timestamp": 1645448700000,
-    "type": "text",
-    "text": "대결해",
-    "id": "Sctf7XIUyUlPXASU07AaM"
-  },
-  {
-    "timestamp": 1645448760000,
-    "type": "text",
-    "text": "하늘만큼 땅만큼 [y/n] 좋아",
-    "id": "QDPCso7PD9bijZb62Yywo"
-  },
-  {
-    "timestamp": 1645448820000,
-    "type": "text",
-    "text": "우주만큼 좋아",
-    "id": "vhpigFUUhwa0S3UmV0MDq"
-  },
-  {
-    "timestamp": 1645448880000,
-    "type": "text",
-    "text": "아라또 [y/n] 이겼어",
-    "id": "uhoPmRmNWA52f2wHK0be8"
-  },
-  {
-    "timestamp": 1645448940000,
-    "type": "text",
-    "text": "그래도 난 오늘보다 내일 더 사랑할 거임",
-    "id": "6BZbOqLv6LbUbzxbigFIK"
-  },
-  {
-    "timestamp": 1645449060000,
-    "type": "text",
-    "text": "오늘 수고 많았어",
-    "id": "DjnUf0ltGlKqZtcaGQm2M"
-  },
-  {
-    "timestamp": 1645449060000,
-    "type": "text",
-    "text": "푹 쉬자 우리",
-    "id": "N9GqojDew9puGch3cv6ZU"
-  },
-  {
-    "timestamp": 1645449120000,
-    "type": "text",
-    "text": "유니는 쉬러 가야지",
-    "id": "KuDoyoJmm5W1lHsAFhRoc"
-  },
-  {
-    "timestamp": 1645449120000,
-    "type": "text",
-    "text": "물론 [y/n]랑 같이 있는게 최고의 휴식임.ㅔ",
-    "id": "7GCfaxBZA11ejfudWKq0M"
-  },
-  {
-    "timestamp": 1645449120000,
-    "type": "text",
-    "text": "당연함 [y/n]는 내 사랑임",
-    "id": "HdTnQGShYAfOeGptMfN9x"
-  },
-  {
-    "timestamp": 1645526640000,
-    "type": "text",
-    "text": "[y/n]",
-    "id": "WAURQhmKp3HKhSsbBtEII"
-  },
-  {
-    "timestamp": 1645526640000,
-    "type": "text",
-    "text": "머해",
-    "id": "4WkEHRTDp47fEhIlm6nXM"
-  },
-  {
-    "timestamp": 1645526700000,
-    "type": "sticker",
-    "text": "/Sticker/",
-    "src": "/jybbl/emotes/1.png",
-    "id": "jiHp835MRUSv8ddNYsXJr"
-  },
-  {
-    "timestamp": 1645526700000,
-    "type": "text",
-    "text": "나는 운동 중이얌",
-    "id": "33luj3qlMqmrOkxo4SfsF"
-  },
-  {
-    "timestamp": 1645526760000,
-    "type": "text",
-    "text": "나중에 내가 내 홈트 루틴 추천해 줄게",
-    "id": "66WLURpxSYTw4AZqaG0R5"
-  },
-  {
-    "timestamp": 1645526820000,
-    "type": "text",
-    "text": "난 가끔 운동하면서 공부해",
-    "id": "aSAkCg0mtCHth0kBtbi4M"
-  },
-  {
-    "timestamp": 1645526880000,
-    "type": "text",
-    "text": "오디오클립으로 틀어놓고 운동해!",
-    "id": "qft8ICjs10qbVL1JKdOug"
-  },
-  {
-    "timestamp": 1645526880000,
-    "type": "text",
-    "text": "아 그리고 오늘 기러기 봤엉",
-    "id": "kkeILsH7EH9wFr1Pnmd3y"
-  },
-  {
-    "timestamp": 1645526940000,
-    "type": "text",
-    "text": "길조라던데",
-    "id": "Pv1eml2jvE2syWt8qibwo"
-  },
-  {
-    "timestamp": 1645526940000,
-    "type": "text",
-    "text": "너무 설렜어",
-    "id": "bpBAweZMQruqjgkPE21H4"
-  },
-  {
-    "timestamp": 1645527000000,
-    "type": "text",
-    "text": "날개가 무지 컸어!",
-    "id": "wNBvUJgscv6uMuCaABnyL"
-  },
-  {
-    "timestamp": 1645527060000,
-    "type": "text",
-    "text": "너무 멀어서 얼마나 큰 지 가늠은 안 가더라~",
-    "id": "XQjsPdIQstMrv1KTmxNOd"
-  },
-  {
-    "timestamp": 1645527060000,
-    "type": "text",
-    "text": "내가 최근에 생각한 말이 있어",
-    "id": "QHOtpJ8ZiRUkt3PMwD6lo"
-  },
-  {
-    "timestamp": 1645527120000,
-    "type": "text",
-    "text": "새는 높이 날아오를 때에 가장 아름답고 식물은 깊이 뿌리내릴 때에 가장 아름답다",
-    "id": "fYwsbuBOBFGiAV2bpudqD"
-  },
-  {
-    "timestamp": 1645527180000,
-    "type": "text",
-    "text": "맞지 맞지?",
-    "id": "D7m76uYfbo4JYZoJPSaPN"
-  },
-  {
-    "timestamp": 1645527180000,
-    "type": "text",
-    "text": "물론 [y/n]는 언제나 아름다움",
-    "id": "OFYyqnCdJJJWBCkF6k38X"
-  },
-  {
-    "timestamp": 1645527300000,
-    "type": "text",
-    "text": "나아아아아아아아ㅏ~!~!~!~!!",
-    "id": "sR6l43Ig1k3EZ20pShKjn"
-  },
-  {
-    "timestamp": 1645527300000,
-    "type": "text",
-    "text": "아 잠깐 신났음",
-    "id": "X9tDBKSVLV7BSYMR0odne"
-  },
-  {
-    "timestamp": 1645527360000,
-    "type": "text",
-    "text": "[y/n] 너무 좋아서",
-    "id": "LGk3tvaINdwLSmwNwsTEI"
-  },
-  {
-    "timestamp": 1645527420000,
-    "type": "text",
-    "text": "꺅 ㅋㅋㅋㅋㅋ",
-    "id": "4eN6vSweU0OZIH2FcsArg"
-  },
-  {
-    "timestamp": 1645527540000,
-    "type": "text",
-    "text": "빵이 너무 먹고 싶다",
-    "id": "UuZrCvmlcchbMIjB2BebU"
-  },
-  {
-    "timestamp": 1645527540000,
-    "type": "text",
-    "text": "나 버터프레첼 진짜 좋아해..",
-    "id": "68LtTtA8AK6wMhqKYfhqG"
-  },
-  {
-    "timestamp": 1645527660000,
-    "type": "text",
-    "text": "카스테라, 롤케이크, 에그타르트..",
-    "id": "S16J61gnF8nhLwnEwy040"
-  },
-  {
-    "timestamp": 1645527660000,
-    "type": "text",
-    "text": "아 빵애기 그만해야지 ㅋㅋㅋㅋㅋㅋㅋㅋ 먹고 싶어져",
-    "id": "Ifv3ChU3HayohO047yS8H"
-  },
-  {
-    "timestamp": 1645527720000,
-    "type": "text",
-    "text": "근데 난 빵만큼이나 떡이 좋아",
-    "id": "69wGvN95duUokmcPAFwTF"
-  },
-  {
-    "timestamp": 1645527780000,
-    "type": "text",
-    "text": "아 맞다",
-    "id": "j3O08Q7stl9XD42vlHpxg"
-  },
-  {
-    "timestamp": 1645527780000,
-    "type": "text",
-    "text": "나 최근에 [와일드 차일드] 라는 영화를 봤거든?",
-    "id": "FimPNROvDZmLLW1Cxz7rc"
-  },
-  {
-    "timestamp": 1645527780000,
-    "type": "text",
-    "text": "재밌더라~~ 완전 하이틴💕",
-    "id": "HtYMesRVeagr25VYVPnwf"
-  },
-  {
-    "timestamp": 1645527840000,
-    "type": "text",
-    "text": "웃이 너무 이뻐 ㅠㅠ",
-    "id": "ByD0UPZP8KVVfy5lnZUTQ"
-  },
-  {
-    "timestamp": 1645527900000,
-    "type": "text",
-    "text": "풋풋해 완전",
-    "id": "4wlk4yz6pR5llvDUfEoMI"
-  },
-  {
-    "timestamp": 1645527900000,
-    "type": "text",
-    "text": "나 지금 무슨 노래 듣게~",
-    "id": "mEEPo3pt4c7sdXMm3x7hO"
-  },
-  {
-    "timestamp": 1645527960000,
-    "type": "text",
-    "text": "힌트: rock",
-    "id": "rW37N9BnD0vPP5gv6sEFt"
-  },
-  {
-    "timestamp": 1645528020000,
-    "type": "photo",
-    "text": "(Photo)",
-    "src": "/jybbl/pics/11.jpeg",
-    "id": "HTuWc5RkqTcowDaNZMyyw"
-  },
-  {
-    "timestamp": 1645528020000,
-    "type": "text",
-    "text": "예전에 한강에서 뛰면서 데이식스 선배님 노래를 들었는데",
-    "id": "qprdM1LgxTTri1oozU2CJ"
-  },
-  {
-    "timestamp": 1645528080000,
-    "type": "text",
-    "text": "운동 완전 잘 돼",
-    "id": "8mN3EiVdxg1lmrijPhm1p"
-  },
-  {
-    "timestamp": 1645528080000,
-    "type": "text",
-    "text": "걸을 수가 없음 ㅋㅋ",
-    "id": "k39E8BTWzPulrRM6AEkkG"
-  },
-  {
-    "timestamp": 1645528080000,
-    "type": "text",
-    "text": "근데 한강 작년에 갔었어 ㅠ",
-    "id": "OeSXqUApNartXIy3rcUnE"
-  },
-  {
-    "timestamp": 1645528140000,
-    "type": "text",
-    "text": "맞아 한강은 라면이지",
-    "id": "kGU8jnLyaXLpm78Shww7g"
-  },
-  {
-    "timestamp": 1645528140000,
-    "type": "text",
-    "text": "근데 나 한강에서 라면 먹어본 적 없음",
-    "id": "PJ4RasD4uDaMZB7AthDLn"
-  },
-  {
-    "timestamp": 1645528200000,
-    "type": "text",
-    "text": "다음에 [y/n]랑 가야지❤️",
-    "id": "zrUvTcB0f9pZXz6i6bmmE"
-  },
-  {
-    "timestamp": 1645528200000,
-    "type": "text",
-    "text": "손 쏙 잡고 가야지",
-    "id": "r5GpcyomtvYgzMH23uxYW"
-  },
-  {
-    "timestamp": 1645528260000,
-    "type": "text",
-    "text": "유니는 또 운동하러 가볼게~",
-    "id": "Yo8kMj3Hr46iGEv41PkN4"
-  },
-  {
-    "timestamp": 1645528260000,
-    "type": "text",
-    "text": "사랑해요❤️",
-    "id": "Ujw1iInlfRt8UMipHVPbt"
-  },
-  {
-    "timestamp": 1645882620000,
-    "type": "text",
-    "text": "유니 왔지",
-    "id": "Lfi4E5aoG5jx3r0lAYJ7V"
-  },
-  {
-    "timestamp": 1645882680000,
-    "type": "text",
-    "text": "쥰랑해",
-    "id": "Hm8zuz8nk002Swo8f7upb"
-  },
-  {
-    "timestamp": 1645882740000,
-    "type": "sticker",
-    "text": "/Sticker/",
-    "src": "/jybbl/emotes/2.png",
-    "id": "6EySpCPBpFz4er6HqmbKF"
-  },
-  {
-    "timestamp": 1645882740000,
-    "type": "text",
-    "text": "오늘 정말 열심히 살았다",
-    "id": "nH40lpzgv8qApWZJaENvQ"
-  },
-  {
-    "timestamp": 1645882800000,
-    "type": "text",
-    "text": "우리 컴백 이제 얼마 안 남았다..",
-    "id": "1VLjizdoSMFISvcNfSqRP"
-  },
-  {
-    "timestamp": 1645882860000,
-    "type": "text",
-    "text": "아 얼른 우리 무대 보여주고 싶어❤️‍🔥",
-    "id": "qHOj7Lt9qf7XlzvbmQgyu"
-  },
-  {
-    "timestamp": 1645882980000,
-    "type": "text",
-    "text": "유니 프사 바꿨지롱",
-    "id": "FfXLDPZkaSXRC8BtM9sTF"
-  },
-  {
-    "timestamp": 1645883040000,
-    "type": "text",
-    "text": "유니 셀카 늘었어?",
-    "id": "OILBYJ3A9xoWNf7Q9wnt2"
-  },
-  {
-    "timestamp": 1645883040000,
-    "type": "text",
-    "text": "헤헤헤",
-    "id": "8z0oZJNRBdZDrsOPMmv2R"
-  },
-  {
-    "timestamp": 1645883100000,
-    "type": "text",
-    "text": "요즘 치통 포즈 안 하려고 노력 중",
-    "id": "dJU0x1xoydxmplJtwSzdq"
-  },
-  {
-    "timestamp": 1645883100000,
-    "type": "text",
-    "text": "다채로운 셀카를 보여주가 위해서",
-    "id": "6vY6Ie8Th5rBKzuAMmh4g"
-  },
-  {
-    "timestamp": 1645883280000,
-    "type": "text",
-    "text": "후후",
-    "id": "xtDq09Zm1tVkoQ9yRCN09"
-  },
-  {
-    "timestamp": 71070427980000,
     "type": "text",
     "text": "지윤이가 많이 사랑해 줄여서 쥰랑해",
-    "id": "4R89cfrNEgAoSdaEIFqpB"
+    "translation": "Jiyoon loves you. Short for \"Junrang you\"",
+    "timestamp": 1645165380000,
+    "id": "PVqYteax1tYmfCoQ6MZci"
+  },
+  {
+    "type": "text",
+    "text": "유니와따",
+    "translation": "Uniwatta",
+    "timestamp": 1645434960000,
+    "id": "rJtUocqBzIKWfC38MdJsC"
+  },
+  {
+    "type": "text",
+    "text": "유니 머리 봤져??",
+    "translation": "Did you see Uni's hair?",
+    "timestamp": 1645435080000,
+    "id": "H6J1NAx0T1QMeQsXfdbfC"
+  },
+  {
+    "type": "text",
+    "text": "[y/n]한테 잘 보이려궁",
+    "translation": "I'm trying to look good on you",
+    "timestamp": 1645435140000,
+    "id": "gEY3scN6Hjln3HzO3qmDp"
+  },
+  {
+    "type": "text",
+    "text": "쪽💓😘",
+    "translation": "Side 💓😘",
+    "timestamp": 1645435260000,
+    "id": "8Eyruu4kVvSOlDpRUXLjC"
+  },
+  {
+    "type": "text",
+    "text": "[y/n]는 지금 뭐해용💘",
+    "translation": "What are you doing now 💘",
+    "timestamp": 1645435260000,
+    "id": "N6xQNb6jnuM8VDsvTlZxe"
+  },
+  {
+    "type": "text",
+    "text": "지유니도 [y/n]생각 중~💕",
+    "translation": "Jiyoon is thinking about you too~ 💕",
+    "timestamp": 1645435380000,
+    "id": "pCFO9qIgORfx85HE3b49D"
+  },
+  {
+    "type": "text",
+    "text": "ㅋㅋㅋ",
+    "translation": "LOL",
+    "timestamp": 1645435440000,
+    "id": "RM1wHfqDFAuekaUEjU5ze"
+  },
+  {
+    "type": "text",
+    "text": "사랑해",
+    "translation": "I love you.",
+    "timestamp": 1645435440000,
+    "id": "hstpHG6IHXDJWWcImEpta"
+  },
+  {
+    "type": "text",
+    "text": "앗",
+    "translation": "Whoops.",
+    "timestamp": 1645435440000,
+    "id": "ibkoR2AhQfXK2NLFV93Q4"
+  },
+  {
+    "type": "text",
+    "text": "말해 버렸다",
+    "translation": "I said it",
+    "timestamp": 1645435440000,
+    "id": "QfMmIambKz7cjCqd3bm0c"
+  },
+  {
+    "type": "text",
+    "text": "나 오늘 뭐 먹었게~~💛",
+    "translation": "Guess what I ate today~💛",
+    "timestamp": 1645435500000,
+    "id": "CZM1w5Zx3OSL3oqu60WUy"
+  },
+  {
+    "type": "text",
+    "text": "수진언니가 만든 빵이랑 계란",
+    "translation": "Bread and eggs that Soojin made",
+    "timestamp": 1645435560000,
+    "id": "Sz0cPmJMWy8QpyqqDPjZv"
+  },
+  {
+    "type": "text",
+    "text": "오늘따라 [y/n] 보고 싶네.. 어떡하지?",
+    "translation": "I miss you today. What should I do?",
+    "timestamp": 1645435680000,
+    "id": "T7cctAcgxtxZmFzDyMiXB"
+  },
+  {
+    "type": "text",
+    "text": "전화할래?",
+    "translation": "Do you want to call?",
+    "timestamp": 1645435680000,
+    "id": "vWsMxeAHBr2P0m0g0c4Us"
+  },
+  {
+    "type": "text",
+    "text": "목소리 듣고 싶어 ",
+    "translation": "I want to hear your voice",
+    "timestamp": 1645435740000,
+    "id": "k818u2t2yeSycd78KWxcv"
+  },
+  {
+    "type": "photo",
+    "text": "(Photo)",
+    "src": "rubble/jiyoon/images/N5rrAUzYjR5hC44YWohLF",
+    "width": 960,
+    "height": 1041,
+    "timestamp": 1645435740000,
+    "id": "N5rrAUzYjR5hC44YWohLF"
+  },
+  {
+    "type": "text",
+    "text": "지금 듣고 있는 노래",
+    "translation": "The song I'm listening to right now",
+    "timestamp": 1645435800000,
+    "id": "EbPqWYtkLIe5qgph8u3ym"
+  },
+  {
+    "type": "text",
+    "text": "같은 노래를 들으면 같이 있는 것 같을까 봐",
+    "translation": "If I listen to the same song, it'll feel like we're together",
+    "timestamp": 1645435800000,
+    "id": "3tNoeZVB4pRM6hLjQ7pl5"
+  },
+  {
+    "type": "text",
+    "text": "물론 우린 항상 함께여",
+    "translation": "Of course, we're always together",
+    "timestamp": 1645435800000,
+    "id": "hgxtgs5AaTE8iNMVtpcUi"
+  },
+  {
+    "type": "text",
+    "text": "나 로맨틱해? ㅎㅎ",
+    "translation": "Am I romantic?",
+    "timestamp": 1645435860000,
+    "id": "bxmrzolLZEt0eSuc3M5K7"
+  },
+  {
+    "type": "text",
+    "text": "헤헤",
+    "translation": "hehe",
+    "timestamp": 1645435980000,
+    "id": "GyIr45QyEMWRwZizKDdPh"
+  },
+  {
+    "type": "sticker",
+    "text": "/Sticker/",
+    "src": "rubble/jiyoon/stickers/bgmspl1mgakbqv6hr0ug",
+    "width": 250,
+    "height": 251,
+    "timestamp": 1645435980000,
+    "id": "I7ocEMvsAJd84o6G532vQ"
+  },
+  {
+    "type": "text",
+    "text": "우리의 모습",
+    "translation": "Our selves",
+    "timestamp": 1645436040000,
+    "id": "HIhbI37iGRTjViOjcYVZp"
+  },
+  {
+    "type": "sticker",
+    "text": "/Sticker/",
+    "src": "rubble/jiyoon/stickers/mgy8nobbo9dgvbbq4fp2",
+    "width": 250,
+    "height": 250,
+    "timestamp": 1645436040000,
+    "id": "bC0MR0sDJOgpBRHqyKNXr"
+  },
+  {
+    "type": "text",
+    "text": "내가 더 사랑할 거야",
+    "translation": "I'll love you more",
+    "timestamp": 1645436040000,
+    "id": "E6xZO4lzsperJPKHns3mP"
+  },
+  {
+    "type": "text",
+    "text": "대결해",
+    "translation": "Let's compete",
+    "timestamp": 1645436100000,
+    "id": "drCvp2dK0IzlamzP51Dwn"
+  },
+  {
+    "type": "text",
+    "text": "하늘만큼 땅만큼 [y/n] 좋아",
+    "translation": "I like you as much as I like you as I like you as much as I like you",
+    "timestamp": 1645436160000,
+    "id": "ESeFZTZF7qIssveKl8aUT"
+  },
+  {
+    "type": "text",
+    "text": "우주만큼 좋아",
+    "translation": "It's as good as the universe",
+    "timestamp": 1645436220000,
+    "id": "hXsASoIUBeegBKHnlyeng"
+  },
+  {
+    "type": "text",
+    "text": "아라또 [y/n] 이겼어",
+    "translation": "Arato, you won",
+    "timestamp": 1645436280000,
+    "id": "qvs8wpNAoQ9ZNtt7KnyEx"
+  },
+  {
+    "type": "text",
+    "text": "그래도 난 오늘보다 내일 더 사랑할 거임",
+    "translation": "But I will love you more tomorrow than today",
+    "timestamp": 1645436340000,
+    "id": "FqwrN65NEEhS92tUEqEXZ"
+  },
+  {
+    "type": "text",
+    "text": "오늘 수고 많았어",
+    "translation": "You did a great job today",
+    "timestamp": 1645436460000,
+    "id": "A5v86wLvP6XoZt39W2ju1"
+  },
+  {
+    "type": "text",
+    "text": "푹 쉬자 우리",
+    "translation": "Let's take a good rest",
+    "timestamp": 1645436460000,
+    "id": "1HtcfH1Cbf5dFCCsbYl5d"
+  },
+  {
+    "type": "text",
+    "text": "유니는 쉬러 가야지",
+    "translation": "Yuni needs to go rest",
+    "timestamp": 1645436520000,
+    "id": "98Kh7DJBI3Cgdebz0BIW2"
+  },
+  {
+    "type": "text",
+    "text": "물론 [y/n]랑 같이 있는게 최고의 휴식임.ㅔ",
+    "translation": "Of course, being with you is the best break.ㅔ",
+    "timestamp": 1645436520000,
+    "id": "UFizZOY6WaThxxgf31r6V"
+  },
+  {
+    "type": "text",
+    "text": "당연함 [y/n]는 내 사랑임",
+    "translation": "Of course, you are my love",
+    "timestamp": 1645436520000,
+    "id": "GYwg4MytNJrn1WGtlCblT"
+  },
+  {
+    "type": "text",
+    "text": "[y/n]",
+    "translation": "You",
+    "timestamp": 1645514040000,
+    "id": "CB4UzgMtJZkrpeV0nOPys"
+  },
+  {
+    "type": "text",
+    "text": "머해",
+    "translation": "What are you doing?",
+    "timestamp": 1645514040000,
+    "id": "apmVcy2zK9Foh2aqySebF"
+  },
+  {
+    "type": "sticker",
+    "text": "/Sticker/",
+    "src": "rubble/jiyoon/stickers/mgy8nobbo9dgvbbq4fp2",
+    "width": 250,
+    "height": 250,
+    "timestamp": 1645514100000,
+    "id": "xGSZwqE2Rgk4O229iMQ7m"
+  },
+  {
+    "type": "text",
+    "text": "나는 운동 중이얌",
+    "translation": "I'm working out",
+    "timestamp": 1645514100000,
+    "id": "lOxDpfqOdPvIx1IZ9HK1H"
+  },
+  {
+    "type": "text",
+    "text": "나중에 내가 내 홈트 루틴 추천해 줄게",
+    "translation": "I'll recommend my home training routine later",
+    "timestamp": 1645514160000,
+    "id": "sBf1ZduVTTVzAkhvICgjN"
+  },
+  {
+    "type": "text",
+    "text": "난 가끔 운동하면서 공부해",
+    "translation": "I sometimes study while exercising",
+    "timestamp": 1645514220000,
+    "id": "YpM2NSxvOzSUwVHDpUHJQ"
+  },
+  {
+    "type": "text",
+    "text": "오디오클립으로 틀어놓고 운동해!",
+    "translation": "Turn on the audio clip and work out!",
+    "timestamp": 1645514280000,
+    "id": "ngA4Q3uFvcYmhTA9mZ2H7"
+  },
+  {
+    "type": "text",
+    "text": "아 그리고 오늘 기러기 봤엉",
+    "translation": "And I saw a wild goose today",
+    "timestamp": 1645514280000,
+    "id": "1dYdB97ZttJ6sAl3ZefPk"
+  },
+  {
+    "type": "text",
+    "text": "길조라던데",
+    "translation": "I heard it's a good sign",
+    "timestamp": 1645514340000,
+    "id": "MaCQg1zeekhZvhJ1oiP77"
+  },
+  {
+    "type": "text",
+    "text": "너무 설렜어",
+    "translation": "I was so excited",
+    "timestamp": 1645514340000,
+    "id": "Y2RUXuDz4FPBoSxi2Gjc9"
+  },
+  {
+    "type": "text",
+    "text": "날개가 무지 컸어!",
+    "translation": "The wings were so big!",
+    "timestamp": 1645514400000,
+    "id": "zMknZfWZrkNwXxh3FQuJ4"
+  },
+  {
+    "type": "text",
+    "text": "너무 멀어서 얼마나 큰 지 가늠은 안 가더라~",
+    "translation": "It was so far that I couldn't tell how big it was",
+    "timestamp": 1645514460000,
+    "id": "3irnMUUDJDfhNQkY0xOiT"
+  },
+  {
+    "type": "text",
+    "text": "내가 최근에 생각한 말이 있어",
+    "translation": "There's something I thought of recently",
+    "timestamp": 1645514460000,
+    "id": "bHc1TXBMmv8rg7PzBIV8s"
+  },
+  {
+    "type": "text",
+    "text": "새는 높이 날아오를 때에 가장 아름답고 식물은 깊이 뿌리내릴 때에 가장 아름답다",
+    "translation": "Birds are most beautiful when they fly high and plants are most beautiful when they are deeply rooted",
+    "timestamp": 1645514520000,
+    "id": "Dow4gYx3Sbl06GnJcIBNv"
+  },
+  {
+    "type": "text",
+    "text": "맞지 맞지?",
+    "translation": "Right, right?",
+    "timestamp": 1645514580000,
+    "id": "KebRsRjyPHPTd03G8aSrH"
+  },
+  {
+    "type": "text",
+    "text": "물론 [y/n]는 언제나 아름다움",
+    "translation": "Of course, you are always beautiful",
+    "timestamp": 1645514580000,
+    "id": "UJAida8rFXZ3oetYUdRTb"
+  },
+  {
+    "type": "text",
+    "text": "나아아아아아아아ㅏ~!~!~!~!!",
+    "translation": "Oh my god!",
+    "timestamp": 1645514700000,
+    "id": "XbjUdcjRyLaQlBsH9KOht"
+  },
+  {
+    "type": "text",
+    "text": "아 잠깐 신났음",
+    "translation": "Oh, I'm so excited",
+    "timestamp": 1645514700000,
+    "id": "nKBAhuzzHF9Z0TMSb0Ew6"
+  },
+  {
+    "type": "text",
+    "text": "[y/n] 너무 좋아서",
+    "translation": "I like you so much",
+    "timestamp": 1645514760000,
+    "id": "8i6lrwE5LOnOyYmD3AhfK"
+  },
+  {
+    "type": "text",
+    "text": "꺅 ㅋㅋㅋㅋㅋ",
+    "translation": "Oh my god LOL",
+    "timestamp": 1645514820000,
+    "id": "8KqjXNZIcquPa8DVYPa4u"
+  },
+  {
+    "type": "text",
+    "text": "빵이 너무 먹고 싶다",
+    "translation": "I really want to eat bread",
+    "timestamp": 1645514940000,
+    "id": "YDCgTrST8pvFGt5QbULcr"
+  },
+  {
+    "type": "text",
+    "text": "나 버터프레첼 진짜 좋아해..",
+    "translation": "I really like butter pretzels.",
+    "timestamp": 1645514940000,
+    "id": "cj3ZZTd9rhds3n5ZnGtK9"
+  },
+  {
+    "type": "text",
+    "text": "카스테라, 롤케이크, 에그타르트..",
+    "translation": "Castella, roll cake, egg tart...",
+    "timestamp": 1645515060000,
+    "id": "5lcXmnvWVNM2kjzLttYt5"
+  },
+  {
+    "type": "text",
+    "text": "아 빵애기 그만해야지 ㅋㅋㅋㅋㅋㅋㅋㅋ 먹고 싶어져",
+    "translation": "Oh, I should stop being a bread baby LOL I want to eat it",
+    "timestamp": 1645515060000,
+    "id": "5H5GfBx8EpR5LBogPBXno"
+  },
+  {
+    "type": "text",
+    "text": "근데 난 빵만큼이나 떡이 좋아",
+    "translation": "But I like rice cake as much as bread",
+    "timestamp": 1645515120000,
+    "id": "gdUOVHFvw871AAlck6CQu"
+  },
+  {
+    "type": "text",
+    "text": "아 맞다",
+    "translation": "Oh, right.",
+    "timestamp": 1645515180000,
+    "id": "nzw1FZMPIbSnTs36Mt4xk"
+  },
+  {
+    "type": "text",
+    "text": "나 최근에 [와일드 차일드] 라는 영화를 봤거든?",
+    "translation": "I recently watched a movie called \"Wild Child\"",
+    "timestamp": 1645515180000,
+    "id": "Z2hmPYY1ydYSZPPyfb5Oh"
+  },
+  {
+    "type": "text",
+    "text": "재밌더라~~ 완전 하이틴💕",
+    "translation": "It was fun! Totally high teen 💕",
+    "timestamp": 1645515180000,
+    "id": "GaBYYd2HB6mtOMy3OSeSz"
+  },
+  {
+    "type": "text",
+    "text": "웃이 너무 이뻐 ㅠㅠ",
+    "translation": "It's so pretty",
+    "timestamp": 1645515240000,
+    "id": "cHlbOyFKUpj0aNv4VzFeG"
+  },
+  {
+    "type": "text",
+    "text": "풋풋해 완전",
+    "translation": "You're so fresh",
+    "timestamp": 1645515300000,
+    "id": "iTGvKzdZnh4D6aI7nfbHn"
+  },
+  {
+    "type": "text",
+    "text": "나 지금 무슨 노래 듣게~",
+    "translation": "What song am I listening to right now?",
+    "timestamp": 1645515300000,
+    "id": "GofcTw9RtzYiMSrFUJ4TD"
+  },
+  {
+    "type": "text",
+    "text": "힌트: rock",
+    "translation": "Hint: rock",
+    "timestamp": 1645515360000,
+    "id": "jgounS5TsKYazpg1wpXDl"
+  },
+  {
+    "type": "photo",
+    "text": "(Photo)",
+    "src": "rubble/jiyoon/images/Mk5kZAMg9zvuLyZK6ewAq",
+    "width": 960,
+    "height": 1539,
+    "timestamp": 1645515420000,
+    "id": "Mk5kZAMg9zvuLyZK6ewAq"
+  },
+  {
+    "type": "text",
+    "text": "예전에 한강에서 뛰면서 데이식스 선배님 노래를 들었는데",
+    "translation": "I used to listen to DAY6's songs while running along the Han River",
+    "timestamp": 1645515420000,
+    "id": "am2FmtD721hUfJ626VAdz"
+  },
+  {
+    "type": "text",
+    "text": "운동 완전 잘 돼",
+    "translation": "I can work out really well",
+    "timestamp": 1645515480000,
+    "id": "fmYVlmMEmgdpoGpvdRizC"
+  },
+  {
+    "type": "text",
+    "text": "걸을 수가 없음 ㅋㅋ",
+    "translation": "I can't walk lol",
+    "timestamp": 1645515480000,
+    "id": "hgoBaKdh6hksnHSdSuj6v"
+  },
+  {
+    "type": "text",
+    "text": "근데 한강 작년에 갔었어 ㅠ",
+    "translation": "But I went to Han River last year",
+    "timestamp": 1645515480000,
+    "id": "qeU2PoF62hsNfmlP8cK8M"
+  },
+  {
+    "type": "text",
+    "text": "맞아 한강은 라면이지",
+    "translation": "Right, ramen is the best in Han River",
+    "timestamp": 1645515540000,
+    "id": "nx0vtETfWKnZ2YWCHMGGR"
+  },
+  {
+    "type": "text",
+    "text": "근데 나 한강에서 라면 먹어본 적 없음",
+    "translation": "But I've never had ramen at Han River",
+    "timestamp": 1645515540000,
+    "id": "8NISF4ldKDtdzMIaqlcaH"
+  },
+  {
+    "type": "text",
+    "text": "다음에 [y/n]랑 가야지❤️",
+    "translation": "I'll go with you next time ❤️",
+    "timestamp": 1645515600000,
+    "id": "hsaNkGG6VMvV7jokNEa5T"
+  },
+  {
+    "type": "text",
+    "text": "손 쏙 잡고 가야지",
+    "translation": "You have to hold hands",
+    "timestamp": 1645515600000,
+    "id": "bhdXntIakrRrXfc7Uxmrd"
+  },
+  {
+    "type": "text",
+    "text": "유니는 또 운동하러 가볼게~",
+    "translation": "Uni will go work out again",
+    "timestamp": 1645515660000,
+    "id": "wCWMdJ8VAI43xfn0f0MHn"
+  },
+  {
+    "type": "text",
+    "text": "사랑해요❤️",
+    "translation": "I love you ❤️",
+    "timestamp": 1645515660000,
+    "id": "0ULJgOmEVzrfmCGTBcVjS"
+  },
+  {
+    "type": "text",
+    "text": "유니 왔지",
+    "translation": "Yuni is here",
+    "timestamp": 1645870020000,
+    "id": "hKEfRe4hBrHxsfQkPGcZh"
+  },
+  {
+    "type": "text",
+    "text": "쥰랑해",
+    "translation": "I love you",
+    "timestamp": 1645870080000,
+    "id": "sRDeUGOK1Tg1a5VbsCIht"
+  },
+  {
+    "type": "sticker",
+    "text": "/Sticker/",
+    "src": "rubble/jiyoon/stickers/bgmspl1mgakbqv6hr0ug",
+    "width": 250,
+    "height": 251,
+    "timestamp": 1645870140000,
+    "id": "27qXzMVoOHtO01v1TPKOz"
+  },
+  {
+    "type": "text",
+    "text": "오늘 정말 열심히 살았다",
+    "translation": "I worked really hard today",
+    "timestamp": 1645870140000,
+    "id": "VdzpF2RSGsUQGMxLa2eUf"
+  },
+  {
+    "type": "text",
+    "text": "우리 컴백 이제 얼마 안 남았다..",
+    "translation": "Our comeback is just around the corner.",
+    "timestamp": 1645870200000,
+    "id": "fPlSkMGbFeHVDQSSSRukU"
+  },
+  {
+    "type": "text",
+    "text": "아 얼른 우리 무대 보여주고 싶어❤️‍🔥",
+    "translation": "I can't wait to show you our performance ❤️🔥",
+    "timestamp": 1645870260000,
+    "id": "Kp2P3STvDE3K0hR0Uulvx"
+  },
+  {
+    "type": "text",
+    "text": "유니 프사 바꿨지롱",
+    "translation": "I changed the Unif",
+    "timestamp": 1645870380000,
+    "id": "DWqZYu8I7YtqPvZ5oxhj7"
+  },
+  {
+    "type": "text",
+    "text": "유니 셀카 늘었어?",
+    "translation": "Uni's selfies got better?",
+    "timestamp": 1645870440000,
+    "id": "QCrl2nMIinsUVN8M0391U"
+  },
+  {
+    "type": "text",
+    "text": "헤헤헤",
+    "translation": "Heh heh heh.",
+    "timestamp": 1645870440000,
+    "id": "lnRRPFaqhe7a0TFZdlQS8"
+  },
+  {
+    "type": "text",
+    "text": "요즘 치통 포즈 안 하려고 노력 중",
+    "translation": "I'm trying not to do a toothache pose",
+    "timestamp": 1645870500000,
+    "id": "J6dEciieT3unNJxY2t2bB"
+  },
+  {
+    "type": "text",
+    "text": "다채로운 셀카를 보여주가 위해서",
+    "translation": "To show you a variety of selfies,",
+    "timestamp": 1645870500000,
+    "id": "jV613s9nV6ucTER3U2fNh"
+  },
+  {
+    "type": "text",
+    "text": "후후",
+    "translation": "Whoo!",
+    "timestamp": 1645870680000,
+    "id": "ta5HnJDwm7GyAXojDeSgp"
   }
 ]

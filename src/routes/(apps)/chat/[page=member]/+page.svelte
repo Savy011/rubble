@@ -27,6 +27,7 @@
 	let member = $derived(data.member);
 	let messages = $state(data.messages);
 	let loading = $state(false);
+	let translationActive = $state(false);
 
 	let chatsPage = $derived(Number.parseInt(query.get('page') ?? '1'));
 
@@ -40,11 +41,14 @@
 				page: chatsPage + 1
 			}
 		});
-		console.log(data);
 		setTimeout(() => (loading = false), 5000);
 		goto(`?member=${member.label.toLowerCase()}&page=${chatsPage + 1}`);
 
 		messages = [...messages, ...data.messages];
+	}
+
+	function toggleTranslation() {
+		translationActive = !translationActive;
 	}
 </script>
 
@@ -75,7 +79,7 @@
 {#if messages.length === 0}
 	<div class="chat relative">
 		<div class="absolute top-1/2 left-1/2 w-max -translate-x-1/2 -translate-y-1/2 text-xl">
-			<div class="mx-auto w-fit rounded-t-lg bg-white px-4 py-2">
+			<div class="mx-auto -mb-2 w-fit rounded-t-lg bg-white px-4 py-2">
 				<HeartStraightBreak class="size-8" weight="fill" />
 			</div>
 			<p class=" rounded-lg bg-white px-4 py-2">Nothing to See Here Yet...</p>
@@ -92,13 +96,13 @@
 			{@const next = idx < messages.length ? messages[idx + 1] : null}
 
 			{@const isNotSameDay = moment(prev?.timestamp).day() !== moment(message.timestamp).day()}
-			{#if isNotSameDay}
+			{#if isNotSameDay || idx === 0}
 				<div class="my-4 flex items-center">
-					<span class="mx-4 h-px flex-1 bg-black/10"></span>
+					<span class="mr-4 ml-2 h-px flex-1 bg-black/10"></span>
 					<span class="text-center text-sm"
 						>{moment(message.timestamp).format('MMMM  DD, YYYY')}</span
 					>
-					<span class="mx-4 h-px flex-1 bg-black/10"></span>
+					<span class="mr-2 ml-4 h-px flex-1 bg-black/10"></span>
 				</div>
 			{/if}
 
@@ -109,12 +113,13 @@
 			{@const nextIsSameTime =
 				Math.abs(moment(message.timestamp).diff(next?.timestamp, 'minutes')) === 0}
 
-			<div class="mx-4 flex gap-2 {nextIsRecent ? 'mb-0.5' : 'mb-2'}">
+			<div class="mx-2 flex gap-2 {nextIsRecent ? 'mb-0.5' : 'mb-2'}">
 				{#if !prevIsRecent}
 					<div class="aspect-square size-10 overflow-hidden rounded-full">
 						<img alt={member.label} src={member.pfp} />
 					</div>
 				{/if}
+
 				<div class="relative flex flex-col gap-2 {prevIsRecent && 'ml-12'}">
 					{#if !prevIsRecent}
 						<div class="flex items-center gap-2">
@@ -124,6 +129,7 @@
 
 					<MessageContainer
 						{message}
+						bind:translationActive
 						style="rounded-xl rounded-tl-sm {nextIsRecent && 'rounded-bl-sm'}"
 					/>
 
@@ -142,21 +148,9 @@
 						class="mx-auto h-11 w-32 overflow-hidden rounded-md border border-gray-300 bg-white px-4 py-2 transition-[filter] duration-200 hover:brightness-90"
 					>
 						{#if loading}
-							{#key 'loading'}
-								<span
-									class="bg-red-400"
-									in:fly|global={{ duration: 200, y: '100%', delay: 300 }}
-									out:fly|global={{ duration: 200, y: '100%' }}>Loading</span
-								>
-							{/key}
+							<span>Loading</span>
 						{:else}
-							{#key 'load more'}
-								<span
-									class="w-fit bg-blue-400"
-									in:fly|global={{ duration: 200, y: '100%', delay: 300 }}
-									out:fly|global={{ duration: 200, y: '100%' }}>Load More</span
-								>
-							{/key}
+							<span>Load More</span>
 						{/if}
 					</button>
 				</div>
@@ -172,9 +166,12 @@
 	</div>
 
 	<button
-		class="flex aspect-square size-8 cursor-pointer items-center justify-center rounded-full bg-gray-200/50"
+		onclick={toggleTranslation}
+		class="flex aspect-square size-8 cursor-pointer items-center justify-center rounded-full {translationActive
+			? 'bg-gray-600/50'
+			: 'bg-gray-200/50'}"
 	>
-		<Translate class="size-5 text-gray-600" />
+		<Translate class="size-5 {translationActive ? 'text-white' : 'text-gray-600'}" />
 	</button>
 </div>
 
