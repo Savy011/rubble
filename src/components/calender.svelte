@@ -24,9 +24,9 @@
 <div class="col-span-2 row-span-2 flex flex-col justify-center p-1">
 	<div class="aspect-w-1 aspect-h-1 flex flex-1 items-center lg:p-8">
 		<div
-			class="flex aspect-square h-full w-full flex-col justify-between rounded-2xl bg-orange-700 p-4"
+			class="flex aspect-square h-full w-full flex-col justify-between rounded-2xl bg-orange-700 p-2"
 		>
-			<div>
+			<div class="px-2 pt-1">
 				<p class="text-xl text-[bisque]">{formatMonth(date.getMonth())}</p>
 				<p class="text-base text-[bisque]">{formatDay(date.getDay())}</p>
 				<p class="text-5xl text-[bisque]">{date.getDate()}</p>
@@ -35,7 +35,10 @@
 			<div>
 				{#if labels.length >= 1}
 					{#each labels as label}
-						<p class="text-right">{label}</p>
+						<p class="relative rounded-md bg-[bisque]/50 px-2 text-right">
+							<span class="absolute left-0 h-full w-2 rounded-md bg-[bisque]"></span>
+							{label}
+						</p>
 					{/each}
 				{/if}
 			</div>

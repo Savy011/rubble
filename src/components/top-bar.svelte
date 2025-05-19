@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import BatteryFull from 'phosphor-svelte/lib/BatteryFull';
 	import CellSignalHigh from 'phosphor-svelte/lib/CellSignalHigh';
+	import moment from 'moment';
 
 	type Props = {
 		route: { id: string | null };
@@ -9,15 +10,11 @@
 
 	let { route }: Props = $props();
 
-	let time = $state(new Date());
-
-	let hours = $derived(time.getHours());
-	let minutes = $derived(time.getMinutes());
-	let meridiem = $derived((hours * 1.0) / 12 > 1 ? ('pm' as const) : ('am' as const));
+	let time = $state(moment());
 
 	onMount(() => {
 		const interval = setInterval(() => {
-			time = new Date();
+			time = moment();
 		}, 1000);
 
 		return () => clearInterval(interval);
@@ -31,12 +28,7 @@
 		: 'bg-white'}"
 >
 	<span class="text-sm">
-		{#if meridiem === 'am'}
-			{(hours % 12).toString().padStart(2, '0')}:{minutes.toString().padStart(2, '0')}
-		{:else}
-			{(hours % 12).toString().padStart(2, '0')}:{minutes.toString().padStart(2, '0')}
-		{/if}
-		{meridiem}
+		{time.format('hh:mma')}
 	</span>
 
 	<span class="flex gap-1">

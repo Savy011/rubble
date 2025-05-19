@@ -1,15 +1,14 @@
 <script lang="ts">
+	import moment from 'moment';
 	import { twemojify } from 'svelte-twemojify';
 
-	let startDate = new Date('2022-01-24');
-	let currentDate = $state(new Date());
-	let streak = $derived(
-		((currentDate.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24)).toFixed(0)
-	);
+	let startDate = moment([2022, 0, 24]);
+	let currentDate = $state(moment());
+	let streak = $derived(currentDate.diff(startDate, 'days'));
 </script>
 
 <div
-	class="absolute bottom-0 z-10 m-0 -ml-3 flex w-screen translate-y-full items-center justify-center gap-2 rounded-b-2xl bg-white py-1 text-base"
+	class="absolute bottom-0 z-10 m-0 -ml-3 flex w-screen translate-y-full items-center justify-center gap-2 rounded-b-2xl bg-white py-1 text-base select-none"
 	use:twemojify={{ className: 'size-4' }}
 >
 	<span class="font-pacifico">rubble</span>
