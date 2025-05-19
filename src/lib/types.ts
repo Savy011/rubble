@@ -8,10 +8,18 @@ type MessageBase = {
 
 type MessageWithText = {
 	type: "text";
+	translation: string;
+} & MessageBase
+
+type MessageWithPhoto = {
+	type: "photo" | "sticker";
+	src: string;
+	width?: number;
+	height?: number;
 } & MessageBase
 
 type MessageWithMedia = {
-	type: "audio" | "video" | "photo" | "sticker";
+	type: "audio" | "video";
 	src: string;
 } & MessageBase
 
@@ -21,13 +29,9 @@ type MessageWithLive = {
 	src: string;
 } & MessageBase
 
-type MessageWithLink = {
-	type: "link";
-} & MessageBase
+export type Message = Prettify<MessageWithText | MessageWithPhoto | MessageWithMedia | MessageWithLive>
 
-export type Message = Prettify<MessageWithText | MessageWithMedia | MessageWithLive | MessageWithLink>
-
-export type MessageType = "text" | "sticker" | "audio" | "video" | "photo" | "live" | "link"
+export type MessageType = "text" | "sticker" | "audio" | "video" | "photo" | "live"
 
 export type MessageMediaType = "audio" | "video" | "photo"
 

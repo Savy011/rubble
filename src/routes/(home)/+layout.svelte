@@ -16,14 +16,18 @@
 	];
 </script>
 
-<div class="content" in:fade={{ duration: 200, delay: 200 }} out:fade={{ duration: 200 }}>
+<div
+	class="content"
+	in:fade={{ duration: 200, delay: 200 }}
+	out:fade={{ duration: 200 }}
+>
 	<div class="h-full">
 		{@render children()}
 	</div>
 
 	<div class="w-fll m-2 flex justify-center">
 		<div
-			class="flex h-full w-full justify-between gap-4 rounded-3xl bg-black/12 p-3 backdrop-blur-sm"
+			class="flex h-full w-full justify-between gap-4 rounded-3xl bg-black/12 p-3 backdrop-blur-sm md:w-fit"
 		>
 			{#each dockApps as app}
 				<div

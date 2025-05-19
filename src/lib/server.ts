@@ -1,4 +1,3 @@
-import { MEMBER_LIST_TYPE } from "$lib/constants";
 import { getChatMessages } from "$lib/messages";
 import { Elysia, t } from 'elysia';
 
@@ -12,7 +11,15 @@ export const api = new Elysia({ prefix: '/api' })
 		return { member, page, messages }
 	}, {
 		query: t.Object({
-			member: t.Union(MEMBER_LIST_TYPE.map(m => t.Literal(m))),
+			member: t.Union([
+				t.Literal("soojin"),
+				t.Literal("monday"),
+				t.Literal("soeun"),
+				t.Literal("jiyoon"),
+				t.Literal("jaehee"),
+				t.Literal("jihan"),
+				t.Literal("zoa"),
+			]),
 			page: t.Integer(),
 		})
 	})

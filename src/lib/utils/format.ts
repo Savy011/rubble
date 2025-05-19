@@ -8,6 +8,20 @@ export function capitalize(str: string) {
 		.join('');
 };
 
+export function formatLiveDuration(duration: number) {
+	const sec = duration % 60;
+	const min = (duration - sec) / 60;
+
+	if (min >= 60) {
+		const hour = min / 60;
+		const reminderMins = min % 60;
+
+		return `${hour.toString().padStart(2, "0")}:${reminderMins.toString().padStart(2, "0")}:${sec.toString().padStart(2, "0")}`
+	} else {
+		return `${min.toString().padStart(2, "0")}:${sec.toString().padStart(2, "0")}`
+	}
+}
+
 export function formatDay(day: number) {
 	switch (day) {
 		case 0:
