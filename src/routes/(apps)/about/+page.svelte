@@ -14,7 +14,7 @@
 	const tabs = ['credits', 'progress'] as const;
 	type Tabs = (typeof tabs)[number];
 
-	let activeTab = $state<Tabs>('progress');
+	let activeTab = $state<Tabs>('credits');
 
 	function handleTabChange(tab: Tabs) {
 		activeTab = tab;
