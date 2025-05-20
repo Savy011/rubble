@@ -11,8 +11,6 @@
 	import { VList } from 'virtua/svelte';
 	import { treaty } from '@elysiajs/eden';
 
-	import { fly } from 'svelte/transition';
-
 	import type { PageProps } from './$types';
 	import type { Api } from '$lib/server';
 
@@ -33,7 +31,7 @@
 
 	let prepend = $state(false);
 
-	const app = treaty<Api>(import.meta.env.DEV ? 'localhost:5173' : 'https://rubble.yvas.me');
+	const app = treaty<Api>(import.meta.env.PROD ? 'https://rubble.yvas.me' : 'localhost:5173');
 
 	const MEMBER_CHAT_PAGES = {
 		soojin: 34,
@@ -79,6 +77,10 @@
 		translationActive = !translationActive;
 	}
 </script>
+
+<svelte:head>
+	<title>{member.label} | rubble</title>
+</svelte:head>
 
 <div
 	class="chat-ui relative flex h-full w-full items-center justify-between bg-white px-3 text-2xl"
