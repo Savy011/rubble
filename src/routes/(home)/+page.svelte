@@ -2,9 +2,12 @@
 	import Weverse from '$components/icons/weverse.svelte';
 	import { APPS, LOCAL_STORAGE_ITEMS } from '$lib/constants';
 
+	import ArrowRight from 'phosphor-svelte/lib/ArrowRight';
+
 	import { twemojify } from 'svelte-twemojify';
 	import { PersistedState } from 'runed';
 	import Calender from '$components/calender.svelte';
+	import Dialog from '$components/ui/dialog/index.svelte';
 
 	let enabledMembers = new PersistedState<string[]>(
 		LOCAL_STORAGE_ITEMS.memberShortcuts.key,
@@ -12,6 +15,11 @@
 	);
 	let enabledApps = $derived(
 		APPS.filter((app) => enabledMembers.current.includes(app.label.toLowerCase()))
+	);
+
+	let firstRun = new PersistedState<boolean>(
+		LOCAL_STORAGE_ITEMS.firstRun.key,
+		LOCAL_STORAGE_ITEMS.firstRun.default
 	);
 </script>
 
@@ -45,3 +53,29 @@
 		</div>
 	</div>
 </div>
+
+{#if firstRun.current}
+	<Dialog open={true} escapeKeydownBehavior="ignore" interactOutsideBehavior="ignore" disableClose>
+		{#snippet title()}
+			Welcome to <span class="font-pacifico font-normal">rubble</span>
+		{/snippet}
+
+		<p class="text-sm">
+			To personalize your experience, please take a moment to set your name in the Settings app.
+			While you're there, you can also pin chats from your favorite Weeekly members for easy access.
+		</p>
+		<p class="text-sm">Enjoy exploring!</p>
+
+		{#snippet buttonRight()}
+			<a
+				href="/settings"
+				onclick={() => (firstRun.current = false)}
+				class="font-fixel flex-1 rounded-sm rounded-br-2xl bg-amber-50 p-2 text-center text-sm hover:brightness-90"
+			>
+				Go To Settings
+
+				<ArrowRight class="inline" />
+			</a>
+		{/snippet}
+	</Dialog>
+{/if}

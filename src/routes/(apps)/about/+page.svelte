@@ -16,6 +16,14 @@
 
 	let activeTab = $state<Tabs>('credits');
 
+	const regex = new RegExp(/[Rr]ubble/g);
+
+	const description =
+		"Rubble is an archive platform that preserves messages from Weeekly members from the 'Bubble for IST' messaging app. Our app organizes exported chat data from 'Bubble for IST' conversations, making these interactions accessible through a simple, user-friendly interface.".replaceAll(
+			regex,
+			"<span class='font-pacifico'>rubble</span>"
+		);
+
 	function handleTabChange(tab: Tabs) {
 		activeTab = tab;
 	}
@@ -27,11 +35,20 @@
 	</AppHeader>
 </div>
 
-<header class="mx-2 mb-2 space-y-3 rounded-2xl bg-white/70 p-2">
-	<div class="mx-auto size-20 rounded-full bg-white p-2">
-		<ChatCircleDots weight="fill" class="mx-auto size-16" />
+<header class="font-fixel mx-2 mb-2 space-y-1">
+	<div class="space-y-3 rounded-t-2xl rounded-b-sm bg-white/70 p-2">
+		<div class="mx-auto size-20 rounded-full bg-white p-2">
+			<ChatCircleDots weight="fill" class="mx-auto size-16" />
+		</div>
+		<h1 class="font-pacifico text-center text-5xl">rubble</h1>
+		<p class="text-center text-xl">v1.0.0</p>
 	</div>
-	<h1 class="font-pacifico text-center text-5xl">rubble</h1>
+	<div class="font-fixel rounded-t-sm rounded-b-2xl bg-white/70 p-2 text-center">
+		<h4 class="font-archivo text-2xl font-bold">
+			What is <span class="font-pacifico">rubble</span>
+		</h4>
+		<p class="text-sm">{@html description}</p>
+	</div>
 </header>
 
 <div class="mx-2 flex gap-2 rounded-t-2xl rounded-b-sm bg-white/70 p-2">
@@ -55,7 +72,15 @@
 		out:fly={{ x: '-100%', duration: 300 }}
 	>
 		<div class="rounded-sm bg-white/70 p-2 px-4">
-			<p class="text-center">
+			<p class="text-center text-sm">
+				I'd like to express sincere thanks to Juwee and Deisi for their early support of this
+				project. Special appreciation goes to Charisma, Mys, Deisi, and Juwee for providing
+				thoughtful feedback during development. Thanks to Nana for helping me connect with Angie,
+				WeeeklyFD, and Khennie, whose generous sharing of chat exports made this archive a reality.
+			</p>
+		</div>
+		<div class="rounded-sm bg-white/70 p-2 px-4">
+			<p class="text-center text-xl">
 				<b>Message Credits</b>
 			</p>
 		</div>
@@ -63,7 +88,7 @@
 			<div
 				class="rounded-sm bg-white/70 p-2 px-4 {idx === CHAT_CREDITS.length - 1 && 'rounded-b-2xl'}"
 			>
-				<p class="text-center">
+				<p class="font-fixel text-center">
 					<b>{credit.member}:</b>
 					{#each credit.peeps as peep, idx}
 						{#if idx !== 0}
@@ -102,7 +127,7 @@
 				</h3>
 
 				{#if member.label === 'Soeun' || member.label === 'Jaehee'}
-					<p>Missing Chats from 25th Dec, 2024 Onwards</p>
+					<p class="text-center text-sm">Missing Chats from 25th Dec, 2024 Onwards</p>
 				{/if}
 
 				{#if !stats.error}
@@ -140,3 +165,10 @@
 		<Heart class="fill-beach-glass inline" weight="fill" />
 	</p>
 </footer>
+
+<div class="m-2 rounded-2xl bg-white/70 p-2 px-4">
+	<p class="text-center text-sm">
+		<b>Note:</b> This is a fan-created archive project with no direct affiliation to Weeekly or the official
+		Bubble app. All content is preserved for fan reference only.
+	</p>
+</div>

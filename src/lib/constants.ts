@@ -114,6 +114,7 @@ export const IMP_EVENTS = [
 export const LOCAL_STORAGE_ITEMS = {
 	displayName: { key: "pref-display-name", default: "y/n" },
 	memberShortcuts: { key: "pref-member-shortcuts", default: [] },
+	firstRun: { key: "app-first-run", default: true },
 }
 
 export const CHAT_CREDITS = [

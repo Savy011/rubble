@@ -101,10 +101,3 @@
 		{/each}
 	</div>
 </section>
-
-<section class="p-3">
-	<h3 class="mb-1 text-2xl font-bold">Reset Settings</h3>
-	<p class="text-error font-archivo text-xs font-light">
-		Reset all settings to their default values.
-	</p>
-</section>
