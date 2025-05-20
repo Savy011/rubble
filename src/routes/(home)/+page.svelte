@@ -13,6 +13,9 @@
 		LOCAL_STORAGE_ITEMS.memberShortcuts.key,
 		LOCAL_STORAGE_ITEMS.memberShortcuts.default
 	);
+
+	let firstRunDialogIsOpen = $state(true);
+
 	let enabledApps = $derived(
 		APPS.filter((app) => enabledMembers.current.includes(app.label.toLowerCase()))
 	);
@@ -59,7 +62,7 @@
 </div>
 
 {#if firstRun.current}
-	<Dialog open={true} escapeKeydownBehavior="ignore" interactOutsideBehavior="ignore" disableClose>
+	<Dialog bind:open={firstRunDialogIsOpen} disableClose>
 		{#snippet title()}
 			Welcome to <span class="font-pacifico font-normal">rubble</span>
 		{/snippet}
@@ -71,15 +74,15 @@
 		<p class="text-sm">Enjoy exploring!</p>
 
 		{#snippet buttonRight()}
-			<a
-				href="/settings"
-				onclick={() => (firstRun.current = false)}
+			<button
+				onclick={() => {
+					firstRun.current = false;
+					firstRunDialogIsOpen = false;
+				}}
 				class="font-fixel flex-1 rounded-sm rounded-br-2xl bg-amber-50 p-2 text-center text-sm hover:brightness-90"
 			>
-				Go To Settings
-
-				<ArrowRight class="inline" />
-			</a>
+				Ok
+			</button>
 		{/snippet}
 	</Dialog>
 {/if}
