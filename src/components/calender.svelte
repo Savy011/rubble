@@ -21,7 +21,7 @@
 	});
 </script>
 
-<div class="col-span-2 row-span-2 flex flex-col justify-center p-1">
+<div class="font-archivo col-span-2 row-span-2 flex flex-col justify-center p-1">
 	<div class="aspect-w-1 aspect-h-1 flex flex-1 items-center lg:p-8">
 		<div
 			class="flex aspect-square h-full w-full flex-col justify-between rounded-2xl bg-orange-700 p-2"

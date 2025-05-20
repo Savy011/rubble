@@ -40,7 +40,7 @@
 					{app.icon}
 				</div>
 			</div>
-			<div class="text-center">
+			<div class="font-archivo text-center">
 				<a {href}><span class="absolute inset-0 z-10"></span>{app.label}</a>
 			</div>
 		</div>
@@ -50,7 +50,7 @@
 		<div class="mb-2 flex size-16 items-center justify-center rounded-2xl bg-orange-700 text-4xl">
 			<Weverse />
 		</div>
-		<div class="text-center">
+		<div class="font-archivo text-center">
 			<a href="https://weeekly-weverse.yvas.me"
 				><span class="absolute inset-0 z-10"></span>Weverse</a
 			>
