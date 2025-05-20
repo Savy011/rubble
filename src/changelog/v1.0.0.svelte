@@ -5,10 +5,10 @@
 </script>
 
 <div class="mx-2 mb-1 flex max-h-32 rounded-2xl bg-white/70 p-2">
-	<img src={IMG} class="mx-auto max-h-28" />
+	<img src={IMG} class="mx-auto max-h-28" alt="Bandit jumping with happiness!" />
 </div>
 
-<main class="font-fixel mx-2 rounded-2xl bg-white/70 px-3 py-2">
+<main class="font-fixel mx-2 rounded-2xl bg-white/70 px-6 py-2">
 	<ol class="mx-4 list-decimal">
 		<li>Add Placeholder Logo</li>
 		<li>Add Splash Screen</li>
@@ -34,6 +34,7 @@
 		</ul>
 		<li>Add Calender widget to highlight Weeekly related date.</li>
 		<li>Implement 90% of Mobile UI.</li>
+		<li>Implement Desktop UI that just works&trade;.</li>
 		<li>Add Project Progress Tracker.</li>
 	</ol>
 </main>
