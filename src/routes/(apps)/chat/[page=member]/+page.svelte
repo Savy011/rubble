@@ -31,9 +31,22 @@
 
 	let chatsPage = $derived(Number.parseInt(query.get('page') ?? '1'));
 
+	let prepend = $state(false);
+
 	const app = treaty<Api>('localhost:5173');
 
+	const MEMBER_CHAT_PAGES = {
+		soojin: 34,
+		monday: 37,
+		soeun: 14,
+		jiyoon: 1,
+		jaehee: 46,
+		jihan: 0,
+		zoa: 22
+	};
+
 	async function handleLoadMore() {
+		prepend = false;
 		loading = true;
 		const { data } = await app.api.messages.get({
 			query: {
@@ -45,6 +58,21 @@
 		goto(`?member=${member.label.toLowerCase()}&page=${chatsPage + 1}`);
 
 		messages = [...messages, ...data.messages];
+	}
+
+	async function handleLoadPrev() {
+		prepend = true;
+		loading = true;
+		const { data } = await app.api.messages.get({
+			query: {
+				member: member.label.toLowerCase(),
+				page: chatsPage - 1
+			}
+		});
+		setTimeout(() => (loading = false), 2000);
+		goto(`?member=${member.label.toLowerCase()}&page=${chatsPage - 1}`);
+
+		messages = [...data.messages, ...messages];
 	}
 
 	function toggleTranslation() {
@@ -87,11 +115,27 @@
 	</div>
 {:else}
 	<VList
+		shift={prepend}
 		data={messages}
 		style="background: url('/default_wallpaper.jpg'); background-position: center; background-size: 100% auto; padding-top: 32px; max-width: 100%;"
 		class="font-fixel chat scrollbar-noe relative overflow-y-scroll"
 	>
 		{#snippet children(message, idx)}
+			{#if chatsPage !== 1 && idx === 0 && member.label.toLowerCase() !== 'jiyoon'}
+				<div class="mt-4 flex w-full items-center justify-center">
+					<button
+						onclick={handleLoadPrev}
+						class="mx-auto h-11 w-40 overflow-hidden rounded-md border border-gray-300 bg-white px-4 py-2 transition-[filter] duration-200 hover:brightness-90"
+					>
+						{#if loading}
+							<span>Loading</span>
+						{:else}
+							<span>Load Previous</span>
+						{/if}
+					</button>
+				</div>
+			{/if}
+
 			{@const prev = idx > 0 ? messages[idx - 1] : null}
 			{@const next = idx < messages.length ? messages[idx + 1] : null}
 
@@ -141,7 +185,7 @@
 				</div>
 			</div>
 
-			{#if messages.length - 1 === idx && member.label.toLowerCase() !== 'jiyoon'}
+			{#if messages.length - 1 === idx && chatsPage !== MEMBER_CHAT_PAGES[member.label.toLowerCase()] && member.label.toLowerCase() !== 'jiyoon'}
 				<div class="mb-4 flex w-full items-center justify-center">
 					<button
 						onclick={handleLoadMore}
