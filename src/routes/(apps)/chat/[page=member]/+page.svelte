@@ -33,7 +33,7 @@
 
 	let prepend = $state(false);
 
-	const app = treaty<Api>('localhost:5173');
+	const app = treaty<Api>(import.meta.env.DEV ? 'localhost:5173' : 'https://rubble.yvas.me');
 
 	const MEMBER_CHAT_PAGES = {
 		soojin: 34,
