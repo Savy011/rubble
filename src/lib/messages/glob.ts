@@ -1,5 +1,9 @@
+import META_SOOJIN from "./chunks/soojin/soojin_metadata.json";
 import META_MONDAY from "./chunks/monday/monday_metadata.json";
+import META_SOEUN from "./chunks/soeun/soeun_metadata.json";
 import META_JIYOON from "./chunks/jiyoon/jiyoon_metadata.json";
+import META_JAEHEE from "./chunks/jaehee/jaehee_metadata.json";
+import META_ZOA from "./chunks/zoa/zoa_metadata.json";
 
 import type { Message } from "$lib/types";
 
@@ -44,6 +48,8 @@ function getAllChunks(messages: Record<string, Message[]>) {
 
 	return sortedChunks;
 }
+
+export { META_SOOJIN, META_MONDAY, META_SOEUN, META_JIYOON, META_JAEHEE, META_ZOA };
 
 export const SOOJIN_CHUNKS = getAllChunks(soojinChunkImports);
 export const MONDAY_CHUNKS = getAllChunks(mondayChunkImports);
