@@ -19,6 +19,7 @@
 	import MessageContainer from '$components/message-container.svelte';
 	import { page } from '$app/state';
 	import { goto } from '$app/navigation';
+	import type { MemberList } from '$lib/constants';
 	import { MediaQuery } from 'svelte/reactivity';
 
 	let { data }: PageProps = $props();
