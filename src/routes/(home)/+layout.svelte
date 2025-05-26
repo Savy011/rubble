@@ -16,22 +16,16 @@
 	];
 </script>
 
-<div
-	class="content"
-	in:fade={{ duration: 200, delay: 200 }}
-	out:fade={{ duration: 200 }}
->
+<div class="contet" in:fade={{ duration: 200, delay: 200 }} out:fade={{ duration: 200 }}>
 	<div class="h-full">
 		{@render children()}
 	</div>
 
-	<div class="w-fll m-2 flex justify-center">
-		<div
-			class="flex h-full w-full justify-between gap-4 rounded-3xl bg-black/12 p-3 backdrop-blur-sm md:w-fit"
-		>
+	<div class="fixed bottom-4 left-1/2 flex -translate-x-1/2 justify-center sm:w-fit">
+		<div class="flex h-full justify-between gap-4 rounded-3xl bg-black/12 p-3 backdrop-blur-sm">
 			{#each dockApps as app}
 				<div
-					class="from-orchid-bloom via-banana-cream to-beach-glass relative isolate flex aspect-square h-full items-center justify-center overflow-hidden rounded-2xl border border-white bg-linear-to-br from-20% via-50% to-100%"
+					class="from-orchid-bloom via-banana-cream to-beach-glass relative isolate flex aspect-square size-15 items-center justify-center overflow-hidden rounded-2xl border border-white bg-linear-to-br from-20% via-50% to-100%"
 				>
 					<a href={app.href}
 						><span class="absolute inset-0 z-20"></span><span class="sr-only">{app.label}</span></a

@@ -5,6 +5,7 @@
 	import HeartStraightBreak from 'phosphor-svelte/lib/HeartStraightBreak';
 	import Translate from 'phosphor-svelte/lib/Translate';
 	import Smiley from 'phosphor-svelte/lib/Smiley';
+	import X from 'phosphor-svelte/lib/X';
 
 	import moment from 'moment';
 	import { twemojify } from 'svelte-twemojify';
@@ -18,6 +19,7 @@
 	import MessageContainer from '$components/message-container.svelte';
 	import { page } from '$app/state';
 	import { goto } from '$app/navigation';
+	import { MediaQuery } from 'svelte/reactivity';
 
 	let { data }: PageProps = $props();
 
@@ -27,6 +29,7 @@
 	let loading = $state(false);
 	let translationActive = $state(false);
 
+	let isMobile = new MediaQuery('max-width: 768px');
 	let chatsPage = $derived(Number.parseInt(query.get('page') ?? '1'));
 
 	let prepend = $state(false);
@@ -43,38 +46,33 @@
 		zoa: 22
 	};
 
-	async function handleLoadMore() {
-		prepend = false;
+	async function handleLoad(direction: 'prev' | 'next') {
+		prepend = direction === 'prev' ? true : false;
 		loading = true;
 		const { data } = await app.api.messages.get({
 			query: {
-				member: member.label.toLowerCase(),
-				page: chatsPage + 1
+				member: member.label.toLowerCase() as MemberList,
+				page: direction === 'prev' ? chatsPage - 1 : chatsPage + 1
 			}
 		});
-		setTimeout(() => (loading = false), 5000);
-		goto(`?member=${member.label.toLowerCase()}&page=${chatsPage + 1}`);
 
-		messages = [...messages, ...data.messages];
-	}
+		if (direction === 'prev') {
+			goto(`?member=${member.label.toLowerCase()}&page=${chatsPage}`);
 
-	async function handleLoadPrev() {
-		prepend = true;
-		loading = true;
-		const { data } = await app.api.messages.get({
-			query: {
-				member: member.label.toLowerCase(),
-				page: chatsPage - 1
+			if (data) {
+				messages = [...data.messages, ...messages];
 			}
-		});
-		setTimeout(() => (loading = false), 2000);
-		goto(`?member=${member.label.toLowerCase()}&page=${chatsPage - 1}`);
+		} else {
+			goto(
+				`?member=${member.label.toLowerCase()}&page=${chatsPage}`
+			);
 
-		messages = [...data.messages, ...messages];
-	}
+			if (data) {
+				messages = [...messages, ...data?.messages];
+			}
+		}
 
-	function toggleTranslation() {
-		translationActive = !translationActive;
+		loading = false;
 	}
 </script>
 
@@ -86,7 +84,11 @@
 	class="chat-ui relative flex h-full w-full items-center justify-between bg-white px-3 text-2xl"
 >
 	<a href="/chat">
-		<CaretLeft />
+		{#if isMobile.current}
+			<CaretLeft />
+		{:else}
+			<X />
+		{/if}
 	</a>
 
 	<span
@@ -126,7 +128,7 @@
 			{#if chatsPage !== 1 && idx === 0 && member.label.toLowerCase() !== 'jiyoon'}
 				<div class="mt-4 flex w-full items-center justify-center">
 					<button
-						onclick={handleLoadPrev}
+						onclick={() => handleLoad('prev')}
 						class="mx-auto h-11 w-40 overflow-hidden rounded-md border border-gray-300 bg-white px-4 py-2 transition-[filter] duration-200 hover:brightness-90"
 					>
 						{#if loading}
@@ -161,7 +163,7 @@
 
 			<div class="mx-2 flex gap-2 {nextIsRecent ? 'mb-0.5' : 'mb-2'}">
 				{#if !prevIsRecent}
-					<div class="aspect-square size-10 overflow-hidden rounded-full">
+					<div class="aspect-square size-10 overflow-hidden rounded-full select-none">
 						<img alt={member.label} src={member.pfp} />
 					</div>
 				{/if}
@@ -169,7 +171,7 @@
 				<div class="relative flex flex-col gap-2 {prevIsRecent && 'ml-12'}">
 					{#if !prevIsRecent}
 						<div class="flex items-center gap-2">
-							<div>{member.nickname}</div>
+							<span class="select-none">{member.nickname}</span>
 						</div>
 					{/if}
 
@@ -180,7 +182,9 @@
 					/>
 
 					{#if !nextIsSameTime}
-						<div class="text-muted absolute right-0 bottom-0.5 translate-x-full pl-1 text-xs">
+						<div
+							class="text-muted absolute right-0 bottom-0.5 translate-x-full pl-1 text-xs select-none"
+						>
 							{moment(message.timestamp).format('h:mma')}
 						</div>
 					{/if}
@@ -190,7 +194,7 @@
 			{#if messages.length - 1 === idx && chatsPage !== MEMBER_CHAT_PAGES[member.label.toLowerCase()] && member.label.toLowerCase() !== 'jiyoon'}
 				<div class="mb-4 flex w-full items-center justify-center">
 					<button
-						onclick={handleLoadMore}
+						onclick={() => handleLoad('next')}
 						class="mx-auto h-11 w-32 overflow-hidden rounded-md border border-gray-300 bg-white px-4 py-2 transition-[filter] duration-200 hover:brightness-90"
 					>
 						{#if loading}
@@ -212,7 +216,7 @@
 	</div>
 
 	<button
-		onclick={toggleTranslation}
+		onclick={() => (translationActive = !translationActive)}
 		class="flex aspect-square size-8 cursor-pointer items-center justify-center rounded-full {translationActive
 			? 'bg-gray-600/50'
 			: 'bg-gray-200/50'}"

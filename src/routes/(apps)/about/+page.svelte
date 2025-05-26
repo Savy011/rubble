@@ -33,7 +33,7 @@
 	<title>About | rubble</title>
 </svelte:head>
 
-<div class="sticky top-2">
+<div class="sticky top-2 z-100">
 	<AppHeader href="/">
 		<div>About</div>
 	</AppHeader>

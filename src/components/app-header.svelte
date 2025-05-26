@@ -11,7 +11,7 @@
 </script>
 
 <h2
-	class="font-archivo relative m-2 flex items-center justify-center gap-2 rounded-xl bg-white/70 py-2 text-2xl font-bold backdrop-blur-sm lg:text-3xl"
+	class="font-archivo relative isolate m-2 flex items-center justify-center gap-2 rounded-xl bg-white/70 py-2 text-2xl font-bold backdrop-blur-sm lg:text-3xl"
 >
 	<a
 		{href}

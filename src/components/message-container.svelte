@@ -37,9 +37,9 @@
 
 {#if message.type === 'text'}
 	<div
-		class="flex w-fit max-w-[65vw] items-center bg-white px-3 py-1 text-sm transition-all duration-200 ease-in-out {style} {translationActive
-			? 'w-full rounded-b-none'
-			: ''}"
+		class="flex w-fit max-w-[65vw] items-center bg-white px-3 py-1 text-sm transition-[width] duration-200 ease-in-out lg:max-w-[40ch] {style} {translationActive &&
+			message.translation !== '' &&
+			'w-full rounded-b-none'}"
 	>
 		<span use:twemojify={{ className: 'inline size-4 ml-1' }}
 			>{@html message.text
@@ -50,9 +50,9 @@
 	{#if translationActive && message.translation !== ''}
 		<div
 			transition:slide={{ axis: 'y', duration: 200 }}
-			class="flex w-fit max-w-[65vw] items-center border-t-2 border-dashed border-black/30 bg-white px-3 py-1 text-sm transition-all duration-200 ease-in-out {style} {translationActive
-				? '-mt-2 w-full rounded-tl-none rounded-tr-none'
-				: ''}"
+			class="flex w-fit max-w-[65vw] items-center border-t-2 border-dashed border-black/5 bg-white px-3 py-1 text-sm transition-all duration-200 ease-in-out lg:max-w-[40ch] {style} {translationActive &&
+				'-mt-2 w-full rounded-t-none'}
+				"
 		>
 			<span use:twemojify={{ className: 'inline size-4 ml-1' }}
 				>{@html message.translation
@@ -85,9 +85,11 @@
 	>
 		{#if message.src === ''}
 			<div class="absolute h-full w-full bg-gray-50 object-cover"></div>
-			<ImageSquare
-				class="absolute top-1/2 left-1/2 z-10 size-10 -translate-x-1/2 -translate-y-1/2 text-gray-600"
-			/>
+
+			<div class="absolute top-1/2 left-1/2 z-10 w-max -translate-x-1/2 -translate-y-1/2">
+				<ImageSquare class="mx-auto size-10 text-gray-600" />
+				<p class="mx-auto w-fit text-sm text-gray-600">Image Not Available...</p>
+			</div>
 		{:else}
 			<CldImage
 				class="absolute h-full w-full bg-gray-200 object-cover"
@@ -103,9 +105,11 @@
 		class="relative flex aspect-[9/16] w-[60vw] max-w-80 items-center overflow-hidden lg:w-[25vw] {style}"
 	>
 		<div class="absolute h-full w-full bg-gray-50 object-cover"></div>
-		<Video
-			class="absolute top-1/2 left-1/2 z-10 size-10 -translate-x-1/2 -translate-y-1/2 text-gray-600"
-		/>
+
+		<div class="absolute top-1/2 left-1/2 z-10 w-max -translate-x-1/2 -translate-y-1/2">
+			<Video class="mx-auto size-10 text-gray-600" />
+			<p class="mx-auto w-fit text-sm text-gray-600">Video Not Available...</p>
+		</div>
 	</div>
 {:else if message.type === 'audio'}
 	<div class="flex w-fit max-w-[65vw] items-center bg-white px-3 py-1 {style}">

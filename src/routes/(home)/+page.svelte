@@ -32,7 +32,7 @@
 
 <div
 	use:twemojify
-	class="grid h-min grid-cols-4 grid-rows-3 justify-between gap-2 p-2 sm:grid-cols-6 sm:grid-rows-4"
+	class="grid max-h-fit grid-cols-4 grid-rows-3 justify-between gap-2 p-2 sm:grid-cols-6 sm:grid-rows-4 lg:gap-y-16"
 >
 	<Calender />
 

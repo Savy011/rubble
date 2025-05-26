@@ -5,7 +5,7 @@
 </script>
 
 <div
-	class="app"
+	class="app relative lg:border-l lg:border-gray-300"
 	in:fly={{ x: '100%', duration: 200, delay: 200 }}
 	out:fly={{ x: '100%', duration: 200 }}
 >
@@ -14,10 +14,15 @@
 
 <style>
 	.app {
-		width: 100%;
-		height: calc(100% - 26px);
-		position: fixed;
 		display: grid;
 		grid-template-rows: 56px 1fr 48px;
+	}
+
+	@media (max-width: 768px) {
+		.app {
+			width: 100%;
+			height: calc(100% - 26px);
+			position: fixed;
+		}
 	}
 </style>

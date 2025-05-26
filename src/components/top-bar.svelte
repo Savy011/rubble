@@ -1,8 +1,7 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import BatteryFull from 'phosphor-svelte/lib/BatteryFull';
 	import CellSignalHigh from 'phosphor-svelte/lib/CellSignalHigh';
-	import moment from 'moment';
+	import { SvelteDate } from 'svelte/reactivity';
 
 	type Props = {
 		route: { id: string | null };
@@ -10,14 +9,22 @@
 
 	let { route }: Props = $props();
 
-	let time = $state(moment());
+	let time = new SvelteDate();
 
-	onMount(() => {
+	const formatter = new Intl.DateTimeFormat(undefined, {
+		hourCycle: 'h12',
+		hour: '2-digit',
+		minute: '2-digit',
+	});
+
+	$effect(() => {
 		const interval = setInterval(() => {
-			time = moment();
+			time.setTime(Date.now());
 		}, 1000);
 
-		return () => clearInterval(interval);
+		return () => {
+			clearInterval(interval);
+		};
 	});
 </script>
 
@@ -28,7 +35,7 @@
 		: 'bg-white'}"
 >
 	<span class="text-sm">
-		{time.format('hh:mma')}
+		{formatter.format(time)}
 	</span>
 
 	<span class="flex gap-1">
