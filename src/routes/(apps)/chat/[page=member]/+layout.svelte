@@ -23,7 +23,7 @@
 	@media (max-width: 768px) {
 		.app {
 			width: 100%;
-			height: calc(100% - 26px);
+			height: calc(100% - 24px);
 			position: fixed;
 		}
 	}

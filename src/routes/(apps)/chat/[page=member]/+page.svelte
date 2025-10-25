@@ -93,7 +93,6 @@
 	</a>
 
 	<button
-		onclick={() => (profilePageVisible = !profilePageVisible)}
 		class="absolute left-1/2 flex -translate-x-1/2 items-center gap-1 rounded-full px-4 py-2 select-none hover:bg-slate-200"
 		use:twemojify={{ className: 'size-5' }}>{member.nickname}</button
 	>
@@ -111,11 +110,12 @@
 </div>
 
 {#if profilePageVisible}
-	<div class="absolute inset-0 z-10 bg-black" transition:fly={{ y: '100%', duration: 200 }}>
+	{#key member.label}
+	<div class="absolute inset-0 z-10 bg-black" transition:fly|global={{ y: '100%', duration: 200 }}>
 		<div class="relative isolate h-full select-none">
 			<img class="absolute z-0 h-full w-full object-cover" src="/default_wallpaper.jpg" />
 			<div class="absolute z-10 h-full w-full bg-black/60"></div>
-			<button onclick={() => (profilePageVisible = !profilePageVisible)} class="absolute top-2 left-2 z-10 rounded-full p-2 hover:bg-white/30">
+			<button onclick={() => (profilePageVisible = false)} class="absolute top-2 left-2 z-10 rounded-full p-2 hover:bg-white/30">
 				<X class="size-6 text-white" weight="thin" />
 			</button>
 
@@ -131,6 +131,7 @@
 			</div>
 		</div>
 	</div>
+	{/key}
 {/if}
 
 {#if messages.length === 0}
