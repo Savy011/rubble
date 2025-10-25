@@ -1,16 +1,18 @@
 <script lang="ts">
 	import { fly } from 'svelte/transition';
 
-	let { children } = $props();
+	let { children, data } = $props();
 </script>
 
-<div
-	class="app relative lg:border-l lg:border-gray-300"
-	in:fly={{ x: '100%', duration: 200, delay: 200 }}
-	out:fly={{ x: '100%', duration: 200 }}
->
-	{@render children()}
-</div>
+{#key data.url}
+	<div
+		class="app relative lg:border-l lg:border-gray-300"
+		in:fly={{ x: '100%', duration: 200, delay: 200 }}
+		out:fly={{ x: '100%', duration: 200 }}
+	>
+		{@render children()}
+	</div>
+{/key}
 
 <style>
 	.app {
