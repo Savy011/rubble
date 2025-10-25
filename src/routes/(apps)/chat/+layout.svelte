@@ -47,7 +47,7 @@
 				{#each APPS as app, idx}
 					<li
 						transition:fade={{ duration: 200, delay: idx * 50 + 400 }}
-						class="relative flex items-center gap-2 overflow-hidden rounded-md px-4 py-2 transition-[filter] duration-200 ease-in-out select-none first:rounded-t-2xl last:rounded-b-2xl hover:brightness-90 {pathname ===
+						class="relative flex items-center gap-2 overflow-hidden rounded-md px-4 py-2 select-none first:rounded-t-2xl last:rounded-b-2xl hover:brightness-90 {pathname ===
 							app.href || 'bg-white/70'}"
 					>
 						<div class="aspect-w-1 h-10 w-10 overflow-hidden rounded-full bg-gray-300">
