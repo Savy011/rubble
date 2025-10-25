@@ -30,6 +30,8 @@
 	let loading = $state(false);
 	let translationActive = $state(false);
 
+	let profilePageVisible = $state(false);
+
 	let isMobile = new MediaQuery('max-width: 768px');
 	let chatsPage = $derived(Number.parseInt(query.get('page') ?? '1'));
 
@@ -81,10 +83,8 @@
 	<title>{member.label} | rubble</title>
 </svelte:head>
 
-<div
-	class="chat-ui relative flex h-full w-full items-center justify-between bg-white px-3 text-2xl"
->
-	<a href="/chat">
+<div class="chat-ui relative flex h-full items-center justify-between bg-white px-1 text-2xl">
+	<a href="/chat" class="p-2 rounded-full hover:bg-slate-200">
 		{#if isMobile.current}
 			<CaretLeft />
 		{:else}
@@ -92,22 +92,46 @@
 		{/if}
 	</a>
 
-	<span
-		class="absolute left-1/2 flex -translate-x-1/2 items-center gap-1"
-		use:twemojify={{ className: 'size-5' }}>{member.nickname}</span
+	<button
+		onclick={() => (profilePageVisible = !profilePageVisible)}
+		class="absolute left-1/2 flex -translate-x-1/2 items-center gap-1 rounded-full px-4 py-2 select-none hover:bg-slate-200"
+		use:twemojify={{ className: 'size-5' }}>{member.nickname}</button
 	>
 
-	<div class="flex items-center justify-center gap-4">
-		<a href={member.href + '#'}>
+	<div class="flex items-center justify-center">
+		<a href={member.href + '#'} class="p-2 rounded-full hover:bg-slate-200">
 			<MagnifyingGlass />
 		</a>
-		<a href={member.href + '/settings'}>
+		<a href={member.href + '/settings'} class="p-2 rounded-full hover:bg-slate-200">
 			<Dots weight="fill" />
 		</a>
 	</div>
 
 	<Streak />
 </div>
+
+{#if profilePageVisible}
+	<div class="absolute inset-0 z-10 bg-black" transition:fly={{ y: '100%', duration: 200 }}>
+		<div class="relative isolate h-full select-none">
+			<img class="absolute z-0 h-full w-full object-cover" src="/default_wallpaper.jpg" />
+			<div class="absolute z-10 h-full w-full bg-black/60"></div>
+			<button onclick={() => (profilePageVisible = !profilePageVisible)} class="absolute top-2 left-2 z-10 rounded-full p-2 hover:bg-white/30">
+				<X class="size-6 text-white" weight="thin" />
+			</button>
+
+			<div class="absolute top-1/2 left-1/2 z-10 -translate-1/2 space-y-4">
+				<div class="overflow-hidden rounded-full">
+					<img class="size-30 rounded-xl" src={member.pfp} />
+				</div>
+
+				<div class="w-full text-center text-2xl text-white">
+					<span class="to-pink-300 bg-linear-to-br from-pink-600 rounded-sm text-base px-1 py-1">ARTIST</span>
+					<span>{member.nickname}</span>
+				</div>
+			</div>
+		</div>
+	</div>
+{/if}
 
 {#if messages.length === 0}
 	<div class="chat relative">
