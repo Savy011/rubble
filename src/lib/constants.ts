@@ -133,6 +133,6 @@ export const CHAT_CREDITS = [
 	{ member: "Park Soeun", peeps: [{ name: "WeeeklyFD", link: "https://x.com/FDVod" }] },
 	{ member: "Shin Jiyoon", peeps: [{ name: "@notasianenuf", link: "https://x.com/notasianenuf" }] },
 	{ member: "Lee Jaehee", peeps: [{ name: "WeeeklyFD", link: "https://x.com/FDVod" }] },
-	{ member: "Han Jihyo", peeps: [{ name: "?" }] },
+	{ member: "Han Jihyo", peeps: [{ name: "@yimandu8964", link: "https://x.com/yimandu8964" }] },
 	{ member: "Cho Hyewon", peeps: [{ name: "@hyewonmyheart", link: "https://x.com/hyewonmyheart" }] },
 ]

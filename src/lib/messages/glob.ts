@@ -27,6 +27,11 @@ const jiyoonChunkImports = import.meta.glob<true, string, Message[]>("./chunks/j
 	import: 'default'
 })
 
+const jihyoChunkImports = import.meta.glob<true, string, Message[]>("./chunks/jihyo/jihyo_chunk_*.json", {
+	eager: true,
+	import: 'default'
+})
+
 const jaeheeChunkImports = import.meta.glob<true, string, Message[]>("./chunks/jaehee/jaehee_chunk_*.json", {
 	eager: true,
 	import: 'default'
@@ -56,4 +61,5 @@ export const MONDAY_CHUNKS = getAllChunks(mondayChunkImports);
 export const SOEUN_CHUNKS = getAllChunks(soeunChunkImports);
 export const JIYOON_CHUNKS = getAllChunks(jiyoonChunkImports);
 export const JAEHEE_CHUNKS = getAllChunks(jaeheeChunkImports);
+export const JIHYO_CHUNKS = getAllChunks(jihyoChunkImports);
 export const ZOA_CHUNKS = getAllChunks(zoaChunkImports);

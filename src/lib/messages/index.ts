@@ -6,7 +6,14 @@ import {
 	SOEUN_CHUNKS,
 	JIYOON_CHUNKS,
 	JAEHEE_CHUNKS,
-	ZOA_CHUNKS
+	JIHYO_CHUNKS,
+	ZOA_CHUNKS,
+	META_SOOJIN,
+	META_ZOA,
+	META_JAEHEE,
+	META_JIYOON,
+	META_SOEUN,
+	META_MONDAY
 } from "./glob";
 import type { Message } from "$lib/types";
 
@@ -23,9 +30,28 @@ export function getChatMessages(member: MemberList, page: number) {
 		case "jaehee":
 			return getMessages(JAEHEE_CHUNKS, page);
 		case "jihan":
-			return [];
+			return getMessages(JIHYO_CHUNKS, page);
 		case "zoa":
 			return getMessages(ZOA_CHUNKS, page);
+	}
+}
+
+export function getMetadata(member: MemberList) {
+	switch (member) {
+		case "soojin":
+			return META_SOOJIN;
+		case "monday":
+			return META_MONDAY;
+		case "soeun":
+			return META_SOEUN;
+		case "jiyoon":
+			return META_JIYOON;
+		case "jaehee":
+			return META_JAEHEE;
+		case "jihan":
+			return [];
+		case "zoa":
+			return META_ZOA;
 	}
 }
 
@@ -42,7 +68,7 @@ export function getFullChats(member: MemberList) {
 		case "jaehee":
 			return getAllMessages(JAEHEE_CHUNKS);
 		case "jihan":
-			return [];
+			return getAllMessages(JIHYO_CHUNKS);
 		case "zoa":
 			return getAllMessages(ZOA_CHUNKS);
 	}
