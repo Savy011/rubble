@@ -1,38 +1,71 @@
-# sv
+# rubble
+![Home page of rubble](./image.png)
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A smol archive of Weeekly's Bubble chat messages, built with love (and a lot of help from Daileees 🫶)
 
-## Creating a project
+check it out at [rubble.yvas.me](https://rubble.yvas.me)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## How it Works?
 
-```bash
-# create a new project in the current directory
-npx sv create
+after Weeekly disbanded, Bubble gave fans a window to export their chat history
+with the members before it was gone forever. rubble takes those plain-text `.txt`
+exports and runs them through a multi-step Python pipeline:
 
-# create a new project in my-app
-npx sv create my-app
+- fan's own messages are removed entirely
+- any mention of the fan's username is replaced with `[y/n]`
+- message types are detected (text, photo, video, sticker, live, audio)
+- timestamps are parsed and converted to KST
+- each message gets a nanoid
+- output is chunked into 1000-message JSON files for the frontend to load
+
+```
+raw .txt export from Bubble
+          ↓
+sanitize.py — removes fan messages, detects types, converts timestamps
+          ↓
+sanitized_chat_{member}.json
+          ↓
+chunk.py — splits into 1000-message chunks with metadata
+          ↓
+chunks/{member}/ loaded by SvelteKit
 ```
 
-## Developing
+## Stack
+| layer | tech |
+| :--- | :--- |
+| frontend | [SvelteKit](https://kit.svelte.dev) + [Svelte 5](https://svelte.dev) |
+| backend | [Elysia.js](https://elysiajs.com) (via Bun) |
+| virtualised scrolling | [virtua](https://github.com/inokawa/virtua) |
+| UI components | [bits-ui](https://bits-ui.com) |
+| styling | [Tailwind CSS v4](https://tailwindcss.com) |
+| images | [Cloudinary](https://cloudinary.com) |
+| data pipeline | Python |
+| deployment | [Netlify](https://netlify.com) |
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Scripts
+all commands are run from the root of the project:
+| command | action |
+| :--- | :--- |
+| `pnpm install` | installs dependencies |
+| `pnpm dev` | starts local dev server |
+| `pnpm build` | builds for production |
+| `pnpm preview` | builds and previews locally |
+| `pnpm check` | runs svelte-check |
+| `pnpm format` | formats with Prettier |
+| `pnpm lint` | lints with ESLint + Prettier |
+| `python scripts/sanitize.py` | parses raw `.txt`, removes fan messages, outputs JSON |
+| `python scripts/chunk.py` | splits sanitized JSON into 1000-message chunks |
 
-```bash
-npm run dev
+## Credits
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+special thanks to **Juwee** and **Deisi** for their early support of this project,
+and to **Charisma**, **Mys**, **Deisi**, and **Juwee** for their feedback during development.
 
-## Building
+thanks to **Nana** for connecting me with **Angie**, **WeeeklyFD**, and **Khennie**,
+whose generous sharing of chat exports made this archive possible. 
 
-To create a production version of your app:
+> fan project — not affiliated with Weeekly or IST Entertainment.
 
-```bash
-npm run build
-```
+---
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+<div align="center">💜💛💚</div>
